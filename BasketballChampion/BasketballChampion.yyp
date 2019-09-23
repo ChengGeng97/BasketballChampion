@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "48f4ac2b-90c3-48bc-b211-6abf052f4c7d",
+            "Value": {
+                "id": "7559216e-ce9e-409e-ae5f-42aa4df576d5",
+                "resourcePath": "objects\\BasicBullet\\BasicBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "64180b24-e491-490a-b0f5-9803c8984c4e",
             "Value": {
                 "id": "850b38ec-c3e3-407e-b2b9-a003f800c094",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "7bac5977-6d72-4868-82c0-cc7a65d5ed7e",
+            "Value": {
+                "id": "25e6e74c-bba2-4c5b-ada4-f2f9175ab866",
+                "resourcePath": "sprites\\PlaceholderBullet\\PlaceholderBullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f33bc91-1abe-4a31-8d18-cc933c823deb",
             "Value": {
                 "id": "44f24cfe-b36a-4c26-93a6-08abf23d0558",
@@ -103,11 +119,35 @@
             }
         },
         {
+            "Key": "9cc71d04-25a1-4b41-9475-9742e8be3e97",
+            "Value": {
+                "id": "69692387-5b17-44e6-a211-354a875fc963",
+                "resourcePath": "sprites\\MarkerC\\MarkerC.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9e0bf769-6365-4ddc-99c0-9c21ca22aba1",
             "Value": {
                 "id": "3340e8cf-9854-4d2b-bf98-ac58a8be636b",
                 "resourcePath": "views\\9e0bf769-6365-4ddc-99c0-9c21ca22aba1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a0657300-7d5b-4c51-aa61-97b861e09027",
+            "Value": {
+                "id": "0da5c182-abdf-4e6a-adbe-aa4b3711d6c7",
+                "resourcePath": "objects\\CircularRotatableBulletSpawner\\CircularRotatableBulletSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a8680c2d-78f2-4c07-a911-7f8509b85706",
+            "Value": {
+                "id": "a1af1c9a-b793-4b3a-931a-a1af5f55fef2",
+                "resourcePath": "rooms\\Week6_BulletPatterns\\Week6_BulletPatterns.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
