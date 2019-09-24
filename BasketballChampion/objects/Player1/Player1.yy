@@ -1,38 +1,38 @@
 {
-    "id": "a0657300-7d5b-4c51-aa61-97b861e09027",
+    "id": "34a28918-5e24-4149-8cb6-36287272cc16",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "CircularRotatableBulletSpawner",
+    "name": "Player1",
     "eventList": [
         {
-            "id": "6c74071a-74a2-447b-95af-57d31a9e4fc1",
+            "id": "8bc4289d-446d-49aa-b39f-b66501743a78",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "a0657300-7d5b-4c51-aa61-97b861e09027"
+            "m_owner": "34a28918-5e24-4149-8cb6-36287272cc16"
         },
         {
-            "id": "c4ea6f91-3f12-42eb-93d6-88756491c030",
+            "id": "87edf2b4-bf0d-4847-9a4c-579c19f86d75",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "34a28918-5e24-4149-8cb6-36287272cc16"
+        },
+        {
+            "id": "8c1496f4-293e-4190-a393-fb19cded64a9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "a0657300-7d5b-4c51-aa61-97b861e09027"
-        },
-        {
-            "id": "5f2c659d-631d-446a-92ae-e25727971943",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 12,
-            "m_owner": "a0657300-7d5b-4c51-aa61-97b861e09027"
+            "m_owner": "34a28918-5e24-4149-8cb6-36287272cc16"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,49 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "0ac0aaf3-2ee9-4707-a0af-1cfacc0e2f9b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "150",
-            "varName": "spawn_period_milliseconds",
-            "varType": 0
-        },
-        {
-            "id": "2aa02ba4-d6d0-4f61-afd1-05a12e27bc1b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "spawn_circle_radius",
-            "varType": 0
-        },
-        {
-            "id": "f8fd850f-a607-442f-801c-133db269821d",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "9",
-            "varName": "degree_rotate_after_shot",
-            "varType": 0
-        },
-        {
-            "id": "cf24c6d6-cdde-4413-a975-b5643074c155",
+            "id": "0277af12-3bf1-45e6-a744-ad5bbe404818",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -105,11 +63,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "5",
-            "varName": "bullet_speed",
+            "varName": "player_speed",
             "varType": 0
         },
         {
-            "id": "6d902c40-683b-4399-bfc2-6d1d9803e889",
+            "id": "a87293de-e3ca-412c-9b01-a2fed132af43",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -118,12 +76,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "18",
-            "varName": "bullets_per_spawn",
+            "value": "2",
+            "varName": "focus_speed",
             "varType": 0
         },
         {
-            "id": "f8dc4417-3ee3-4f04-a7ef-92bee4d9c2d9",
+            "id": "8513f07e-e0cd-4dc3-9063-b7ab3245c21e",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -133,11 +91,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "time_elapsed",
-            "varType": 0
+            "varName": "mouse_held_down",
+            "varType": 3
         },
         {
-            "id": "a7204147-8cc7-4924-9768-19f79259117f",
+            "id": "27b8feb7-0347-43c1-8d5b-8505eeea6310",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -146,12 +104,82 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "BasicBullet",
-            "varName": "bullet_to_spawn",
+            "value": "0",
+            "varName": "mouse_down_position_x",
+            "varType": 0
+        },
+        {
+            "id": "44c6914b-c9bb-453e-855f-b439264527fe",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "mouse_down_position_y",
+            "varType": 0
+        },
+        {
+            "id": "6d18e664-50ad-4f6f-8453-db15fb6ea687",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "should_draw_guide",
+            "varType": 3
+        },
+        {
+            "id": "6f78bc32-b4a4-470c-bae8-5b0a35739302",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "player_has_ball",
+            "varType": 3
+        },
+        {
+            "id": "20c9e1d1-4ce5-4912-b9ca-f8a2e2534736",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "200",
+            "varName": "line_length",
+            "varType": 0
+        },
+        {
+            "id": "2b933f4c-2f8d-406f-9483-0618524f895a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Football",
+            "varName": "football_reference",
             "varType": 5
         }
     ],
     "solid": false,
-    "spriteId": "9cc71d04-25a1-4b41-9475-9742e8be3e97",
+    "spriteId": "686d0b51-a647-4f48-aaef-b29289ba2189",
     "visible": true
 }

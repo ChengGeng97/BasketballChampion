@@ -71,6 +71,22 @@
             }
         },
         {
+            "Key": "34a28918-5e24-4149-8cb6-36287272cc16",
+            "Value": {
+                "id": "20684108-7235-43d8-a0cb-0d8bc6d5c08c",
+                "resourcePath": "objects\\Player1\\Player1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3d38e152-a596-46fe-aa80-006beefeb9c2",
+            "Value": {
+                "id": "8b35a12c-9b82-4f54-9ec6-349050aa5c9d",
+                "resourcePath": "sprites\\FootballPlaceholder\\FootballPlaceholder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47f8b59e-0179-47b5-8574-9207dabb25c5",
             "Value": {
                 "id": "1b272e5f-b390-4737-8c60-4e02866dc169",
@@ -92,6 +108,22 @@
                 "id": "850b38ec-c3e3-407e-b2b9-a003f800c094",
                 "resourcePath": "views\\64180b24-e491-490a-b0f5-9803c8984c4e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6501962f-9da9-49f6-9a4b-734c7d81bf94",
+            "Value": {
+                "id": "905a0df3-dcc7-4b07-af31-ee3ccd6681c3",
+                "resourcePath": "objects\\Football\\Football.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "686d0b51-a647-4f48-aaef-b29289ba2189",
+            "Value": {
+                "id": "af86cfb6-32bc-484a-b206-e07ce4f3e029",
+                "resourcePath": "sprites\\PlayerPlaceholder\\PlayerPlaceholder.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
