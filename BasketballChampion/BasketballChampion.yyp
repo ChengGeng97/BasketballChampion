@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "a5fff327-1025-44e6-aed9-7f7e15353330",
+            "Value": {
+                "id": "53aaa3c5-0a15-4c92-8023-29c84177dafe",
+                "resourcePath": "objects\\BurstFireBulletSpawner\\BurstFireBulletSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a8680c2d-78f2-4c07-a911-7f8509b85706",
             "Value": {
                 "id": "a1af1c9a-b793-4b3a-931a-a1af5f55fef2",
