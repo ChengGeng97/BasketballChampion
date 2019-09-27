@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0af5881c-b9ad-4f8e-ac8a-e73bf6962cf7",
+            "Value": {
+                "id": "3ee22aed-a03b-4ded-9cf9-85fafd1620db",
+                "resourcePath": "sprites\\SpriteNoballDown\\SpriteNoballDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0d2f3087-4c1a-4e15-8eee-f80a6ab74985",
             "Value": {
                 "id": "2584e3c5-78cd-4752-b037-f1b7443b1f22",
@@ -79,11 +87,19 @@
             }
         },
         {
-            "Key": "34a28918-5e24-4149-8cb6-36287272cc16",
+            "Key": "3044f655-13d9-448b-84b2-52168f10574c",
             "Value": {
-                "id": "20684108-7235-43d8-a0cb-0d8bc6d5c08c",
-                "resourcePath": "objects\\Player1\\Player1.yy",
-                "resourceType": "GMObject"
+                "id": "3cea7ca7-f6b1-48e4-b7d4-e57a503350d8",
+                "resourcePath": "sprites\\SpriteNoballDownRight\\SpriteNoballDownRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "31ec50b2-a249-4e02-8138-799fed061bb2",
+            "Value": {
+                "id": "6b1a99bd-ed5e-4d9d-8be1-2d4315fcc967",
+                "resourcePath": "sprites\\SpriteBallDownRight\\SpriteBallDownRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -95,10 +111,42 @@
             }
         },
         {
+            "Key": "3617320a-f0f7-433c-b3fb-ca6a2df7caf7",
+            "Value": {
+                "id": "c01c55bf-9ad7-4339-b347-cc84c45f40ef",
+                "resourcePath": "sprites\\SpriteNoballUpRight\\SpriteNoballUpRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "367e5aae-7f0e-4f35-97f6-ab25f1ddbea0",
+            "Value": {
+                "id": "75ee820d-0d5a-4c9c-95ae-d89f321ec1d6",
+                "resourcePath": "sprites\\SpriteBallRight\\SpriteBallRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "375d99bc-6bf0-47b0-babc-aef3c566f10c",
+            "Value": {
+                "id": "903261e6-6352-4184-b870-1c93172a1112",
+                "resourcePath": "scripts\\PlayerControlWithoutBall\\PlayerControlWithoutBall.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3d38e152-a596-46fe-aa80-006beefeb9c2",
             "Value": {
                 "id": "8b35a12c-9b82-4f54-9ec6-349050aa5c9d",
                 "resourcePath": "sprites\\SpriteFootballPlaceholder\\SpriteFootballPlaceholder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "443c5d13-07df-4820-88f9-0983413e38b2",
+            "Value": {
+                "id": "04e7e449-89a1-4492-8cf6-44edf098f020",
+                "resourcePath": "sprites\\SpriteBallLeft\\SpriteBallLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -119,6 +167,14 @@
             }
         },
         {
+            "Key": "491a103c-a99a-4ae9-83db-246f89f951f6",
+            "Value": {
+                "id": "8ed7f10c-7268-4d3b-baf1-64dcb89f0596",
+                "resourcePath": "sprites\\SpriteBallUpLeft\\SpriteBallUpLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b8ad242-f9c0-4fc3-8df3-c01ba3d74673",
             "Value": {
                 "id": "c526cf22-f084-439c-8e68-f9c46d7717ed",
@@ -132,6 +188,22 @@
                 "id": "24401b95-3f9d-4651-9bde-9134730f4f4e",
                 "resourcePath": "objects\\PlayerHitbox\\PlayerHitbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "557c7fd9-9b20-4563-b969-eebb9234eb08",
+            "Value": {
+                "id": "381ca140-fb3d-411b-94f9-c87456904d41",
+                "resourcePath": "sprites\\SpriteNoballUpLeft\\SpriteNoballUpLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5dc375a1-5a5a-48ed-9ffd-1915972beda6",
+            "Value": {
+                "id": "c25d9e04-a838-4645-a825-231867ec5141",
+                "resourcePath": "sprites\\SpriteBallUpRight\\SpriteBallUpRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -159,19 +231,19 @@
             }
         },
         {
-            "Key": "686d0b51-a647-4f48-aaef-b29289ba2189",
-            "Value": {
-                "id": "af86cfb6-32bc-484a-b206-e07ce4f3e029",
-                "resourcePath": "sprites\\SpritePlayerPlaceholder\\SpritePlayerPlaceholder.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "71e8f4c4-d589-4ea3-a7df-939fecd74421",
             "Value": {
                 "id": "e13f7621-12c7-4d31-bc6e-6beeac207c43",
                 "resourcePath": "views\\71e8f4c4-d589-4ea3-a7df-939fecd74421.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "741404f8-9144-4e9d-87aa-012ba144c7e6",
+            "Value": {
+                "id": "b7547164-2dc8-4d3b-b9a2-92ad718ac30d",
+                "resourcePath": "sprites\\SpriteBallDownLeft\\SpriteBallDownLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -183,11 +255,35 @@
             }
         },
         {
+            "Key": "7d6216f5-7061-4e5e-9a2a-29dfe6129bee",
+            "Value": {
+                "id": "36961677-7998-42d9-8e24-fe394b44fc62",
+                "resourcePath": "sprites\\SpriteBallDown\\SpriteBallDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f33bc91-1abe-4a31-8d18-cc933c823deb",
             "Value": {
                 "id": "44f24cfe-b36a-4c26-93a6-08abf23d0558",
                 "resourcePath": "views\\7f33bc91-1abe-4a31-8d18-cc933c823deb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8cf07666-ebeb-4cbb-9092-33518f5ff7ef",
+            "Value": {
+                "id": "a6a63d37-e574-41aa-98f6-9b8ffde05cb2",
+                "resourcePath": "sprites\\SpriteNoballUp\\SpriteNoballUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "967686eb-05e4-4d58-a911-4b6f6f620660",
+            "Value": {
+                "id": "25d8b57e-178d-471f-a292-1b5cba284349",
+                "resourcePath": "sprites\\SpriteNoballRight\\SpriteNoballRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -219,14 +315,6 @@
             "Value": {
                 "id": "3cf5a3a4-851b-4907-b7f3-c1f6a536ef95",
                 "resourcePath": "sprites\\SpriteKickingHitbox\\SpriteKickingHitbox.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a1c91e4c-53d6-4337-b8e2-b014f7e4212c",
-            "Value": {
-                "id": "2a59b449-d4d7-4573-81b2-e871b710a56a",
-                "resourcePath": "sprites\\SpritePlayerIdle\\SpritePlayerIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -271,10 +359,10 @@
             }
         },
         {
-            "Key": "caa98351-21d1-45a0-94c4-3e103a7bc1e6",
+            "Key": "c86e455d-585b-4de3-a1d6-c30b9df74657",
             "Value": {
-                "id": "2043de2f-c352-4e2a-a17a-f4aa5498f9b1",
-                "resourcePath": "sprites\\SpritePlayerKick\\SpritePlayerKick.yy",
+                "id": "437200ec-228b-4477-9aa7-1a0fd650a638",
+                "resourcePath": "sprites\\SpriteBallUp\\SpriteBallUp.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -295,6 +383,14 @@
             }
         },
         {
+            "Key": "d46f0e99-d024-44df-8739-32c2d81bae5e",
+            "Value": {
+                "id": "6b6fdcc5-9c39-4f01-b875-2a3b948ec7eb",
+                "resourcePath": "sprites\\SpriteNoballDownLeft\\SpriteNoballDownLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d4f20704-a3ff-44a1-9fb2-91f4288b13ae",
             "Value": {
                 "id": "27b79910-1d9d-43ad-a2ef-b8ec19a8250c",
@@ -311,6 +407,14 @@
             }
         },
         {
+            "Key": "d7f80f02-c9c2-4291-a7a6-035741d549a2",
+            "Value": {
+                "id": "26c57757-238f-4a04-82e7-c7e81dfd8992",
+                "resourcePath": "scripts\\PlayerControlWithBall\\PlayerControlWithBall.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dc54df08-7830-4b15-856b-2df1fadb1f7d",
             "Value": {
                 "id": "4d863cb5-75f6-4ea5-9a24-56bf858d045f",
@@ -319,11 +423,27 @@
             }
         },
         {
+            "Key": "e83a7a72-c4ec-4158-80a8-2ca952773405",
+            "Value": {
+                "id": "08916e8f-a248-4b47-b80e-95cad847e71b",
+                "resourcePath": "sprites\\SpriteNoballLeft\\SpriteNoballLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ea30d30d-9631-4fd2-8928-5f175525d977",
             "Value": {
                 "id": "c772c31b-ef76-43f6-b703-598a3b94f3b4",
                 "resourcePath": "views\\ea30d30d-9631-4fd2-8928-5f175525d977.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "efbabfa6-3508-4cea-a924-be91774036d5",
+            "Value": {
+                "id": "31e1d769-13e6-467f-a438-b8e51cd9fb48",
+                "resourcePath": "objects\\Player2\\Player2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -336,7 +456,8 @@
         }
     ],
     "script_order": [
-        
+        "d7f80f02-c9c2-4291-a7a6-035741d549a2",
+        "375d99bc-6bf0-47b0-babc-aef3c566f10c"
     ],
     "tutorial": ""
 }

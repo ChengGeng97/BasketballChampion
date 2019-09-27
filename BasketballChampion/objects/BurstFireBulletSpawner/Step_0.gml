@@ -61,7 +61,6 @@ else
 	else
 	{
 		frames_until_next_burst -= 1;
-		show_debug_message(frames_until_next_burst);
 	}
 }
 
