@@ -14,4 +14,3 @@ for(var i = 0; i < bullets_per_spawn; i++)
 	yPositions[i] = dsin(cumul_angle);
 	cumul_angle += incremental_angle;
 }
-

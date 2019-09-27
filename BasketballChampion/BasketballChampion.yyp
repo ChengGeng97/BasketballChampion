@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "15d26c43-e5ea-4b2e-8e96-ac1431f69448",
+            "Value": {
+                "id": "de027572-f727-4218-879c-355cd742ca4e",
+                "resourcePath": "objects\\GameManager\\GameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1c72d8d9-ef68-469d-a684-19b7f650a21a",
             "Value": {
                 "id": "1f800346-fd97-44b6-bd9e-206d16eaef81",
@@ -79,10 +87,18 @@
             }
         },
         {
+            "Key": "35f641f7-8ffa-40e7-8ecd-5e843caa8af7",
+            "Value": {
+                "id": "bdbcba17-4b0c-40cf-a571-934d5ea84dd3",
+                "resourcePath": "sprites\\SpriteHitbox\\SpriteHitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d38e152-a596-46fe-aa80-006beefeb9c2",
             "Value": {
                 "id": "8b35a12c-9b82-4f54-9ec6-349050aa5c9d",
-                "resourcePath": "sprites\\FootballPlaceholder\\FootballPlaceholder.yy",
+                "resourcePath": "sprites\\SpriteFootballPlaceholder\\SpriteFootballPlaceholder.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -99,6 +115,30 @@
             "Value": {
                 "id": "7559216e-ce9e-409e-ae5f-42aa4df576d5",
                 "resourcePath": "objects\\BasicBullet\\BasicBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b8ad242-f9c0-4fc3-8df3-c01ba3d74673",
+            "Value": {
+                "id": "c526cf22-f084-439c-8e68-f9c46d7717ed",
+                "resourcePath": "sprites\\SpriteGameManager\\SpriteGameManager.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "507c5766-f1f0-44f9-9ccb-82de7d0350ba",
+            "Value": {
+                "id": "24401b95-3f9d-4651-9bde-9134730f4f4e",
+                "resourcePath": "objects\\PlayerHitbox\\PlayerHitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "62b33e95-1a40-4c20-9786-b177eef55209",
+            "Value": {
+                "id": "67999342-2d4b-445c-8707-9d71f6076529",
+                "resourcePath": "objects\\KickingHitbox\\KickingHitbox.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -122,7 +162,7 @@
             "Key": "686d0b51-a647-4f48-aaef-b29289ba2189",
             "Value": {
                 "id": "af86cfb6-32bc-484a-b206-e07ce4f3e029",
-                "resourcePath": "sprites\\PlayerPlaceholder\\PlayerPlaceholder.yy",
+                "resourcePath": "sprites\\SpritePlayerPlaceholder\\SpritePlayerPlaceholder.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -138,7 +178,7 @@
             "Key": "7bac5977-6d72-4868-82c0-cc7a65d5ed7e",
             "Value": {
                 "id": "25e6e74c-bba2-4c5b-ada4-f2f9175ab866",
-                "resourcePath": "sprites\\PlaceholderBullet\\PlaceholderBullet.yy",
+                "resourcePath": "sprites\\SpritePlaceholderBullet\\SpritePlaceholderBullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -154,7 +194,7 @@
             "Key": "9cc71d04-25a1-4b41-9475-9742e8be3e97",
             "Value": {
                 "id": "69692387-5b17-44e6-a211-354a875fc963",
-                "resourcePath": "sprites\\MarkerC\\MarkerC.yy",
+                "resourcePath": "sprites\\SpriteMarkerC\\SpriteMarkerC.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -172,6 +212,22 @@
                 "id": "0da5c182-abdf-4e6a-adbe-aa4b3711d6c7",
                 "resourcePath": "objects\\CircularRotatableBulletSpawner\\CircularRotatableBulletSpawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a0b26ade-219b-479f-ae34-faf380fe3c28",
+            "Value": {
+                "id": "3cf5a3a4-851b-4907-b7f3-c1f6a536ef95",
+                "resourcePath": "sprites\\SpriteKickingHitbox\\SpriteKickingHitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a1c91e4c-53d6-4337-b8e2-b014f7e4212c",
+            "Value": {
+                "id": "2a59b449-d4d7-4573-81b2-e871b710a56a",
+                "resourcePath": "sprites\\SpritePlayerIdle\\SpritePlayerIdle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -204,6 +260,14 @@
                 "id": "8741fbd7-cf37-49ad-9954-f37b35ec89b9",
                 "resourcePath": "views\\bc2acf6b-2594-4ae5-88c6-c16e50b93240.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "caa98351-21d1-45a0-94c4-3e103a7bc1e6",
+            "Value": {
+                "id": "2043de2f-c352-4e2a-a17a-f4aa5498f9b1",
+                "resourcePath": "sprites\\SpritePlayerKick\\SpritePlayerKick.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,15 +1,14 @@
 /// @description Creates new bullets when the period is reached
 // You can write your code in this editor
 
-
 // Increment time elapsed
-time_elapsed += delta_time / 1000;
+frames_elapsed++;
 
 // If time exceeded
-if (time_elapsed > spawn_period_milliseconds)
+if (frames_elapsed > spawn_period_frames)
 {
 	// Reset timer
-	time_elapsed -= spawn_period_milliseconds;
+	frames_elapsed -= spawn_period_frames;
 
 	// Spawn new bulllets
 	for (i = 0; i < bullets_per_spawn; i++)

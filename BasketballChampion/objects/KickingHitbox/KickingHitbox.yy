@@ -1,48 +1,28 @@
 {
-    "id": "6501962f-9da9-49f6-9a4b-734c7d81bf94",
+    "id": "62b33e95-1a40-4c20-9786-b177eef55209",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Football",
+    "name": "KickingHitbox",
     "eventList": [
         {
-            "id": "5bb64b25-0cf4-4d00-9628-42e9e66bba72",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "6501962f-9da9-49f6-9a4b-734c7d81bf94"
-        },
-        {
-            "id": "a838664d-8b53-4c5d-b29d-2cb854014416",
+            "id": "41ca3f65-9a67-4437-b6b1-a6596872d5dd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "6501962f-9da9-49f6-9a4b-734c7d81bf94"
+            "m_owner": "62b33e95-1a40-4c20-9786-b177eef55209"
         },
         {
-            "id": "48d90369-7faf-48ae-8b8a-0f85b562a4cf",
+            "id": "a358f8e1-4ee7-4fab-a59b-7e16c3601e7b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 12,
-            "m_owner": "6501962f-9da9-49f6-9a4b-734c7d81bf94"
-        },
-        {
-            "id": "f992c537-e0d2-4724-9b66-630bb4cfae20",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "62b33e95-1a40-4c20-9786-b177eef55209",
+            "collisionObjectId": "6501962f-9da9-49f6-9a4b-734c7d81bf94",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "6501962f-9da9-49f6-9a4b-734c7d81bf94"
+            "m_owner": "62b33e95-1a40-4c20-9786-b177eef55209"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -63,21 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "5e225e80-33a1-4c4e-8003-49e0b87000fd",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "5",
-            "varName": "number_of_speeds",
-            "varType": 1
-        },
-        {
-            "id": "4af1ab5e-ef9f-4960-b88e-0c2499cf2a99",
+            "id": "ef992dff-c982-48b5-b6d5-fe2c74a01798",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -87,11 +53,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "speed_counter",
+            "varName": "frames_to_selfdestruct",
             "varType": 1
         },
         {
-            "id": "4ae11dd6-415d-40ba-ae47-5b1dbce6d57b",
+            "id": "78920d41-7fa9-4c4e-9861-da6bda927053",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -105,7 +71,7 @@
             "varType": 0
         },
         {
-            "id": "8f85d3b6-dee6-4298-894f-f8317b5d9e3d",
+            "id": "5e21ac36-4851-44aa-be3d-24414eb5083c",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -120,6 +86,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "3d38e152-a596-46fe-aa80-006beefeb9c2",
+    "spriteId": "a0b26ade-219b-479f-ae34-faf380fe3c28",
     "visible": true
 }

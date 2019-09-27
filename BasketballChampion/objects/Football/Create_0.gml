@@ -13,17 +13,13 @@ absolute_speeds[1] = 15;
 damage_of_each_speed[1] = 20;
 
 // SPEED COUNTER: 2
-absolute_speeds[1] = 20;
-damage_of_each_speed[1] = 35;
+absolute_speeds[2] = 20;
+damage_of_each_speed[2] = 35;
 
 // SPEED COUNTER: 3
-absolute_speeds[1] = 30;
-damage_of_each_speed[1] = 55;
+absolute_speeds[3] = 30;
+damage_of_each_speed[3] = 55;
 
 // SPEED COUNTER: 4
-absolute_speeds[1] = 55;
-damage_of_each_speed[1] = 80;
-
-// SPEED COUNTER: 5
-absolute_speeds[1] = 70;
-damage_of_each_speed[1] = 150;
+absolute_speeds[4] = 55;
+damage_of_each_speed[4] = 80;

@@ -62,8 +62,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "150",
-            "varName": "spawn_period_milliseconds",
+            "value": "9",
+            "varName": "spawn_period_frames",
             "varType": 0
         },
         {
@@ -133,8 +133,8 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "time_elapsed",
-            "varType": 0
+            "varName": "frames_elapsed",
+            "varType": 1
         },
         {
             "id": "a7204147-8cc7-4924-9768-19f79259117f",

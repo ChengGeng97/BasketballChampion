@@ -77,6 +77,25 @@ x = clamp(x, 0, room_width);
 y = clamp(y, 0, room_height);
 
 
+///////////////////
+// STATE CONTROL //
+///////////////////
+
+// Count the number of frames of animation passed
+if (is_kicking)
+{
+	kick_frame_counter += 1;
+}
+
+// When animation ends
+if (kick_frame_counter >= kick_state_frame_duration)
+{
+	kick_frame_counter = 0;
+	sprite_index = idle_sprite;
+	is_kicking = false;
+}
+
+
 //////////////////////
 // SHOOTING CONTROL //
 //////////////////////
@@ -85,8 +104,15 @@ var left_button_clicked_this_frame = mouse_check_button_pressed(mb_left);
 var left_button_released_this_frame = mouse_check_button_released(mb_left);
 
 // If left button is released, do a kick
-if (left_button_released_this_frame)
-{
+if (left_button_released_this_frame && is_kicking == false)
+{	
+	is_kicking = true;
+	
+	if(sprite_index != kick_sprite)
+	{
+		sprite_index = kick_sprite;
+	}
+	
 	// DO A KICK
 	show_debug_message("ATTEMPTING KICK");
 	
@@ -96,14 +122,20 @@ if (left_button_released_this_frame)
 		player_has_ball = false;
 		
 		// SPAWN THE BALL
-		var the_football = instance_create_depth(x, y, 0, football_reference);
+		var the_football = instance_create_depth(x, y, 0, football_resource);
 		the_football.x_direction = normalised_x;
 		the_football.y_direction = normalised_y;
 	}
-	else
+	else //player doesn't have the ball
 	{
 		show_debug_message("TRY TO KICK EXISTING BALL");
 		// DO A RANDOM KICK
+		
+		// Create a new hitbox for kicking, that will selfdestruct in 25 frames
+		var kickbox_id = instance_create_depth(x, y, 1, kicking_hitbox_resource);
+		kickbox_id.frames_to_selfdestruct = kick_state_frame_duration;
+		kickbox_id.x_direction = normalised_x;
+		kickbox_id.y_direction = normalised_y;
 	}
 	
 	mouse_held_down = false;
