@@ -6,8 +6,14 @@ var up_button_pressed = keyboard_check(ord("W"));
 var down_button_pressed = keyboard_check(ord("S"));
 
 var spacebar_pressed = keyboard_check(vk_space);
+var action_pressed = keyboard_check_pressed(ord("P"));
 
-var effective_speed = spacebar_pressed ? player_focus_speed : player_speed;
+if(action_pressed) {
+	//kick_ball
+}
+
+//var effective_speed = spacebar_pressed ? player_focus_speed : player_speed;
+var effective_speed = player_speed;
 
 if (no_buttons_pressed)
 {

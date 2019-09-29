@@ -52,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
+            "value": "False",
             "varName": "player_has_ball",
             "varType": 3
         },
@@ -67,7 +67,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "False",
-            "varName": "player_sliding",
+            "varName": "player_is_sliding",
             "varType": 3
         },
         {
@@ -99,6 +99,34 @@
             "varType": 0
         },
         {
+            "id": "f5612184-c223-4a1c-8fba-97c3f615e46e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "player_sliding_speed",
+            "varType": 0
+        },
+        {
+            "id": "ab8b9db1-f1d0-48ad-918e-be0dbc1488eb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "player_sliding_incremental_angle",
+            "varType": 0
+        },
+        {
             "id": "4d48d81e-5b79-44c2-a246-6d213d2d7366",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -111,6 +139,48 @@
             "value": "0",
             "varName": "player_facing_direction",
             "varType": 0
+        },
+        {
+            "id": "2fbb900f-8500-43b8-b547-e750feff84ab",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "player_sliding_direction_x",
+            "varType": 0
+        },
+        {
+            "id": "1500bb90-e34a-4544-afa9-94a15bd6f9f9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "player_sliding_direction_y",
+            "varType": 0
+        },
+        {
+            "id": "f3fd176f-9f31-44b1-9573-0a671225d68b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "sliding_intialised",
+            "varType": 3
         },
         {
             "id": "f39cb579-2d09-49ed-a489-c1a83ce19c54",
@@ -334,6 +404,20 @@
             "resourceFilter": 1023,
             "value": "SpriteNoballUpRight",
             "varName": "sprite_noball_up_right",
+            "varType": 5
+        },
+        {
+            "id": "cf045b7e-0d97-4382-8d52-81b3e2e4ec35",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "SpriteSlidingUp",
+            "varName": "sprite_sliding_up",
             "varType": 5
         }
     ],

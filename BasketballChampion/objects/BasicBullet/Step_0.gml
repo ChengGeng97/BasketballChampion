@@ -11,3 +11,12 @@ if (first_time)  {
 
 x += x_move_each_step;
 y += y_move_each_step;
+
+var outstep_room_boundary = x > room_width + 5
+                           || x < -5
+						   || y > room_height + 5
+						   || y < -5;
+
+if(outstep_room_boundary) {
+	instance_destroy();
+}

@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "221cad8a-53f1-4fbd-8191-88f527a1a51e",
+            "Value": {
+                "id": "2025d0e1-dd4a-4770-81c9-2f0aa4a54614",
+                "resourcePath": "scripts\\PlayerInitialiseSliding\\PlayerInitialiseSliding.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3044f655-13d9-448b-84b2-52168f10574c",
             "Value": {
                 "id": "3cea7ca7-f6b1-48e4-b7d4-e57a503350d8",
@@ -247,6 +255,14 @@
             }
         },
         {
+            "Key": "79e70d52-e4fa-41bf-a5f7-96b5a830c386",
+            "Value": {
+                "id": "356d92bf-65ea-4ef3-bfa1-c70c370d2d99",
+                "resourcePath": "scripts\\PlayerControlSliding\\PlayerControlSliding.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7bac5977-6d72-4868-82c0-cc7a65d5ed7e",
             "Value": {
                 "id": "25e6e74c-bba2-4c5b-ada4-f2f9175ab866",
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "c35094be-6f68-4c5e-b810-f08b17e9be96",
+            "Value": {
+                "id": "9bd1859a-988f-470b-885e-9cdcb5545649",
+                "resourcePath": "sprites\\SpriteSlidingUp\\SpriteSlidingUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c86e455d-585b-4de3-a1d6-c30b9df74657",
             "Value": {
                 "id": "437200ec-228b-4477-9aa7-1a0fd650a638",
@@ -457,7 +481,9 @@
     ],
     "script_order": [
         "d7f80f02-c9c2-4291-a7a6-035741d549a2",
-        "375d99bc-6bf0-47b0-babc-aef3c566f10c"
+        "375d99bc-6bf0-47b0-babc-aef3c566f10c",
+        "79e70d52-e4fa-41bf-a5f7-96b5a830c386",
+        "221cad8a-53f1-4fbd-8191-88f527a1a51e"
     ],
     "tutorial": ""
 }
