@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x += x_direction * absolute_speeds[speed_counter];
-y += y_direction * absolute_speeds[speed_counter];
+x += x_direction * ball_speed;
+y += y_direction * ball_speed;
 
 if (x > room_width)
 {

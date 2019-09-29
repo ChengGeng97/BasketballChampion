@@ -1,0 +1,1 @@
+instance_destroy(player_damage_hitbox_id);

@@ -52,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "False",
+            "value": "True",
             "varName": "player_has_ball",
             "varType": 3
         },
@@ -68,6 +68,20 @@
             "resourceFilter": 1023,
             "value": "False",
             "varName": "player_is_sliding",
+            "varType": 3
+        },
+        {
+            "id": "5e032fca-86a8-45f2-8d47-cbae55222aaa",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "collided_with_ball",
             "varType": 3
         },
         {
@@ -108,12 +122,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "50",
             "varName": "player_sliding_speed",
             "varType": 0
         },
         {
-            "id": "ab8b9db1-f1d0-48ad-918e-be0dbc1488eb",
+            "id": "f76345f2-c27f-4118-b3aa-9a8e61765d67",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -122,9 +136,51 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "player_sliding_incremental_angle",
-            "varType": 0
+            "value": "3",
+            "varName": "sliding_frame_max",
+            "varType": 1
+        },
+        {
+            "id": "52bf6314-b3a7-4db2-92f9-0a4bc3daf05f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "sliding_frame_counter",
+            "varType": 1
+        },
+        {
+            "id": "468a89f4-19ee-4040-a3e4-2b6e517c021c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "invulnerability_frames_post_sliding",
+            "varType": 1
+        },
+        {
+            "id": "f0c46ebf-cf46-43b7-8535-aa7fa1470325",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "frames_to_ready_collection_on_kick",
+            "varType": 1
         },
         {
             "id": "4d48d81e-5b79-44c2-a246-6d213d2d7366",
@@ -169,7 +225,7 @@
             "varType": 0
         },
         {
-            "id": "f3fd176f-9f31-44b1-9573-0a671225d68b",
+            "id": "74f2157c-c641-41ae-92c4-776d8bde1ae8",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -179,8 +235,36 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "sliding_intialised",
-            "varType": 3
+            "varName": "player_damage_hitbox_id",
+            "varType": 0
+        },
+        {
+            "id": "04a3cd00-31cd-46d6-bd8f-61e4f2c773ba",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "player_collection_hitbox_id",
+            "varType": 0
+        },
+        {
+            "id": "69e31239-3dae-4f93-bd74-4d1bf3544cb7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "football_id",
+            "varType": 0
         },
         {
             "id": "f39cb579-2d09-49ed-a489-c1a83ce19c54",

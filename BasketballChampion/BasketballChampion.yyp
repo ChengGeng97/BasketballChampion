@@ -71,10 +71,26 @@
             }
         },
         {
+            "Key": "1593dcd0-262f-4361-9780-030e2fafd88f",
+            "Value": {
+                "id": "9c2b481b-414b-419f-b976-ba94534561f9",
+                "resourcePath": "scripts\\TransitSlidingToWithoutBall\\TransitSlidingToWithoutBall.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "15d26c43-e5ea-4b2e-8e96-ac1431f69448",
             "Value": {
                 "id": "de027572-f727-4218-879c-355cd742ca4e",
                 "resourcePath": "objects\\GameManager\\GameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "18a8f5cf-15b8-4085-a848-ced694cac678",
+            "Value": {
+                "id": "c061a878-6f4d-4928-b05c-2d51fcd75da3",
+                "resourcePath": "objects\\BallManager\\BallManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -87,10 +103,18 @@
             }
         },
         {
+            "Key": "1ef16c0e-d4ba-45bc-b46b-99d726686331",
+            "Value": {
+                "id": "a963372b-a379-4abc-b3c2-149108ebf2be",
+                "resourcePath": "objects\\PlayerCollectionHitbox\\PlayerCollectionHitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "221cad8a-53f1-4fbd-8191-88f527a1a51e",
             "Value": {
                 "id": "2025d0e1-dd4a-4770-81c9-2f0aa4a54614",
-                "resourcePath": "scripts\\PlayerInitialiseSliding\\PlayerInitialiseSliding.yy",
+                "resourcePath": "scripts\\TransitWithoutBallToSliding\\TransitWithoutBallToSliding.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -114,7 +138,7 @@
             "Key": "35f641f7-8ffa-40e7-8ecd-5e843caa8af7",
             "Value": {
                 "id": "bdbcba17-4b0c-40cf-a571-934d5ea84dd3",
-                "resourcePath": "sprites\\SpriteHitbox\\SpriteHitbox.yy",
+                "resourcePath": "sprites\\SpritePlayerDamageHitbox\\SpritePlayerDamageHitbox.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -159,6 +183,30 @@
             }
         },
         {
+            "Key": "454ba0e6-1ce0-46ac-adf0-b08641bdf421",
+            "Value": {
+                "id": "6caaf688-b792-472b-a951-0ab9853bbd91",
+                "resourcePath": "scripts\\MakePlayerDamageHitbox\\MakePlayerDamageHitbox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4577a29b-0b14-4734-9538-30873a21884b",
+            "Value": {
+                "id": "c2c0139f-f17f-47fc-9c58-235fae48ebbe",
+                "resourcePath": "scripts\\MakePlayerCollectionHitbox\\MakePlayerCollectionHitbox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "46c491f4-19a7-4ba6-8eda-14e1781cca1b",
+            "Value": {
+                "id": "45e5070b-7b22-43fc-a76f-e4a444a4aaf4",
+                "resourcePath": "scripts\\PlayerRecoverBallThroughCollision\\PlayerRecoverBallThroughCollision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "47f8b59e-0179-47b5-8574-9207dabb25c5",
             "Value": {
                 "id": "1b272e5f-b390-4737-8c60-4e02866dc169",
@@ -194,8 +242,16 @@
             "Key": "507c5766-f1f0-44f9-9ccb-82de7d0350ba",
             "Value": {
                 "id": "24401b95-3f9d-4651-9bde-9134730f4f4e",
-                "resourcePath": "objects\\PlayerHitbox\\PlayerHitbox.yy",
+                "resourcePath": "objects\\PlayerDamageHitbox\\PlayerDamageHitbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "53b68d38-9f76-4ac9-b0fc-e7d14c9c6bb5",
+            "Value": {
+                "id": "c56cea49-0c60-4be9-8e23-4b653d7a0b57",
+                "resourcePath": "scripts\\PlayerRecoverBallThroughAction\\PlayerRecoverBallThroughAction.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -207,19 +263,19 @@
             }
         },
         {
+            "Key": "585f48b7-a455-4ea0-b167-b2c3341794ac",
+            "Value": {
+                "id": "38ce00e2-9261-4f09-aaa5-00f3379e8760",
+                "resourcePath": "sprites\\SpritePlayerCollectionHitbox\\SpritePlayerCollectionHitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5dc375a1-5a5a-48ed-9ffd-1915972beda6",
             "Value": {
                 "id": "c25d9e04-a838-4645-a825-231867ec5141",
                 "resourcePath": "sprites\\SpriteBallUpRight\\SpriteBallUpRight.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "62b33e95-1a40-4c20-9786-b177eef55209",
-            "Value": {
-                "id": "67999342-2d4b-445c-8707-9d71f6076529",
-                "resourcePath": "objects\\KickingHitbox\\KickingHitbox.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -255,6 +311,14 @@
             }
         },
         {
+            "Key": "75814a28-8e1b-408d-916f-603798650985",
+            "Value": {
+                "id": "7fc1c455-9a49-4c50-80d3-c34092f77f28",
+                "resourcePath": "scripts\\PlayerReleaseKick\\PlayerReleaseKick.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "79e70d52-e4fa-41bf-a5f7-96b5a830c386",
             "Value": {
                 "id": "356d92bf-65ea-4ef3-bfa1-c70c370d2d99",
@@ -284,6 +348,14 @@
                 "id": "44f24cfe-b36a-4c26-93a6-08abf23d0558",
                 "resourcePath": "views\\7f33bc91-1abe-4a31-8d18-cc933c823deb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7f65c8f1-2887-43fc-b4db-2de4ea15e865",
+            "Value": {
+                "id": "e9968263-f195-43bf-aa39-b8d7e713fe67",
+                "resourcePath": "scripts\\DestroyPlayerDamageHitbox\\DestroyPlayerDamageHitbox.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -327,14 +399,6 @@
             }
         },
         {
-            "Key": "a0b26ade-219b-479f-ae34-faf380fe3c28",
-            "Value": {
-                "id": "3cf5a3a4-851b-4907-b7f3-c1f6a536ef95",
-                "resourcePath": "sprites\\SpriteKickingHitbox\\SpriteKickingHitbox.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a5fff327-1025-44e6-aed9-7f7e15353330",
             "Value": {
                 "id": "53aaa3c5-0a15-4c92-8023-29c84177dafe",
@@ -364,6 +428,14 @@
                 "id": "84ab5ecb-f701-4ba5-8ccf-12b9c2bf3514",
                 "resourcePath": "views\\a9a80a45-62b2-45a3-8b95-570b7f4c71c6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a9b73620-d0a2-4d3a-b6f6-37848c875190",
+            "Value": {
+                "id": "285ad7f0-c2aa-47d5-9002-bd20f3eb4667",
+                "resourcePath": "scripts\\DestroyPlayerCollectionHitbox\\DestroyPlayerCollectionHitbox.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -477,13 +549,29 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "ff784d6f-db07-49a7-8bbc-9062cff0d0d3",
+            "Value": {
+                "id": "a25eed77-f946-4aec-848a-92cf9e39e65d",
+                "resourcePath": "sprites\\SpriteBallManager\\SpriteBallManager.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
         "d7f80f02-c9c2-4291-a7a6-035741d549a2",
         "375d99bc-6bf0-47b0-babc-aef3c566f10c",
         "79e70d52-e4fa-41bf-a5f7-96b5a830c386",
-        "221cad8a-53f1-4fbd-8191-88f527a1a51e"
+        "221cad8a-53f1-4fbd-8191-88f527a1a51e",
+        "1593dcd0-262f-4361-9780-030e2fafd88f",
+        "75814a28-8e1b-408d-916f-603798650985",
+        "53b68d38-9f76-4ac9-b0fc-e7d14c9c6bb5",
+        "46c491f4-19a7-4ba6-8eda-14e1781cca1b",
+        "454ba0e6-1ce0-46ac-adf0-b08641bdf421",
+        "7f65c8f1-2887-43fc-b4db-2de4ea15e865",
+        "4577a29b-0b14-4734-9538-30873a21884b",
+        "a9b73620-d0a2-4d3a-b6f6-37848c875190"
     ],
     "tutorial": ""
 }
