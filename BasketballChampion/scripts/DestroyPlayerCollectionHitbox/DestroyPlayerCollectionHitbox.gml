@@ -1,0 +1,1 @@
+instance_destroy(player_collection_hitbox_id);
