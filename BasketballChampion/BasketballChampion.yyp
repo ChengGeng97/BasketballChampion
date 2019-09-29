@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "23f4a343-2112-48b3-a07b-9cf1e0393327",
+            "Value": {
+                "id": "307a05c7-e545-4cd7-ae1a-77a9a36b57a4",
+                "resourcePath": "scripts\\MakePunchingBagReflectiveHitbox\\MakePunchingBagReflectiveHitbox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3044f655-13d9-448b-84b2-52168f10574c",
             "Value": {
                 "id": "3cea7ca7-f6b1-48e4-b7d4-e57a503350d8",
@@ -188,6 +196,14 @@
                 "id": "6caaf688-b792-472b-a951-0ab9853bbd91",
                 "resourcePath": "scripts\\MakePlayerDamageHitbox\\MakePlayerDamageHitbox.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "455bf7d6-77ce-4dfb-bbc4-3c733b191838",
+            "Value": {
+                "id": "315440a6-c805-48db-89dd-b6c2b6b1a723",
+                "resourcePath": "sprites\\PunchingBagPlaceholder\\PunchingBagPlaceholder.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -268,6 +284,14 @@
                 "id": "38ce00e2-9261-4f09-aaa5-00f3379e8760",
                 "resourcePath": "sprites\\SpritePlayerCollectionHitbox\\SpritePlayerCollectionHitbox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5c373c72-b782-4a51-8ab2-3aaa3e0c7cb1",
+            "Value": {
+                "id": "feda957f-a91d-4132-86b9-13d9fcdf3ce7",
+                "resourcePath": "objects\\PunchingBag\\PunchingBag.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -356,6 +380,14 @@
                 "id": "e9968263-f195-43bf-aa39-b8d7e713fe67",
                 "resourcePath": "scripts\\DestroyPlayerDamageHitbox\\DestroyPlayerDamageHitbox.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "81295d1d-279a-4d2f-92f5-a8263ab0470d",
+            "Value": {
+                "id": "582f4429-c976-4770-9b47-5f3a8a72409b",
+                "resourcePath": "sprites\\PunchingBagPlaceholderHit\\PunchingBagPlaceholderHit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -571,7 +603,8 @@
         "454ba0e6-1ce0-46ac-adf0-b08641bdf421",
         "7f65c8f1-2887-43fc-b4db-2de4ea15e865",
         "4577a29b-0b14-4734-9538-30873a21884b",
-        "a9b73620-d0a2-4d3a-b6f6-37848c875190"
+        "a9b73620-d0a2-4d3a-b6f6-37848c875190",
+        "23f4a343-2112-48b3-a07b-9cf1e0393327"
     ],
     "tutorial": ""
 }
