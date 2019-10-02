@@ -23,3 +23,13 @@ if (y < 0)
 {
 	y_direction = -y_direction;
 }
+
+if (ball_speed > 0)
+{
+	ball_speed -= 0.1;
+}
+
+if (ball_speed < 0)
+{
+	ball_speed = 0;
+}

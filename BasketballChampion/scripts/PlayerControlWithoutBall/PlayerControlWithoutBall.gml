@@ -5,13 +5,13 @@ var right_button_pressed = keyboard_check(right_button);
 var up_button_pressed = keyboard_check(up_button);
 var down_button_pressed = keyboard_check(down_button);
 
-var action_pressed_A = keyboard_check_pressed(action_button_A);
-var action_pressed_B = keyboard_check_pressed(action_button_B);
 
 //var effective_speed = spacebar_pressed ? player_focus_speed : player_speed;
 var effective_speed = player_speed;
 
-if(action_pressed_B)
+var left_mouse_clicked = mouse_check_button_pressed(mb_left);
+
+if(left_mouse_clicked)
 {
 	TransitWithoutBallToSliding();
 }
@@ -22,11 +22,7 @@ else
 		PlayerRecoverBallThroughCollision();
 		collided_with_ball = false;
 	}
-	else if(action_pressed_A)
-	{
-		PlayerRecoverBallThroughAction();
-	}
-	
+
 	if (no_buttons_pressed)
 	{
 		// Don't move

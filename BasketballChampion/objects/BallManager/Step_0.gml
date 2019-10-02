@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*
+Uncomment if we bring back the combo system
 
 if(combo_meter > combo_meter_per_level )
 {
@@ -37,3 +39,4 @@ else if (combo_level >= 0)
 }
 
 show_debug_message("level: " + string(combo_level) + " | meter: " + string(combo_meter));
+*/

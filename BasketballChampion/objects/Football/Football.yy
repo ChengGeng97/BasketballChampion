@@ -44,7 +44,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "ball_speed",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "4ae11dd6-415d-40ba-ae47-5b1dbce6d57b",
