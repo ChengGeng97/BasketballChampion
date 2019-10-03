@@ -1,6 +1,9 @@
 /// @description Creates new bullets when the period is reached
 // You can write your code in this editor
 
+x = PunchingBag.x;
+y = PunchingBag.y;
+
 if(in_firing)
 {
 	if(shots_fired < spawns_per_burst)

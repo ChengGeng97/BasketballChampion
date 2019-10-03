@@ -13,6 +13,26 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "5c373c72-b782-4a51-8ab2-3aaa3e0c7cb1"
+        },
+        {
+            "id": "0965e54d-b796-40ff-9f55-740ceb57aaba",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5c373c72-b782-4a51-8ab2-3aaa3e0c7cb1"
+        },
+        {
+            "id": "c2f289ea-8a1e-4bc6-90ef-60788792bd4b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "5c373c72-b782-4a51-8ab2-3aaa3e0c7cb1"
         }
     ],
     "maskSpriteId": "81295d1d-279a-4d2f-92f5-a8263ab0470d",
@@ -45,6 +65,34 @@
             "value": "0",
             "varName": "collided_with_football",
             "varType": 3
+        },
+        {
+            "id": "7c0cb981-b6de-4486-8ae3-ca368a85206c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "chicky_speed",
+            "varType": 0
+        },
+        {
+            "id": "ad091a0a-e019-47fe-ba8f-ff3bcff77108",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "HP",
+            "varType": 1
         }
     ],
     "solid": false,

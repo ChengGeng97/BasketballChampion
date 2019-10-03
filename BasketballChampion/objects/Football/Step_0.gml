@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x += x_direction * ball_speed;
-y += y_direction * ball_speed;
-
 if (x > room_width)
 {
 	x_direction = -x_direction;
@@ -24,6 +21,8 @@ if (y < 0)
 	y_direction = -y_direction;
 }
 
+
+
 if (ball_speed > 0)
 {
 	ball_speed -= 0.1;
@@ -33,3 +32,7 @@ if (ball_speed < 0)
 {
 	ball_speed = 0;
 }
+
+
+hspeed = ball_speed * x_direction;
+vspeed = ball_speed * y_direction;

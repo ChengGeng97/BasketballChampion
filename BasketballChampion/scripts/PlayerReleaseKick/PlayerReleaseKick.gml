@@ -24,6 +24,8 @@ the_football.ball_speed = BallManager.base_ball_speed
 // Set ball direction
 football_id.x_direction = vector_normalised_x;
 football_id.y_direction = vector_normalised_y;
+football_id.hspeed = vector_normalised_x * the_football.ball_speed;
+football_id.vspeed = vector_normalised_y * the_football.ball_speed;
 
 // Increase combo meter
 BallManager.combo_meter += BallManager.combo_increase_on_kick;
