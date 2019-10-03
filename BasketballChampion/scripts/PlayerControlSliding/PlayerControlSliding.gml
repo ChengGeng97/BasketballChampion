@@ -1,5 +1,5 @@
-x += player_sliding_speed * player_sliding_direction_x;
-y += player_sliding_speed * player_sliding_direction_y;
+x += player_sliding_direction_x;
+y += player_sliding_direction_y;
 
 var outstep_room_boundary = x > room_width
                            || x < 0
@@ -14,5 +14,5 @@ sliding_frame_counter--;
 
 if(sliding_frame_counter <= 0 || outstep_room_boundary)
 {
-	TransitSlidingToWithoutBall();
+	TransitSlidingToWithBall();
 }

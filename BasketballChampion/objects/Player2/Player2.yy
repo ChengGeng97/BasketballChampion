@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "efbabfa6-3508-4cea-a924-be91774036d5"
+        },
+        {
+            "id": "f1601144-3e7a-46ce-bc5e-646cbda0e8a9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "efbabfa6-3508-4cea-a924-be91774036d5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -113,20 +123,6 @@
             "varType": 0
         },
         {
-            "id": "f5612184-c223-4a1c-8fba-97c3f615e46e",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "50",
-            "varName": "player_sliding_speed",
-            "varType": 0
-        },
-        {
             "id": "f76345f2-c27f-4118-b3aa-9a8e61765d67",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -178,7 +174,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "5",
             "varName": "frames_to_ready_collection_on_kick",
             "varType": 1
         },

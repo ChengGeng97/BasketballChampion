@@ -7,6 +7,8 @@ if(player_has_ball)
 } 
 else
 {
+	//PlayerControlWithoutBall();
+
 	if(player_is_sliding)
 	{
 		PlayerControlSliding();

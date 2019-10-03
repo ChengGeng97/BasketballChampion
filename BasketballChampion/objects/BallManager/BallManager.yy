@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "18a8f5cf-15b8-4085-a848-ced694cac678"
+        },
+        {
+            "id": "08860bf9-5a64-4542-8b9d-091898866054",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "18a8f5cf-15b8-4085-a848-ced694cac678"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -98,7 +108,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "25",
             "varName": "base_ball_speed",
             "varType": 0
         },
@@ -112,7 +122,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "0",
             "varName": "ball_speed_increase_per_level",
             "varType": 0
         }
