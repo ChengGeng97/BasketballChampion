@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description State-Machine for the player character
 // You can write your code in this editor
 
 if(player_has_ball)
@@ -7,8 +7,6 @@ if(player_has_ball)
 } 
 else
 {
-	//PlayerControlWithoutBall();
-
 	if(player_is_sliding)
 	{
 		PlayerControlSliding();

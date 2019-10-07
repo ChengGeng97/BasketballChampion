@@ -8,9 +8,9 @@ Football.x_direction = Football.x_direction * (-1);
 Football.y_direction = Football.y_direction * (-1);
 
 if (collided_with_football) {
-	sprite_index = PunchingBagPlaceholderHit;
+	sprite_index = SpritePunchingBagPlaceholderHit;
 } else {
-	sprite_index = PunchingBagPlaceholder;
+	sprite_index = SpritePunchingBagPlaceholder;
 }
 
 HP -=1;

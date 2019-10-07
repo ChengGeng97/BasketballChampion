@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Pre-calculates the position of each bullet
 // You can write your code in this editor
 
 // Pre-calculate spawning coordinates

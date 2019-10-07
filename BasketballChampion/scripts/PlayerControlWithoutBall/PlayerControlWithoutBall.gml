@@ -13,10 +13,14 @@ var left_mouse_clicked = mouse_check_button_pressed(mb_left);
 
 if(left_mouse_clicked)
 {
+	// Start the Dash/Slide
 	TransitWithoutBallToSliding();
 }
 else
 {
+	// Normal Movement
+	
+	
 	if(collided_with_ball)
 	{
 		PlayerRecoverBallThroughCollision();
@@ -91,6 +95,7 @@ else
 	x = clamp(x, 0, room_width);
 	y = clamp(y, 0, room_height);
 
+	// Change the sprite according to what direction they're facing
 	switch (player_facing_direction)
 	{
 		case FacingDirection.Up:

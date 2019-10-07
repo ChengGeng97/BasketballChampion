@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Makes the ball move around the screen
 // You can write your code in this editor
 
 if (x > room_width)

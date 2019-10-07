@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Handles retrieval of the ball
 // You can write your code in this editor
 
 if(instance_exists(player_id))

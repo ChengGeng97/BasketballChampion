@@ -1,8 +1,11 @@
 /// @description Creates new bullets when the period is reached
 // You can write your code in this editor
 
+/*
+// Makes the spawner follow the PunchingBag (the chicken) around
 x = PunchingBag.x;
 y = PunchingBag.y;
+*/
 
 if(in_firing)
 {

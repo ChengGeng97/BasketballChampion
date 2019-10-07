@@ -1,3 +1,6 @@
+// Freeze the ball's position
+football_id.ball_speed = 0;
+
 // Set player's direction
 var player_to_football_vector_x = football_id.x - x;
 var player_to_football_vector_y = football_id.y - y;

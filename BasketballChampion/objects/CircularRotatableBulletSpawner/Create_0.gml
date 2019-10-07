@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Initialises the circle and the angles for each bullet
 // You can write your code in this editor
 
 // Pre-calculate spawning coordinates

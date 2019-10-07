@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Deletes the arrays to prevent mem leaks
 // You can write your code in this editor
 
 var i;

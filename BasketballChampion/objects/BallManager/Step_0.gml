@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Obsolete code, don't mess with this object for now
 // You can write your code in this editor
 
 /*

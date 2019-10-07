@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Makes the hitbox follow the player around
 // You can write your code in this editor
 
 if (instance_exists(player_id))
