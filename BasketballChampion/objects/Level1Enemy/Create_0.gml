@@ -8,4 +8,5 @@ enum LevelOnePhase {
 	DIE
 }
 
-Phase = LevelOnePhase.TRANSIT_ZERO_TO_ONE;
+// Phase = LevelOnePhase.TRANSIT_ZERO_TO_ONE;
+Phase = LevelOnePhase.TRANSIT_ONE_TO_TWO;

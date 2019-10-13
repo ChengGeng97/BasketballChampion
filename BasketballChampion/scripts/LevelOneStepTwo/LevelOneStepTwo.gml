@@ -1,7 +1,6 @@
 if (HP < 0) 
 {
-	Phase = LevelOnePhase.TRANSIT_ONE_TO_TWO;
-	show_debug_message("End Phase 2");
+	Phase = LevelOnePhase.TRANSIT_TWO_TO_THREE;
 }
 else
 {

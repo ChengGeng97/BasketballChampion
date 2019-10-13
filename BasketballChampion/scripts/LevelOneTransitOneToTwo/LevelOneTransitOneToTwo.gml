@@ -1,10 +1,10 @@
-HP = 20;
+HP = 10;
 
-instance_create_depth(x, y, -1, Level1EnemyPhase2BulletSpawner);
+Phase2BulletSpawner_id = instance_create_depth(x, y, -1, Level1EnemyPhase2BulletSpawner);
 
 // Create the minions
-var side_padding = 100;
-var strip_length = 700 - 100 * 2;
+var side_padding = 70;
+var strip_length = 700 - side_padding * 2;
 number_of_minions = 20;
 
 var distance_between_minions = strip_length / (number_of_minions);
@@ -37,5 +37,5 @@ for (var i = 0; i < number_of_minions; i++)
 	accumulative_distance += distance_between_minions;
 }
 
-Phase = LevelOnePhase.ONE;
+Phase = LevelOnePhase.TWO;
 show_debug_message("Enter Phase 2");
