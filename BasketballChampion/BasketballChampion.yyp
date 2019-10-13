@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "1f3dfb3c-db72-4981-b951-1a19e8dd09eb",
+            "Value": {
+                "id": "83f5f138-7311-41a3-86ce-3c3777caadee",
+                "resourcePath": "objects\\Level1EnemyPhase2BulletSpawner\\Level1EnemyPhase2BulletSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "221cad8a-53f1-4fbd-8191-88f527a1a51e",
             "Value": {
                 "id": "2025d0e1-dd4a-4770-81c9-2f0aa4a54614",
@@ -759,6 +767,14 @@
             }
         },
         {
+            "Key": "ef7a6fa2-1531-4c27-a774-3189550b8c7d",
+            "Value": {
+                "id": "df2ae5c7-4c67-4fad-bee3-ef09683be726",
+                "resourcePath": "objects\\Level1Minion\\Level1Minion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "efbabfa6-3508-4cea-a924-be91774036d5",
             "Value": {
                 "id": "31e1d769-13e6-467f-a438-b8e51cd9fb48",
@@ -772,6 +788,14 @@
                 "id": "bd8cc7f2-3853-4004-9cb4-c97577edf27a",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f430a6c4-cfc1-4972-8666-119498530b1b",
+            "Value": {
+                "id": "e444d4bb-5140-4fa6-8cbc-f9d7cd8c395e",
+                "resourcePath": "sprites\\SpriteLevel1MinionPlaceholder\\SpriteLevel1MinionPlaceholder.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
