@@ -1,4 +1,4 @@
-if (HP < 0) 
+if (HP <= 0) 
 {
 	Phase = LevelOnePhase.TRANSIT_TWO_TO_THREE;
 }
@@ -20,4 +20,3 @@ else
 	
 	minion_respawn_frame_counter++;
 }
- 
