@@ -1,6 +1,5 @@
 HP = 5;
-direction_change_interval = 45;
-frames_until_next_direction_change = 0;
+movement_speed = 5;
 instance_create_depth(x, y, 5, Level1EnemyPhase1BulletSpawner);
 
 Phase = LevelOnePhase.ONE;

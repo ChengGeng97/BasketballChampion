@@ -62,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "15",
+            "value": "60",
             "varName": "spawn_period_frames",
             "varType": 0
         },
@@ -90,7 +90,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "12",
             "varName": "degree_rotate_after_shot",
             "varType": 0
         },
@@ -118,7 +118,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "5",
             "varName": "bullets_per_spawn",
             "varType": 0
         },
