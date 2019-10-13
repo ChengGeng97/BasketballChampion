@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "89bcbcfd-8e2d-404e-acfc-fad33719eae0",
+            "Value": {
+                "id": "6bf6eb3b-4658-422c-af07-453b2421754c",
+                "resourcePath": "sprites\\SpriteBowlingBall\\SpriteBowlingBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8a4bb377-c372-4f46-8a27-75f86a72d3a7",
             "Value": {
                 "id": "71642a3f-2fc7-49ef-a71b-5970638d7f4d",
@@ -812,6 +820,14 @@
                 "id": "29ed6ee6-085d-4953-b5d1-f8c39cb8ae6b",
                 "resourcePath": "scripts\\LevelThreeTransitOneToTwo\\LevelThreeTransitOneToTwo.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "eedff668-ac0a-4cf1-acdb-a602e0f21632",
+            "Value": {
+                "id": "8211d05b-c300-44dc-ba48-c735189e1205",
+                "resourcePath": "objects\\BowlingBall\\BowlingBall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
