@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00c50e94-3577-499b-8e7c-892df56dff99",
+            "Value": {
+                "id": "e1e2599b-80e0-46d2-9db6-c8481099b96c",
+                "resourcePath": "sprites\\SpriteGravityRegion\\SpriteGravityRegion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "00f0c51d-8dad-43c3-9b40-ccbc5b897c89",
             "Value": {
                 "id": "d79cc804-5bf3-4233-91d8-a6f4964f44ec",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "2512ac29-e584-43fe-9f6c-aa1f50ccccde",
+            "Value": {
+                "id": "19e58cac-7f32-49fd-8d4a-8a70cbf69a70",
+                "resourcePath": "sprites\\SpriteBlackHoleCore\\SpriteBlackHoleCore.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2518d530-3ab8-4418-ba46-a79369bc0d5b",
             "Value": {
                 "id": "d21284ca-be61-44c6-ad9f-e7e57bdba9f8",
@@ -196,6 +212,14 @@
                 "id": "bdbcba17-4b0c-40cf-a571-934d5ea84dd3",
                 "resourcePath": "sprites\\SpritePlayerDamageHitbox\\SpritePlayerDamageHitbox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3602e3c9-fd75-4a36-bab8-d078e9220537",
+            "Value": {
+                "id": "021c35df-446e-4419-8bed-4115efc2c272",
+                "resourcePath": "objects\\Level3Pattern3BulletSpawner\\Level3Pattern3BulletSpawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -252,6 +276,14 @@
                 "id": "315440a6-c805-48db-89dd-b6c2b6b1a723",
                 "resourcePath": "sprites\\SpritePunchingBagPlaceholder\\SpritePunchingBagPlaceholder.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "479fc0d8-a573-4250-9bea-d54451546843",
+            "Value": {
+                "id": "ba6d49fd-2c52-4b36-839b-7e7d26b4ce02",
+                "resourcePath": "objects\\BlackHoleCore\\BlackHoleCore.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -783,6 +815,14 @@
             }
         },
         {
+            "Key": "e1194b7f-da65-4b9b-9259-c20bf74d2680",
+            "Value": {
+                "id": "04523c64-85ef-4dad-88f4-15823455e1a9",
+                "resourcePath": "objects\\GravityRegion\\GravityRegion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e2685d11-65ce-425c-b6ec-b6a98a036eb4",
             "Value": {
                 "id": "42db7634-fb4b-467f-b034-dfef48d243ee",
@@ -827,6 +867,14 @@
             "Value": {
                 "id": "df2ae5c7-4c67-4fad-bee3-ef09683be726",
                 "resourcePath": "objects\\Level1Minion\\Level1Minion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f0bcc7be-0a21-4cba-a900-3c98054fe05f",
+            "Value": {
+                "id": "dc7c7473-8f84-4380-8912-45a794e8ec0a",
+                "resourcePath": "objects\\Level3Pattern4BulletSpawner\\Level3Pattern4BulletSpawner.yy",
                 "resourceType": "GMObject"
             }
         },
