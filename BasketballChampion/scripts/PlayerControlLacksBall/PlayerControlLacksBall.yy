@@ -1,8 +1,8 @@
 {
-    "id": "454ba0e6-1ce0-46ac-adf0-b08641bdf421",
+    "id": "5a3cd068-9f08-485c-923e-1ce331702ce8",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "MakePlayerDamageHitbox",
+    "name": "PlayerControlLacksBall",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -1,8 +1,8 @@
 {
-    "id": "53b68d38-9f76-4ac9-b0fc-e7d14c9c6bb5",
+    "id": "6110f914-55ac-487b-947f-b3ac37273c0f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "PlayerRecoverBallThroughAction",
+    "name": "PlayerControlHasBall",
     "IsCompatibility": false,
     "IsDnD": false
 }

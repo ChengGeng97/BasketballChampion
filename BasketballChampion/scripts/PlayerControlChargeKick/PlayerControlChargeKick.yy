@@ -1,8 +1,8 @@
 {
-    "id": "a9b73620-d0a2-4d3a-b6f6-37848c875190",
+    "id": "1c4311a0-e30a-4a93-8940-d4fd26a3a66c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "DestroyPlayerCollectionHitbox",
+    "name": "PlayerControlChargeKick",
     "IsCompatibility": false,
     "IsDnD": false
 }

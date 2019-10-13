@@ -6,18 +6,23 @@ var right_button_pressed = keyboard_check(right_button);
 var up_button_pressed = keyboard_check(up_button);
 var down_button_pressed = keyboard_check(down_button);
 
-var left_mouse_clicked = mouse_check_button_pressed(mb_left);
+var right_clicked = mouse_check_button_pressed(right_mouse_button);
 
-//var effective_speed = spacebar_pressed ? player_focus_speed : player_speed;
 var effective_speed = player_speed;
 
-
-// Check for kicking the ball
-if(left_mouse_clicked)
+if(right_clicked)
 {
-	PlayerReleaseKick();
+	player_state = PlayerState.DashingWithoutBall;
+	player_hitbox.invulnerability_frames = sliding_frames_max + 3;
+	
+	var vector_x = mouse_x - x;
+	var vector_y = mouse_y - y;
+	
+	var vector_mag = sqrt(vector_x * vector_x + vector_y * vector_y);
+	
+	sliding_direction_x = vector_x / vector_mag;
+	sliding_direction_y = vector_y / vector_mag;	
 }
-
 
 // Player movement
 if (no_buttons_pressed)
@@ -93,38 +98,37 @@ y = clamp(y, 0, room_height);
 switch (player_facing_direction)
 {
 	case FacingDirection.Up:
-		sprite_index = sprite_ball_up
+		sprite_index = SpriteNoballUp;
 		break;
 		
 	case FacingDirection.UpLeft:
-		sprite_index = sprite_ball_up_left
+		sprite_index = SpriteNoballUpLeft;
 		break;
 		
 	case FacingDirection.Left:
-		sprite_index = sprite_ball_left
+		sprite_index = SpriteNoballLeft;
 		break;
 		
 	case FacingDirection.DownLeft:
-		sprite_index = sprite_ball_down_left
+		sprite_index = SpriteNoballDownLeft;
 		break;		
 		
 	case FacingDirection.Down:
-		sprite_index = sprite_ball_down
+		sprite_index = SpriteNoballDown;
 		break;
 		
 	case FacingDirection.DownRight:
-		sprite_index = sprite_ball_down_right
+		sprite_index = SpriteNoballDownRight;
 		break;
 		
 	case FacingDirection.Right:
-		sprite_index = sprite_ball_right
+		sprite_index = SpriteNoballRight;
 		break;
 		
 	case FacingDirection.UpRight:
-		sprite_index = sprite_ball_up_right
+		sprite_index = SpriteNoballUpRight;
 		break;
 		
 	default:
 		break;
 }
-

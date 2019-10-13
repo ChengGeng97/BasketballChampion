@@ -13,16 +13,6 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "18a8f5cf-15b8-4085-a848-ced694cac678"
-        },
-        {
-            "id": "08860bf9-5a64-4542-8b9d-091898866054",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "18a8f5cf-15b8-4085-a848-ced694cac678"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "aa32c2a0-6e18-4c32-8822-d1536ee89a1b",
+            "id": "78eca3a6-6e51-4555-93d1-b171ca7c1429",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -53,11 +43,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "combo_level",
-            "varType": 1
+            "varName": "kick_charging",
+            "varType": 3
         },
         {
-            "id": "e9e104dd-7ce1-4e08-93f9-3d6ee9c82c92",
+            "id": "d8b5aec0-b969-47cc-82b2-0db2333dbdab",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -67,11 +57,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "combo_meter",
+            "varName": "kick_charge_frames",
             "varType": 1
         },
         {
-            "id": "8e4850f2-98e7-487f-aad9-a6b5e40c4fba",
+            "id": "ac60bef9-3d43-48fb-a7f3-0f986570e9cb",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -80,12 +70,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "220",
-            "varName": "combo_increase_on_kick",
+            "value": "60",
+            "varName": "kick_charge_frames_max",
             "varType": 1
         },
         {
-            "id": "fcbba31b-4ba2-4570-97d0-f5f9100f9696",
+            "id": "6f06cceb-b4fe-4382-8a3e-7080de40554e",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -94,37 +84,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "199",
-            "varName": "combo_meter_per_level",
-            "varType": 0
-        },
-        {
-            "id": "b239e90e-d832-48ce-9c53-68d932e17928",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "25",
-            "varName": "base_ball_speed",
-            "varType": 0
-        },
-        {
-            "id": "e86bb976-3696-432d-94af-066707a089b3",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "ball_speed_increase_per_level",
-            "varType": 0
+            "value": "20",
+            "varName": "base_speed",
+            "varType": 1
         }
     ],
     "solid": false,

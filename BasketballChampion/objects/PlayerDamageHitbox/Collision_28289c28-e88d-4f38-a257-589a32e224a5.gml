@@ -5,6 +5,7 @@ if(instance_exists(player_id))
 {
 	if (invulnerability_frames <= 0)
 	{
-		instance_destroy(player_id);
-	}	
+		player_id.player_HP--;
+		invulnerability_frames = 5;
+	}
 }
