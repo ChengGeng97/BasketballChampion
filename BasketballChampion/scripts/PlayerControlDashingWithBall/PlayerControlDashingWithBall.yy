@@ -1,8 +1,8 @@
 {
-    "id": "75814a28-8e1b-408d-916f-603798650985",
+    "id": "6928b592-4bfc-4eac-b76a-a0e2b92c595b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "PlayerReleaseKick",
+    "name": "PlayerControlDashingWithBall",
     "IsCompatibility": false,
     "IsDnD": false
 }
