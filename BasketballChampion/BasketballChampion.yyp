@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "11df9d65-2fbf-4e9a-80fe-6c91de3998e1",
+            "Value": {
+                "id": "9d3e67ae-9b96-4860-aea9-2953407f241e",
+                "resourcePath": "scripts\\LevelThreeStepThree\\LevelThreeStepThree.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1593dcd0-262f-4361-9780-030e2fafd88f",
             "Value": {
                 "id": "9c2b481b-414b-419f-b976-ba94534561f9",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "27c4f397-9dea-417b-9e94-d032430becda",
+            "Value": {
+                "id": "27da11da-0add-4b5b-b07b-62c131e317e2",
+                "resourcePath": "scripts\\LevelThreeTransitZeroToOne\\LevelThreeTransitZeroToOne.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3044f655-13d9-448b-84b2-52168f10574c",
             "Value": {
                 "id": "3cea7ca7-f6b1-48e4-b7d4-e57a503350d8",
@@ -183,6 +199,14 @@
             }
         },
         {
+            "Key": "36c3ac87-708e-4df4-9f84-c06527dd9d77",
+            "Value": {
+                "id": "ddd1f525-6438-4a73-9da8-7b36549f89f0",
+                "resourcePath": "scripts\\LevelThreeTransitTwoToThree\\LevelThreeTransitTwoToThree.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "372cbebf-3528-414d-9d67-fe56c508d0ae",
             "Value": {
                 "id": "2c7259f4-080e-4742-8a10-847a5e473fd4",
@@ -196,6 +220,14 @@
                 "id": "903261e6-6352-4184-b870-1c93172a1112",
                 "resourcePath": "scripts\\PlayerControlWithoutBall\\PlayerControlWithoutBall.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3c204af9-4528-4563-9b59-9f2f956bc739",
+            "Value": {
+                "id": "5dd34ceb-b285-4495-8ae0-33c2cf4ae6ff",
+                "resourcePath": "sprites\\SpriteLevel3EnemyPlaceholder\\SpriteLevel3EnemyPlaceholder.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -311,6 +343,14 @@
             }
         },
         {
+            "Key": "5836701a-672a-49d1-b3e7-1209e1304834",
+            "Value": {
+                "id": "61f41873-678b-488f-8b67-8a9264a33ffa",
+                "resourcePath": "objects\\Level3Enemy\\Level3Enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "585f48b7-a455-4ea0-b167-b2c3341794ac",
             "Value": {
                 "id": "38ce00e2-9261-4f09-aaa5-00f3379e8760",
@@ -356,6 +396,14 @@
                 "id": "c8972a67-06da-40c6-9d0d-7f99eec76098",
                 "resourcePath": "rooms\\Week8_Level1\\Week8_Level1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6745aca2-8032-4347-af7b-f343e2cb0fce",
+            "Value": {
+                "id": "9273b9b9-a80f-46c2-bc2a-5dd4a6ac38c7",
+                "resourcePath": "scripts\\LevelThreeTransitThreeToFour\\LevelThreeTransitThreeToFour.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -551,11 +599,27 @@
             }
         },
         {
+            "Key": "ac71fb14-94d8-4bbb-ab31-8cae0bc44372",
+            "Value": {
+                "id": "b141cf6f-e1f0-42f0-adbe-603499bdc692",
+                "resourcePath": "scripts\\LevelThreeStepTwo\\LevelThreeStepTwo.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bc2acf6b-2594-4ae5-88c6-c16e50b93240",
             "Value": {
                 "id": "8741fbd7-cf37-49ad-9954-f37b35ec89b9",
                 "resourcePath": "views\\bc2acf6b-2594-4ae5-88c6-c16e50b93240.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bca8c239-c6d3-4f2a-be1d-c33764d78f10",
+            "Value": {
+                "id": "cd3d97f7-2635-4909-800f-3344a3424d3e",
+                "resourcePath": "scripts\\LevelThreeStepOne\\LevelThreeStepOne.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -588,6 +652,14 @@
                 "id": "437200ec-228b-4477-9aa7-1a0fd650a638",
                 "resourcePath": "sprites\\SpriteBallUp\\SpriteBallUp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c91bb87b-3088-4eef-9413-efe466ea15cf",
+            "Value": {
+                "id": "c9b07307-7c0e-4bb3-a41f-ca557de6b020",
+                "resourcePath": "scripts\\LevelThreeDie\\LevelThreeDie.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -663,6 +735,14 @@
             }
         },
         {
+            "Key": "d8819639-e52c-4095-a18a-25aa74dfd69d",
+            "Value": {
+                "id": "c498d44b-d2c9-47b2-8db0-ba1c57b5d529",
+                "resourcePath": "scripts\\LevelThreeStepFour\\LevelThreeStepFour.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "db08d15e-32a6-4182-a798-2f3b1ce004b6",
             "Value": {
                 "id": "cae669bc-0748-481f-b736-e8633c6fbbb2",
@@ -687,6 +767,14 @@
             }
         },
         {
+            "Key": "de9a25f8-d20c-4d35-b089-50c213986fe3",
+            "Value": {
+                "id": "931d589f-1902-4d26-b8f7-ecf36f0725fc",
+                "resourcePath": "objects\\Level3Pattern2BulletSpawner\\Level3Pattern2BulletSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e2685d11-65ce-425c-b6ec-b6a98a036eb4",
             "Value": {
                 "id": "42db7634-fb4b-467f-b034-dfef48d243ee",
@@ -703,11 +791,27 @@
             }
         },
         {
+            "Key": "e9787d53-e95e-489c-bc93-d00fdc7ca0b5",
+            "Value": {
+                "id": "c1be190b-2542-455e-b357-0fafed421679",
+                "resourcePath": "rooms\\Week9_Level3\\Week9_Level3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "ea30d30d-9631-4fd2-8928-5f175525d977",
             "Value": {
                 "id": "c772c31b-ef76-43f6-b703-598a3b94f3b4",
                 "resourcePath": "views\\ea30d30d-9631-4fd2-8928-5f175525d977.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ebd98025-6b9d-4251-96ba-f9e3be68a4ff",
+            "Value": {
+                "id": "29ed6ee6-085d-4953-b5d1-f8c39cb8ae6b",
+                "resourcePath": "scripts\\LevelThreeTransitOneToTwo\\LevelThreeTransitOneToTwo.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -763,7 +867,16 @@
         "d7e61bfa-607e-410b-85a1-30ddfc85601e",
         "c55ae675-bd6e-4cb4-b592-90e61998b44b",
         "7b4150b8-b02e-4e89-b52d-9ddf14ab2e7f",
-        "1ba1b749-001b-46aa-83dd-5ea5e25a65b0"
+        "1ba1b749-001b-46aa-83dd-5ea5e25a65b0",
+        "27c4f397-9dea-417b-9e94-d032430becda",
+        "bca8c239-c6d3-4f2a-be1d-c33764d78f10",
+        "ebd98025-6b9d-4251-96ba-f9e3be68a4ff",
+        "ac71fb14-94d8-4bbb-ab31-8cae0bc44372",
+        "36c3ac87-708e-4df4-9f84-c06527dd9d77",
+        "11df9d65-2fbf-4e9a-80fe-6c91de3998e1",
+        "6745aca2-8032-4347-af7b-f343e2cb0fce",
+        "d8819639-e52c-4095-a18a-25aa74dfd69d",
+        "c91bb87b-3088-4eef-9413-efe466ea15cf"
     ],
     "tutorial": ""
 }
