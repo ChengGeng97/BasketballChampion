@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "3602e3c9-fd75-4a36-bab8-d078e9220537"
+        },
+        {
+            "id": "8b2728d4-a106-4d53-b822-959072946b28",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3602e3c9-fd75-4a36-bab8-d078e9220537"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -32,6 +42,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
+        {
+            "id": "618f753e-e562-478c-acdb-1d5c346c8f83",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "first_time",
+            "varType": 3
+        },
         {
             "id": "27dfd288-53e2-4b10-b17d-41206b18570b",
             "modelName": "GMObjectProperty",
@@ -56,7 +80,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "5",
             "varName": "spawn_period",
             "varType": 0
         },
@@ -73,6 +97,34 @@
             "value": "0",
             "varName": "spawn_frames_counter",
             "varType": 0
+        },
+        {
+            "id": "17e22048-62de-4193-b757-fc9d6f3e1065",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "300",
+            "varName": "spawn_circle_radius",
+            "varType": 0
+        },
+        {
+            "id": "2945af28-2f69-47bd-8cb9-786c3c700a9a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "bullets_per_spawn",
+            "varType": 1
         }
     ],
     "solid": false,

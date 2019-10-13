@@ -1,28 +1,28 @@
 {
-    "id": "1ef16c0e-d4ba-45bc-b46b-99d726686331",
+    "id": "b68a4e71-44c6-4fdf-9f21-7796bdc8d5a7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "PlayerCollectionHitbox",
+    "name": "CountdownDisc",
     "eventList": [
         {
-            "id": "f59f5973-5ed5-4354-8d56-b27149f72ee8",
+            "id": "28439d4a-5c63-404c-8775-452a037c5483",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "1ef16c0e-d4ba-45bc-b46b-99d726686331"
+            "m_owner": "b68a4e71-44c6-4fdf-9f21-7796bdc8d5a7"
         },
         {
-            "id": "61e0c7cf-b6b2-42b2-b1d5-c0e122a8d32f",
+            "id": "e8e8eea5-f4ae-491f-b70a-8f574793fc48",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "6501962f-9da9-49f6-9a4b-734c7d81bf94",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "1ef16c0e-d4ba-45bc-b46b-99d726686331"
+            "eventtype": 0,
+            "m_owner": "b68a4e71-44c6-4fdf-9f21-7796bdc8d5a7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "d279b63f-ba9d-40be-a269-7c643b56c0d4",
+            "id": "df8fe2e2-35ee-4201-8020-952b2a26ec7d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -53,11 +53,25 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "player_id",
+            "varName": "Phase",
+            "varType": 1
+        },
+        {
+            "id": "20b70230-edf8-481b-83e6-8ba0727b9b38",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "countdown_counter",
             "varType": 0
         },
         {
-            "id": "3d28dbaa-632b-46d7-a339-566dae35ba8a",
+            "id": "263d74d8-8253-44c1-9b79-05b4f475c0c2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -66,12 +80,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "frames_before_active",
-            "varType": 1
+            "value": "20",
+            "varName": "countdown_period",
+            "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "585f48b7-a455-4ea0-b167-b2c3341794ac",
+    "spriteId": "35d17a5e-1d73-40a5-a0d8-66f47672ac98",
     "visible": true
 }

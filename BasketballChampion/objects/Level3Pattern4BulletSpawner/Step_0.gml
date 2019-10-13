@@ -25,7 +25,7 @@ else
 	{
 		frame_counter -= period_frames;
 		
-		for(var i = 0; i < bullets_per_spawn; i++)
+		for (var i = 0; i < bullets_per_spawn; i++)
 		{
 			var bullet = instance_create_depth(x, y, -1, BasicBullet);
 			bullet.x_direction = xPositions[i];

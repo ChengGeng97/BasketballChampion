@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "082ce611-b028-4742-8b45-b94e3359ddfd",
+            "Value": {
+                "id": "ee5022d3-a44a-4a77-a784-a32d6f11f74c",
+                "resourcePath": "sprites\\SpriteCountdown2\\SpriteCountdown2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0af5881c-b9ad-4f8e-ac8a-e73bf6962cf7",
             "Value": {
                 "id": "3ee22aed-a03b-4ded-9cf9-85fafd1620db",
@@ -159,14 +167,6 @@
             }
         },
         {
-            "Key": "1ef16c0e-d4ba-45bc-b46b-99d726686331",
-            "Value": {
-                "id": "a963372b-a379-4abc-b3c2-149108ebf2be",
-                "resourcePath": "objects\\PlayerCollectionHitbox\\PlayerCollectionHitbox.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1f3dfb3c-db72-4981-b951-1a19e8dd09eb",
             "Value": {
                 "id": "83f5f138-7311-41a3-86ce-3c3777caadee",
@@ -203,6 +203,14 @@
             "Value": {
                 "id": "6b1a99bd-ed5e-4d9d-8be1-2d4315fcc967",
                 "resourcePath": "sprites\\SpriteBallDownRight\\SpriteBallDownRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "35d17a5e-1d73-40a5-a0d8-66f47672ac98",
+            "Value": {
+                "id": "bb41668f-585e-4b5c-81cf-992d0b1910ee",
+                "resourcePath": "sprites\\SpriteCountdown3\\SpriteCountdown3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -495,6 +503,14 @@
             }
         },
         {
+            "Key": "78fa1966-e222-46dc-ad13-b39dbf02a44b",
+            "Value": {
+                "id": "eb387f59-65c5-4ea4-84cc-5575e923b4d0",
+                "resourcePath": "sprites\\SpriteCountdown1\\SpriteCountdown1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7a2e5ed5-092f-4575-bca0-48dabcce2bd4",
             "Value": {
                 "id": "bedbbd14-ea5d-4d15-bf14-9bafdc58c1f9",
@@ -663,6 +679,14 @@
             }
         },
         {
+            "Key": "b68a4e71-44c6-4fdf-9f21-7796bdc8d5a7",
+            "Value": {
+                "id": "aa277963-701a-4eef-a9ad-a914e60db29f",
+                "resourcePath": "objects\\CountdownDisc\\CountdownDisc.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b7c598dc-c3cd-4391-855a-75a3fd85cdac",
             "Value": {
                 "id": "d33e6bd6-caf5-4f64-a1ea-b34fbec5d364",
@@ -723,6 +747,14 @@
             "Value": {
                 "id": "e3feac36-fbb6-4751-a246-46659a8760dc",
                 "resourcePath": "sprites\\SpriteMarker3\\SpriteMarker3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cc71e42f-a3cf-4cf6-907b-b1bfa32cbbd2",
+            "Value": {
+                "id": "2919bc28-27f4-4482-85f9-14ea12095c50",
+                "resourcePath": "sprites\\SpriteCountdown0\\SpriteCountdown0.yy",
                 "resourceType": "GMSprite"
             }
         },
