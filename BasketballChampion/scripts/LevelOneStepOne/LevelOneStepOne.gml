@@ -1,12 +1,9 @@
 if (HP < 0) {
-	Phase = LevelOnePhase.TRANSIT_ONE_TO_TWO;
-	instance_destroy();
-	show_debug_message("End Phase 1");
+	Phase = LevelOnePhase.EXIT_ONE;
 } else {
 	x += movement_speed;
 
-	if(x < 0 || x > room_width) {
+	if(x < lower_bound_x || x > upper_bound_x) {
 		movement_speed = -movement_speed;
 	}
 }
-

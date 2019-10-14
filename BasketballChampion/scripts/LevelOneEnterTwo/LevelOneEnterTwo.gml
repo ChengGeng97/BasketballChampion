@@ -1,11 +1,16 @@
-HP = 10;
+x = starting_x;
+y = starting_y;
+
+// Set up variables for 2
+HP = 240;
 
 Phase2BulletSpawner_id = instance_create_depth(x, y, -1, Level1EnemyPhase2BulletSpawner);
+Phase2BulletSpawner_id.owner_id = id;
 
 // Create the minions
-var side_padding = 70;
+var side_padding = 100;
 var strip_length = 700 - side_padding * 2;
-number_of_minions = 20;
+number_of_minions = 15;
 
 var distance_between_minions = strip_length / (number_of_minions);
 var accumulative_distance = side_padding;

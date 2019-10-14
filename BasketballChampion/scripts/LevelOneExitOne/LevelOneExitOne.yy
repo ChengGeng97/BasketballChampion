@@ -1,8 +1,8 @@
 {
-    "id": "4c8d7e38-bfb5-46be-b876-b0d8b05fde79",
+    "id": "3575a4cf-73ac-44f2-98f2-124385e17e3d",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "LevelOneTransitZeroToOne",
+    "name": "LevelOneExitOne",
     "IsCompatibility": false,
     "IsDnD": false
 }

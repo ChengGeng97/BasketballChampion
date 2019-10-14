@@ -2,11 +2,12 @@
 // You can write your code in this editor
 
 enum LevelOnePhase {
-	TRANSIT_ZERO_TO_ONE, ONE, 
-	TRANSIT_ONE_TO_TWO, TWO, 
-	TRANSIT_TWO_TO_THREE, THREE,
+	ENTER_ONE, ONE, EXIT_ONE, PAUSE_ONE,
+	ENTER_TWO, TWO, EXIT_TWO, PAUSE_TWO,
+	ENTER_THREE, THREE, EXIT_THREE, PAUSE_THREE,
 	DIE
 }
 
-// Phase = LevelOnePhase.TRANSIT_ZERO_TO_ONE;
-Phase = LevelOnePhase.TRANSIT_ONE_TO_TWO;
+
+Phase = LevelOnePhase.ENTER_ONE;
+// Phase = LevelOnePhase.ENTER_THREE;

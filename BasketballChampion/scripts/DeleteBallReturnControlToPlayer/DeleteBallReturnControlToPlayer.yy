@@ -1,8 +1,8 @@
 {
-    "id": "c55ae675-bd6e-4cb4-b592-90e61998b44b",
+    "id": "5833d61f-c7c3-4101-9999-eb8bf9335c23",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "LevelOneTransitTwoToThree",
+    "name": "DeleteBallReturnControlToPlayer",
     "IsCompatibility": false,
     "IsDnD": false
 }

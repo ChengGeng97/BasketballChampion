@@ -1,5 +1,5 @@
 if (HP <= 0) {
-	Phase = LevelOnePhase.DIE;
+	Phase = LevelOnePhase.EXIT_THREE;
 }
 else 
 {
@@ -17,9 +17,7 @@ else
 			bullet_id.bullet_speed = 2;
 			i += incremental_width;
 		}
-	
 	}
 
 	shoot_row_frame_counter++
 }
-

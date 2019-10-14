@@ -1,9 +1,16 @@
 if (HP <= 0) 
 {
-	Phase = LevelOnePhase.TRANSIT_TWO_TO_THREE;
+	Phase = LevelOnePhase.EXIT_TWO;
 }
 else
 {
+	x += movement_speed;
+
+	if(x < lower_bound_x || x > upper_bound_x) {
+		movement_speed = -movement_speed;
+	}
+
+
 	if(minion_respawn_frame_counter >= minion_respawn_period_frames)
 	{
 		minion_respawn_frame_counter -= minion_respawn_period_frames;

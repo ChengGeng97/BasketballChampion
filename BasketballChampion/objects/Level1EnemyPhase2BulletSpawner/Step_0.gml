@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(instance_exists(owner_id))
+{
+	x = owner_id.x;
+	y = owner_id.y;
+}
+
 if(shooting_period_counter >= shooting_period_frames)
 {
 	shooting_period_counter -= shooting_period_frames;
