@@ -14,7 +14,7 @@ if(left_released)
 {
 	BallManager.kick_charging = false;
 	
-	var football = instance_create_depth(x, y, 0, Football);
+	var football = instance_create_depth(x, y, -1, Football);
 	football.ball_speed = BallManager.base_speed + BallManager.kick_charge_frames;
 	BallManager.kick_charge_frames = 0;
 	

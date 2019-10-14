@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "2fb02d69-fb53-424b-9595-e658b45edf9e",
+            "Value": {
+                "id": "c270bb85-5d57-4d07-8134-8f57f26b48c3",
+                "resourcePath": "sprites\\SpriteDiggingLeftwards\\SpriteDiggingLeftwards.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3044f655-13d9-448b-84b2-52168f10574c",
             "Value": {
                 "id": "3cea7ca7-f6b1-48e4-b7d4-e57a503350d8",
@@ -283,6 +291,14 @@
             "Value": {
                 "id": "315440a6-c805-48db-89dd-b6c2b6b1a723",
                 "resourcePath": "sprites\\SpritePunchingBagPlaceholder\\SpritePunchingBagPlaceholder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "45f1491f-1022-46ed-b10e-fb7965e8f64c",
+            "Value": {
+                "id": "562173e6-34c5-4211-812f-5f31b8fbe0d0",
+                "resourcePath": "sprites\\SpriteDiggingUpwards\\SpriteDiggingUpwards.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -695,6 +711,14 @@
             }
         },
         {
+            "Key": "b9cfc942-0645-41cc-86d6-88685ab7fafa",
+            "Value": {
+                "id": "d63a2d7c-bad5-4892-8338-dc9a2bc26210",
+                "resourcePath": "sprites\\SpriteDiggingDownwards\\SpriteDiggingDownwards.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bc2acf6b-2594-4ae5-88c6-c16e50b93240",
             "Value": {
                 "id": "8741fbd7-cf37-49ad-9954-f37b35ec89b9",
@@ -732,6 +756,14 @@
                 "id": "ac035324-988e-4408-b221-3f3870ae77bf",
                 "resourcePath": "scripts\\LevelOneTransitTwoToThree\\LevelOneTransitTwoToThree.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c73e49ba-fde9-4e47-8fd6-135bbf6b63fb",
+            "Value": {
+                "id": "a638c64f-1ed6-4fd5-a039-ae388402e751",
+                "resourcePath": "objects\\DiggingEnemy\\DiggingEnemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -859,6 +891,14 @@
             "Value": {
                 "id": "42db7634-fb4b-467f-b034-dfef48d243ee",
                 "resourcePath": "sprites\\SpriteMarker9\\SpriteMarker9.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e6a41246-abea-47e9-984b-3f9a04d6a5b3",
+            "Value": {
+                "id": "08d896bc-038a-47b3-a321-37e8c11923c2",
+                "resourcePath": "sprites\\SpriteAppearFromGround\\SpriteAppearFromGround.yy",
                 "resourceType": "GMSprite"
             }
         },
