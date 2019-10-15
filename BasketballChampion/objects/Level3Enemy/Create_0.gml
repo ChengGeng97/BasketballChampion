@@ -4,13 +4,13 @@
 /// @description Initalise State
 // You can write your code in this editor
 
-enum LevelThreePhase {
-	TRANSIT_ZERO_TO_ONE, ONE, 
-	TRANSIT_ONE_TO_TWO, TWO, 
-	TRANSIT_TWO_TO_THREE, THREE,
-	TRANSIT_THREE_TO_FOUR, FOUR,
+enum LevelThreePhase
+{
+	ENTER_ONE, ONE, EXIT_ONE, PAUSE_ONE,
+	ENTER_TWO, TWO, EXIT_TWO, PAUSE_TWO,
+	ENTER_THREE, THREE, EXIT_THREE, PAUSE_THREE,
+	ENTER_FOUR, FOUR, EXIT_FOUR, PAUSE_FOUR,
 	DIE
 }
 
-// Phase = LevelThreePhase.TRANSIT_ZERO_TO_ONE;
-Phase = LevelThreePhase.TRANSIT_ONE_TO_TWO;
+Phase = LevelThreePhase.ENTER_ONE;

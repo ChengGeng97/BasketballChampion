@@ -3,7 +3,7 @@
 
 enum OrbitalSpawnerState
 {
-	ORBIT, PAUSE, FIRE, DIE
+	SUMMON, ORBIT, PAUSE, FIRE, DIE
 }
 
-orbital_state = OrbitalSpawnerState.ORBIT;
+orbital_state = OrbitalSpawnerState.SUMMON;

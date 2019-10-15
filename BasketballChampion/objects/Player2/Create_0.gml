@@ -4,7 +4,7 @@
 // Used to keep track of the direction the player is facing
 enum PlayerState
 {
-	HasBall, LacksBall, ChargeKick, DashingWithBall, DashingWithoutBall
+	HasBall, LacksBall, ChargeKick, DashingWithBall, DashingWithoutBall, Dead
 }
 
 enum FacingDirection

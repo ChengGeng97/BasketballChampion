@@ -1,6 +1,6 @@
 if(HP <= 0)
 {
-	Phase = LevelThreePhase.TRANSIT_TWO_TO_THREE;
+	Phase = LevelThreePhase.EXIT_TWO;
 }
 else
 {
