@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*
 if (first_time) 
 {
 	var cumul_angle = 0.0;
@@ -58,6 +59,7 @@ for (var i = 0; i < outer_number_of_balls; i++)
 	outer_circle[i].x = x + new_x;
 	outer_circle[i].y = y + new_y;
 }
+*/
 
 /*
 var new_x = bullet_ids[i].x_disp * cos_theta - bullet_ids[i].y_disp * sin_theta;

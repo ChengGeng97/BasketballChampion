@@ -1,5 +1,7 @@
-HP = 700;
+/// @description Insert description here
+// You can write your code in this editor
 
+/*
 enum Level3MeteorPhase
 {
 	MOVING, CHARGING, FIRE
@@ -7,14 +9,10 @@ enum Level3MeteorPhase
 
 MeteorPhaseState = Level3MeteorPhase.MOVING;
 
-x = 350;
-y = 100;
-
 movement_speed = 1;
 frame_counter = 0;
 
 moving_state_frames = 240;
-charging_state_frames = 60;
+charging_state_frames = 180;
 firing_state_frames = 50;
-
-Phase = LevelThreePhase.FOUR;
+*/

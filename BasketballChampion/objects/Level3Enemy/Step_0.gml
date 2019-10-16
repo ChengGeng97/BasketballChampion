@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*
+Currently the levels progress 1 -> 3 -> 4
+*/
+
 switch (Phase)
 {
 	case LevelThreePhase.ENTER_ONE:
@@ -12,18 +16,17 @@ switch (Phase)
 		break;
 		
 	case LevelThreePhase.EXIT_ONE:
+		LevelThreeExitOne();
 		break;
 		
 	case LevelThreePhase.PAUSE_ONE:
 		if (pause_frame_counter >= pause_duration_frames)
 		{
 			pause_frame_counter = 0;
-			Phase = LevelThreePhase.ENTER_TWO;
+			Phase = LevelThreePhase.ENTER_THREE;
 		}
 		pause_frame_counter++;
 		break;
-
-
 
 
 	case LevelThreePhase.ENTER_TWO:
@@ -43,8 +46,6 @@ switch (Phase)
 		}
 		pause_frame_counter++;
 		break;
-
-
 
 
 	case LevelThreePhase.ENTER_THREE:
@@ -69,59 +70,18 @@ switch (Phase)
 		break;
 
 
-
-
 	case LevelThreePhase.ENTER_FOUR:
+		LevelThreeEnterFour();
 		break;
 
 	case LevelThreePhase.FOUR:
+		LevelThreeStepFour();
 		break;
 
 	case LevelThreePhase.EXIT_FOUR:
+		LevelThreeExitFour();
 		break;
 
 	case LevelThreePhase.PAUSE_FOUR:
 		break;
 }
-
-
-/*
-switch(Phase)
-{
-	case LevelThreePhase.TRANSIT_ZERO_TO_ONE:
-		LevelThreeTransitZeroToOne();
-		break;
-		
-	case LevelThreePhase.ONE:
-		LevelThreeStepOne();
-		break;
-		
-	case LevelThreePhase.TRANSIT_ONE_TO_TWO:
-		LevelThreeTransitOneToTwo();
-		break;
-	
-	case LevelThreePhase.TWO:
-		LevelThreeStepTwo();
-		break;
-	
-	case LevelThreePhase.TRANSIT_TWO_TO_THREE:
-		LevelThreeTransitTwoToThree();
-		break;
-	
-	case LevelThreePhase.THREE:
-		LevelThreeStepThree();
-		break;
-	
-	case LevelThreePhase.TRANSIT_THREE_TO_FOUR:
-		LevelThreeTransitThreeToFour();
-		break;
-	
-	case LevelThreePhase.FOUR:
-		LevelThreeStepFour();
-		break;
-		
-	case LevelThreePhase.DIE:
-		LevelThreeDie();
-		break;
-}
-*/

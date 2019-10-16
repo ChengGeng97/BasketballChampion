@@ -19,6 +19,18 @@ if (Phase == LevelThreePhase.THREE)
 	}
 }
 
+if (Phase == LevelThreePhase.FOUR)
+{
+	if (HP <= 300)
+	{
+		moving_state_frames = 60;
+	}
+	else if (HP <= 500)
+	{
+		moving_state_frames = 180;
+	}
+}
+
 with(other)
 {
 	DeleteBallReturnControlToPlayer();

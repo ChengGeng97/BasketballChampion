@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "051ddb2a-5fcf-4d91-a84e-f4bd5c37e0af",
+            "Value": {
+                "id": "18baaae4-ced5-48b6-b284-ecd9dd2c7eb5",
+                "resourcePath": "objects\\MeteorWallExplosion\\MeteorWallExplosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0567503a-fab7-4911-8280-ea73c1fa6415",
             "Value": {
                 "id": "7ac8b6d6-d822-41b1-b3f5-2111cdc2e25a",
@@ -211,6 +219,14 @@
             "Value": {
                 "id": "d21284ca-be61-44c6-ad9f-e7e57bdba9f8",
                 "resourcePath": "objects\\Level3Pattern1OrbitalSpawner\\Level3Pattern1OrbitalSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "287cb6c8-cbc3-4ddc-8c9b-37bcdbe2f00d",
+            "Value": {
+                "id": "54342f82-fa54-4793-bd2d-7c02958fc7c2",
+                "resourcePath": "objects\\MeteorLevelTestEnemy\\MeteorLevelTestEnemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "4fc89acc-9edd-4355-bfb5-22a7a158194b",
+            "Value": {
+                "id": "8a921189-207e-440b-8508-5e7339b50e2f",
+                "resourcePath": "sprites\\SpriteMeteor\\SpriteMeteor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "507c5766-f1f0-44f9-9ccb-82de7d0350ba",
             "Value": {
                 "id": "24401b95-3f9d-4651-9bde-9134730f4f4e",
@@ -460,6 +484,14 @@
                 "id": "a6d48777-7f4d-4bbc-ab9b-1f963aa38977",
                 "resourcePath": "scripts\\PlayerControlLacksBall\\PlayerControlLacksBall.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5a81f153-f6d5-4e9d-a370-1f97e8bc1365",
+            "Value": {
+                "id": "6708caaf-0d4f-477b-bc87-45b5563f5376",
+                "resourcePath": "objects\\ActivatableBounceOffWallBullet\\ActivatableBounceOffWallBullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -543,6 +575,14 @@
             }
         },
         {
+            "Key": "6a7ac358-01d8-4391-aa62-6d84ed1f6bf4",
+            "Value": {
+                "id": "e41a65a7-730b-40d3-8d69-42dcb0b830ca",
+                "resourcePath": "views\\6a7ac358-01d8-4391-aa62-6d84ed1f6bf4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6b8ae7fa-f6eb-4204-8959-62abe7014654",
             "Value": {
                 "id": "fcb1c4b9-c16b-49fc-b506-607fb8654774",
@@ -588,6 +628,14 @@
                 "id": "b7547164-2dc8-4d3b-b9a2-92ad718ac30d",
                 "resourcePath": "sprites\\SpriteBallDownLeft\\SpriteBallDownLeft.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7891149e-df65-43d2-bb2f-06f472640923",
+            "Value": {
+                "id": "92b2d0a4-d8e9-4e4e-a912-7ceb60ebd2b6",
+                "resourcePath": "views\\7891149e-df65-43d2-bb2f-06f472640923.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -815,6 +863,14 @@
             }
         },
         {
+            "Key": "adb8ad04-7d12-4821-a99f-040fcd27ea9f",
+            "Value": {
+                "id": "ecc0f394-f7bb-4159-8399-43f11cd26008",
+                "resourcePath": "sprites\\SpritePlaceholderBullet3\\SpritePlaceholderBullet3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b64ee23a-8751-4c15-8ab5-1088003f4f88",
             "Value": {
                 "id": "6f1b538f-c4b2-4b7a-aa38-92dbcc96a463",
@@ -883,6 +939,14 @@
             "Value": {
                 "id": "9305736b-353d-4159-ba1a-a968110e3600",
                 "resourcePath": "views\\c0de7416-14ee-46ae-a168-99155d8a7858.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c11d5f78-f80b-4cd5-a340-fd5af53353d5",
+            "Value": {
+                "id": "4705689a-ca04-4eb0-bc21-11cb19dc338d",
+                "resourcePath": "views\\c11d5f78-f80b-4cd5-a340-fd5af53353d5.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1031,11 +1095,27 @@
             }
         },
         {
+            "Key": "d51a8fff-fd86-4918-a4ad-fce3eca00d9f",
+            "Value": {
+                "id": "1c543f7a-79f2-4b9b-b9c5-6e77dbde8375",
+                "resourcePath": "views\\d51a8fff-fd86-4918-a4ad-fce3eca00d9f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d7e61bfa-607e-410b-85a1-30ddfc85601e",
             "Value": {
                 "id": "e416bc0e-d57e-4679-92b2-67e400815b8f",
                 "resourcePath": "scripts\\LevelOneStepTwo\\LevelOneStepTwo.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dab2d4fe-d43e-45ca-b805-fc6085aca8dd",
+            "Value": {
+                "id": "ba867d74-b1f3-4819-a5a8-8772acf4a8cd",
+                "resourcePath": "views\\dab2d4fe-d43e-45ca-b805-fc6085aca8dd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1207,10 +1287,18 @@
             }
         },
         {
+            "Key": "f98938e6-fb26-4590-88f8-9f98f8ea047c",
+            "Value": {
+                "id": "ac0bb216-a009-4e04-b867-eb17451d16c7",
+                "resourcePath": "views\\f98938e6-fb26-4590-88f8-9f98f8ea047c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fba82466-ddfb-411d-95ad-212298b2b410",
             "Value": {
                 "id": "8b78b3a9-2347-4b07-a515-873e8e128666",
-                "resourcePath": "objects\\BigBowlingBall\\BigBowlingBall.yy",
+                "resourcePath": "objects\\BowlingMeteor\\BowlingMeteor.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -1,48 +1,28 @@
 {
-    "id": "6501962f-9da9-49f6-9a4b-734c7d81bf94",
+    "id": "051ddb2a-5fcf-4d91-a84e-f4bd5c37e0af",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Football",
+    "name": "MeteorWallExplosion",
     "eventList": [
         {
-            "id": "a838664d-8b53-4c5d-b29d-2cb854014416",
+            "id": "caa75a92-0818-44c9-bac1-e37aff0ec9a5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "6501962f-9da9-49f6-9a4b-734c7d81bf94"
+            "m_owner": "051ddb2a-5fcf-4d91-a84e-f4bd5c37e0af"
         },
         {
-            "id": "ed364499-10ff-43cc-839b-a248dc18b557",
+            "id": "f82b9e8b-ac20-4c47-a21c-f6483ee83527",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "48f4ac2b-90c3-48bc-b211-6abf052f4c7d",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "6501962f-9da9-49f6-9a4b-734c7d81bf94"
-        },
-        {
-            "id": "6c61c14c-13e4-4a2a-9793-6019016ea699",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "ef8edf9d-2496-47fb-80b9-0ec4d081e2bc",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "6501962f-9da9-49f6-9a4b-734c7d81bf94"
-        },
-        {
-            "id": "c213cb69-d912-44dd-8c2d-164c92194308",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "5a81f153-f6d5-4e9d-a370-1f97e8bc1365",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "6501962f-9da9-49f6-9a4b-734c7d81bf94"
+            "eventtype": 0,
+            "m_owner": "051ddb2a-5fcf-4d91-a84e-f4bd5c37e0af"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -51,7 +31,7 @@
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
-    "physicsFriction": 0,
+    "physicsFriction": 0.2,
     "physicsGroup": 0,
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
@@ -63,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "4af1ab5e-ef9f-4960-b88e-0c2499cf2a99",
+            "id": "f6e921ac-3206-4565-a9bc-8efa5029163c",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -72,12 +52,26 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "ball_speed",
+            "value": "30",
+            "varName": "bullets_per_spawn",
+            "varType": 1
+        },
+        {
+            "id": "7adc67d8-3133-437a-aeea-d4ec4b63266c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "64",
+            "varName": "spawn_radius",
             "varType": 0
         },
         {
-            "id": "4ae11dd6-415d-40ba-ae47-5b1dbce6d57b",
+            "id": "75a7134b-52a3-4185-900b-4392e84b5024",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -86,26 +80,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "x_direction",
-            "varType": 0
-        },
-        {
-            "id": "8f85d3b6-dee6-4298-894f-f8317b5d9e3d",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "y_direction",
+            "value": "0.5",
+            "varName": "bullet_speed",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "3d38e152-a596-46fe-aa80-006beefeb9c2",
+    "spriteId": "cc71e42f-a3cf-4cf6-907b-b1bfa32cbbd2",
     "visible": true
 }
