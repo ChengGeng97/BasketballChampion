@@ -8,7 +8,7 @@ var down_button_pressed = keyboard_check(down_button);
 
 var left_released = mouse_check_button_released(left_mouse_button);
 
-var effective_speed = player_speed;
+var effective_speed = player_focus_speed;
 
 if(left_released)
 {

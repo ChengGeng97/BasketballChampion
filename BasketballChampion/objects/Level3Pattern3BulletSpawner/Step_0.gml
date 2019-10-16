@@ -26,11 +26,11 @@ if (spawn_frames_counter >= spawn_period)
 		var bullet = instance_create_depth(x + spawn_circle_radius * spawnPositionsX[chosen_index],
 		                                   y + spawn_circle_radius * spawnPositionsY[chosen_index],
 							               -1,
-							               BasicBullet);
+							               DieWhenHitBlackHoleBullet);
 									   
 		bullet.x_direction = -spawnPositionsX[chosen_index];
 		bullet.y_direction = -spawnPositionsY[chosen_index];
-		bullet.bullet_speed = 3;
+		bullet.bullet_speed = random_range(bullet_speed_min, bullet_speed_max);
 	
 		spawn_frames_counter -= spawn_period;
 	}

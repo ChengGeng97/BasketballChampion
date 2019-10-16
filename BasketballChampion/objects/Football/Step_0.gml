@@ -1,14 +1,31 @@
 /// @description Makes the ball move around the screen
 // You can write your code in this editor
-if (x > room_width)
+
+if (!instance_exists(BlackHoleCore))
 {
-	x_direction = -x_direction;
+	if (x > room_width)
+	{
+		x_direction = -x_direction;
+	}
+
+	if (x < 0)
+	{
+		x_direction = -x_direction;
+	}
+}
+else
+{
+	if (x > room_width + 5)
+	{
+		DeleteBallReturnControlToPlayer();
+	}
+	
+	if (x < -5)
+	{
+		DeleteBallReturnControlToPlayer();
+	}
 }
 
-if (x < 0)
-{
-	x_direction = -x_direction;
-}
 
 if (y > room_height || y < 0)
 {

@@ -23,3 +23,7 @@ var new_vector_y_direction = new_vector_y / new_magnitude;
 other.ball_speed = new_ball_speed;
 other.x_direction = new_vector_x_direction;
 other.y_direction = new_vector_y_direction;
+
+
+// Increase Gravity progressively
+gravitational_factor += 1000;

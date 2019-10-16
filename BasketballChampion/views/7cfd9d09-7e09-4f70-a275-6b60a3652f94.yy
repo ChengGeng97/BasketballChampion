@@ -7,7 +7,8 @@
         "a0657300-7d5b-4c51-aa61-97b861e09027",
         "a5fff327-1025-44e6-aed9-7f7e15353330",
         "5c373c72-b782-4a51-8ab2-3aaa3e0c7cb1",
-        "e9f0e483-4d72-44f9-b781-9db53cba2a11"
+        "e9f0e483-4d72-44f9-b781-9db53cba2a11",
+        "6a180ae3-be64-4b14-8a10-f285c9ba543a"
     ],
     "filterType": "GMObject",
     "folderName": "TestObjects",

@@ -48,12 +48,15 @@ switch (Phase)
 
 
 	case LevelThreePhase.ENTER_THREE:
+		LevelThreeEnterThree();
 		break;
 		
 	case LevelThreePhase.THREE:
+		LevelThreeStepThree();
 		break;
 		
 	case LevelThreePhase.EXIT_THREE:
+		LevelThreeExitThree();
 		break;
 		
 	case LevelThreePhase.PAUSE_THREE:

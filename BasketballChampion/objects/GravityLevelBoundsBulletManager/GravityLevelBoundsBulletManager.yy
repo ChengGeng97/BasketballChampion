@@ -1,28 +1,28 @@
 {
-    "id": "3602e3c9-fd75-4a36-bab8-d078e9220537",
+    "id": "c6a24d31-c028-487f-be7f-963609003d52",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Level3Pattern3BulletSpawner",
+    "name": "GravityLevelBoundsBulletManager",
     "eventList": [
         {
-            "id": "987c7ab5-f93b-4605-b0f6-bfcecbf84e35",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3602e3c9-fd75-4a36-bab8-d078e9220537"
-        },
-        {
-            "id": "8b2728d4-a106-4d53-b822-959072946b28",
+            "id": "9286fe88-c883-4743-8f8f-ad350b1162d4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3602e3c9-fd75-4a36-bab8-d078e9220537"
+            "m_owner": "c6a24d31-c028-487f-be7f-963609003d52"
+        },
+        {
+            "id": "65b9d150-a6b5-4a29-a460-4096bb781e91",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "c6a24d31-c028-487f-be7f-963609003d52"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "618f753e-e562-478c-acdb-1d5c346c8f83",
+            "id": "88f121ae-2107-4da5-b9b7-fec38fcfd187",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -57,7 +57,7 @@
             "varType": 3
         },
         {
-            "id": "27dfd288-53e2-4b10-b17d-41206b18570b",
+            "id": "bc06ad23-a33b-4dfb-a667-f00c59e4bbd2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -66,12 +66,26 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "100",
-            "varName": "possible_spawn_points",
+            "value": "6",
+            "varName": "inner_number_of_balls",
+            "varType": 1
+        },
+        {
+            "id": "284263ff-f02c-4487-9641-53fd3fabc174",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "410",
+            "varName": "inner_radius",
             "varType": 0
         },
         {
-            "id": "0cfc5e94-ab4c-4090-9a27-7b0da47f2d2c",
+            "id": "72f6ba5c-3d55-48e5-9d82-5e5a30aba8eb",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -81,11 +95,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "2",
-            "varName": "spawn_period",
+            "varName": "inner_step_angle",
             "varType": 0
         },
         {
-            "id": "7d198aab-5889-4600-ad7e-9f29efb0a567",
+            "id": "080e15ec-5227-4460-8628-a56c42fc5608",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -94,40 +108,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "spawn_frames_counter",
-            "varType": 0
-        },
-        {
-            "id": "17e22048-62de-4193-b757-fc9d6f3e1065",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "500",
-            "varName": "spawn_circle_radius",
-            "varType": 0
-        },
-        {
-            "id": "2945af28-2f69-47bd-8cb9-786c3c700a9a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "5",
-            "varName": "bullets_per_spawn",
+            "value": "6",
+            "varName": "outer_number_of_balls",
             "varType": 1
         },
         {
-            "id": "26dcc27f-d7e2-4bb3-ac87-7723237750a5",
+            "id": "c41c2b7d-72b6-4be6-ac7b-f5ff9318e6bb",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -136,12 +122,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "bullet_speed_min",
+            "value": "540",
+            "varName": "outer_radius",
             "varType": 0
         },
         {
-            "id": "a1a337c7-3f46-4ac1-9c5b-55845276d760",
+            "id": "f554c724-983d-40a5-bf18-8a6a7ff77ae4",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -150,12 +136,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1.5",
-            "varName": "bullet_speed_max",
+            "value": "-2",
+            "varName": "outer_step_angle",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "cbc3c218-ee78-4f38-8589-35bdc1ba0773",
+    "spriteId": "db08d15e-32a6-4182-a798-2f3b1ce004b6",
     "visible": true
 }

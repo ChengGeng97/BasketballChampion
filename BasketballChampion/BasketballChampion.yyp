@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "6a180ae3-be64-4b14-8a10-f285c9ba543a",
+            "Value": {
+                "id": "190e618a-918e-49f4-8825-a8a6ff515ed1",
+                "resourcePath": "objects\\GravityLevelTestEnemy\\GravityLevelTestEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6b8ae7fa-f6eb-4204-8959-62abe7014654",
             "Value": {
                 "id": "fcb1c4b9-c16b-49fc-b506-607fb8654774",
@@ -708,6 +716,14 @@
                 "id": "a6a63d37-e574-41aa-98f6-9b8ffde05cb2",
                 "resourcePath": "sprites\\SpriteNoballUp\\SpriteNoballUp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8f93cddc-9910-4865-a466-ee0e99dd0476",
+            "Value": {
+                "id": "a298d3ba-1bc8-4e77-aa4d-f940e1a54d34",
+                "resourcePath": "objects\\Level3Pattern3BowlingAttackSpawner\\Level3Pattern3BowlingAttackSpawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -887,6 +903,14 @@
             }
         },
         {
+            "Key": "c6a24d31-c028-487f-be7f-963609003d52",
+            "Value": {
+                "id": "0fb02be2-fbde-4a82-96a4-2d4ee407d990",
+                "resourcePath": "objects\\GravityLevelBoundsBulletManager\\GravityLevelBoundsBulletManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c73e49ba-fde9-4e47-8fd6-135bbf6b63fb",
             "Value": {
                 "id": "a638c64f-1ed6-4fd5-a039-ae388402e751",
@@ -940,6 +964,14 @@
                 "id": "f1d9e1cc-ec37-43eb-8337-db7bdd414152",
                 "resourcePath": "views\\cd376a71-8aa9-401d-8f63-1e9280eae55a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ce27d475-dde1-43e3-b544-7912f873c32a",
+            "Value": {
+                "id": "75dbf4e3-69f3-44a7-ac78-a589f87ef5dd",
+                "resourcePath": "sprites\\SpritePlaceholderBullet2\\SpritePlaceholderBullet2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1119,6 +1151,14 @@
             }
         },
         {
+            "Key": "ef8edf9d-2496-47fb-80b9-0ec4d081e2bc",
+            "Value": {
+                "id": "a7575241-30cc-4b5e-8abe-b86bbafdf7a4",
+                "resourcePath": "objects\\DieWhenHitBlackHoleBullet\\DieWhenHitBlackHoleBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f0bcc7be-0a21-4cba-a900-3c98054fe05f",
             "Value": {
                 "id": "dc7c7473-8f84-4380-8912-45a794e8ec0a",
@@ -1164,6 +1204,14 @@
                 "id": "a00736cf-4912-40c1-bdf3-69c64c147efe",
                 "resourcePath": "scripts\\LevelThreeEnterTwo\\LevelThreeEnterTwo.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fba82466-ddfb-411d-95ad-212298b2b410",
+            "Value": {
+                "id": "8b78b3a9-2347-4b07-a515-873e8e128666",
+                "resourcePath": "objects\\BigBowlingBall\\BigBowlingBall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
