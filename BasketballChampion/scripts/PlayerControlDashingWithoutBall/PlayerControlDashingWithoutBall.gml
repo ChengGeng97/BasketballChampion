@@ -2,6 +2,7 @@ if(sliding_frames_counter > sliding_frames_max)
 {
 	player_state = PlayerState.LacksBall;
 	sliding_frames_counter = 0;
+	image_angle = 0;
 }
 else
 {

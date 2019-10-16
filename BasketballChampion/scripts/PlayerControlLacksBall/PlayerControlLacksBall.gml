@@ -10,7 +10,7 @@ var right_clicked = mouse_check_button_pressed(right_mouse_button);
 
 var effective_speed = player_speed;
 
-if(right_clicked)
+if (right_clicked)
 {
 	player_state = PlayerState.DashingWithoutBall;
 	player_hitbox.invulnerability_frames = sliding_frames_max + 3;
@@ -22,6 +22,9 @@ if(right_clicked)
 	
 	sliding_direction_x = vector_x / vector_mag;
 	sliding_direction_y = vector_y / vector_mag;	
+	
+	sprite_index = SpriteSlidingUp;
+	image_angle = darctan(vector_x / vector_y);
 }
 
 // Player movement
@@ -94,41 +97,46 @@ x = clamp(x, 0, room_width);
 y = clamp(y, 0, room_height);
 
 
-// Change player's sprite according to movement
-switch (player_facing_direction)
+if (!right_clicked)
 {
-	case FacingDirection.Up:
-		sprite_index = SpriteNoballUp;
-		break;
+	// Change player's sprite according to movement
+	switch (player_facing_direction)
+	{
+		case FacingDirection.Up:
+			sprite_index = SpriteNoballUp;
+			break;
 		
-	case FacingDirection.UpLeft:
-		sprite_index = SpriteNoballUpLeft;
-		break;
+		case FacingDirection.UpLeft:
+			sprite_index = SpriteNoballUpLeft;
+			break;
 		
-	case FacingDirection.Left:
-		sprite_index = SpriteNoballLeft;
-		break;
+		case FacingDirection.Left:
+			sprite_index = SpriteNoballLeft;
+			break;
 		
-	case FacingDirection.DownLeft:
-		sprite_index = SpriteNoballDownLeft;
-		break;		
+		case FacingDirection.DownLeft:
+			sprite_index = SpriteNoballDownLeft;
+			break;		
 		
-	case FacingDirection.Down:
-		sprite_index = SpriteNoballDown;
-		break;
+		case FacingDirection.Down:
+			sprite_index = SpriteNoballDown;
+			break;
 		
-	case FacingDirection.DownRight:
-		sprite_index = SpriteNoballDownRight;
-		break;
+		case FacingDirection.DownRight:
+			sprite_index = SpriteNoballDownRight;
+			break;
 		
-	case FacingDirection.Right:
-		sprite_index = SpriteNoballRight;
-		break;
+		case FacingDirection.Right:
+			sprite_index = SpriteNoballRight;
+			break;
 		
-	case FacingDirection.UpRight:
-		sprite_index = SpriteNoballUpRight;
-		break;
+		case FacingDirection.UpRight:
+			sprite_index = SpriteNoballUpRight;
+			break;
 		
-	default:
-		break;
+		default:
+			break;
+	}
 }
+
+

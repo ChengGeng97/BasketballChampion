@@ -12,13 +12,13 @@ var right_clicked = mouse_check_button_pressed(right_mouse_button);
 //var effective_speed = spacebar_pressed ? player_focus_speed : player_speed;
 var effective_speed = player_speed;
 
-if(left_clicked)
+if (left_clicked)
 {
 	player_state = PlayerState.ChargeKick;
 	BallManager.kick_charging = true;
 }
 
-if(right_clicked)
+if (right_clicked)
 {
 	player_state = PlayerState.DashingWithBall;
 	player_hitbox.invulnerability_frames = sliding_frames_max + 3;
@@ -29,7 +29,10 @@ if(right_clicked)
 	var vector_mag = sqrt(vector_x * vector_x + vector_y * vector_y);
 	
 	sliding_direction_x = vector_x / vector_mag;
-	sliding_direction_y = vector_y / vector_mag;	
+	sliding_direction_y = vector_y / vector_mag;
+	
+	sprite_index = SpriteSlidingUp;
+	image_angle = darctan(vector_x / vector_y);
 }
 
 // Player movement
@@ -102,41 +105,45 @@ x = clamp(x, 0, room_width);
 y = clamp(y, 0, room_height);
 
 
-// Change player's sprite according to movement
-switch (player_facing_direction)
+if (!right_clicked)
 {
-	case FacingDirection.Up:
-		sprite_index = SpriteBallUp;
-		break;
+// Change player's sprite according to movement
+	switch (player_facing_direction)
+	{
+		case FacingDirection.Up:
+			sprite_index = SpriteBallUp;
+			break;
 		
-	case FacingDirection.UpLeft:
-		sprite_index = SpriteBallUpLeft;
-		break;
+		case FacingDirection.UpLeft:
+			sprite_index = SpriteBallUpLeft;
+			break;
 		
-	case FacingDirection.Left:
-		sprite_index = SpriteBallLeft;
-		break;
+		case FacingDirection.Left:
+			sprite_index = SpriteBallLeft;
+			break;
 		
-	case FacingDirection.DownLeft:
-		sprite_index = SpriteBallDownLeft;
-		break;		
+		case FacingDirection.DownLeft:
+			sprite_index = SpriteBallDownLeft;
+			break;		
 		
-	case FacingDirection.Down:
-		sprite_index = SpriteBallDown;
-		break;
+		case FacingDirection.Down:
+			sprite_index = SpriteBallDown;
+			break;
 		
-	case FacingDirection.DownRight:
-		sprite_index = SpriteBallDownRight;
-		break;
+		case FacingDirection.DownRight:
+			sprite_index = SpriteBallDownRight;
+			break;
 		
-	case FacingDirection.Right:
-		sprite_index = SpriteBallRight;
-		break;
+		case FacingDirection.Right:
+			sprite_index = SpriteBallRight;
+			break;
 		
-	case FacingDirection.UpRight:
-		sprite_index = SpriteBallUpRight;
-		break;
+		case FacingDirection.UpRight:
+			sprite_index = SpriteBallUpRight;
+			break;
 		
-	default:
-		break;
+		default:
+			break;
+	}
 }
+
