@@ -17,6 +17,6 @@ var outstep_room_boundary = x > room_width + 5
 						   || y > room_height + 5
 						   || y < -5;
 
-if(outstep_room_boundary) {
+if (outstep_room_boundary) {
 	instance_destroy();
 }

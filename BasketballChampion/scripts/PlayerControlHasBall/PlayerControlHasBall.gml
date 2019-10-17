@@ -21,7 +21,7 @@ if (left_clicked)
 if (right_clicked)
 {
 	player_state = PlayerState.DashingWithBall;
-	player_hitbox.invulnerability_frames = sliding_frames_max + 3;
+	player_hitbox.invulnerability_frames = sliding_frames_max + 20;
 	
 	var vector_x = mouse_x - x;
 	var vector_y = mouse_y - y;

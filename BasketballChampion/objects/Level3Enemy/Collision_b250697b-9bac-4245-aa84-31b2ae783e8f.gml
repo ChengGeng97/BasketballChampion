@@ -23,7 +23,7 @@ if (Phase == LevelThreePhase.FOUR)
 {
 	if (HP <= 300)
 	{
-		moving_state_frames = 60;
+		moving_state_frames = 120;
 	}
 	else if (HP <= 500)
 	{

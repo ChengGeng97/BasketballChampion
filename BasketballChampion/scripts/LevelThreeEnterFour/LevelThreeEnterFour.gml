@@ -11,7 +11,7 @@ x = 350;
 y = 100;
 
 movement_speed = 1;
-frame_counter = 0;
+frame_counter = 230;
 
 moving_state_frames = 240;
 charging_state_frames = 60;
