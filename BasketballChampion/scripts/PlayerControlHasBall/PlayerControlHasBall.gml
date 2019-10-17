@@ -32,7 +32,31 @@ if (right_clicked)
 	sliding_direction_y = vector_y / vector_mag;
 	
 	sprite_index = SpriteSlidingUp;
-	image_angle = darctan(vector_x / vector_y);
+	
+	var basic_angle = abs(darctan(vector_x / vector_y));
+	
+	if (vector_x >= 0 )
+	{
+		if (vector_y <= 0)
+		{
+			image_angle = -basic_angle;
+		}
+		else
+		{
+			image_angle = basic_angle + 180;
+		}
+	}
+	else
+	{
+		if (vector_y <= 0)
+		{
+			image_angle = basic_angle;
+		}
+		else
+		{
+			image_angle = basic_angle + 90;
+		}
+	}
 }
 
 // Player movement

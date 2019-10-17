@@ -37,15 +37,15 @@ else
 
 			if (HP <= 150)
 			{
-				orbital_spawner.bullets_per_spawn = 8;
+				orbital_spawner.bullets_per_spawn = 7;
 			}
 			else if (HP <= 300)
 			{
-				orbital_spawner.bullets_per_spawn = 6;
+				orbital_spawner.bullets_per_spawn = 5;
 			}
 			else if (HP <= 450)
 			{
-				orbital_spawner.bullets_per_spawn = 5;
+				orbital_spawner.bullets_per_spawn = 4;
 			}
 			else
 			{
