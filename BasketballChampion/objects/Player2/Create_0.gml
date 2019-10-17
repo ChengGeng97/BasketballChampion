@@ -25,3 +25,5 @@ right_mouse_button = mb_right;
 
 player_hitbox = instance_create_depth(x, y, -1, PlayerDamageHitbox);
 player_hitbox.player_id = id;
+
+depth = 5;

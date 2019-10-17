@@ -1,6 +1,6 @@
 if (HP <= 0)
 {
-	
+	Phase = LevelOneAgainPhase.EXIT_TWO;
 }
 else
 {
