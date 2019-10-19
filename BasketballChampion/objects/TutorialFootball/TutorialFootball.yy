@@ -1,0 +1,111 @@
+{
+    "id": "b501869c-fe2e-4fcc-9ae9-eb8ae2dab46d",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "TutorialFootball",
+    "eventList": [
+        {
+            "id": "82f3c096-0dbb-42db-8087-b2c9d6232aa8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b501869c-fe2e-4fcc-9ae9-eb8ae2dab46d"
+        },
+        {
+            "id": "c8a284ef-7bc6-446a-ac1c-c633eb689b45",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "48f4ac2b-90c3-48bc-b211-6abf052f4c7d",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "b501869c-fe2e-4fcc-9ae9-eb8ae2dab46d"
+        },
+        {
+            "id": "5346d818-d93d-4c52-8fd2-0c920c4b49ec",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "ef8edf9d-2496-47fb-80b9-0ec4d081e2bc",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "b501869c-fe2e-4fcc-9ae9-eb8ae2dab46d"
+        },
+        {
+            "id": "81183ead-2523-4d74-87a7-f57641c5fdcb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "5a81f153-f6d5-4e9d-a370-1f97e8bc1365",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "b501869c-fe2e-4fcc-9ae9-eb8ae2dab46d"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "03fbead8-687f-4de1-8254-dc09197a7416",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "ball_speed",
+            "varType": 0
+        },
+        {
+            "id": "d50bbdae-8487-437b-874d-056201c28f58",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "x_direction",
+            "varType": 0
+        },
+        {
+            "id": "0f6835a2-b331-49e5-b61b-fccd285a707d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "y_direction",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "3d38e152-a596-46fe-aa80-006beefeb9c2",
+    "visible": true
+}
