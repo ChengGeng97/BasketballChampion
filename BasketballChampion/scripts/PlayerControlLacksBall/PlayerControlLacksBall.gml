@@ -162,5 +162,3 @@ if (!right_clicked)
 			break;
 	}
 }
-
-

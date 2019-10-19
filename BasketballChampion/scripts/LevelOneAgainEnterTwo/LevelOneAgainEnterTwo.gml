@@ -55,4 +55,3 @@ battle_start_frames = 60;
 instance_create_depth(350, 450, 0, TennisNet);
 
 Phase = LevelOneAgainPhase.TWO;
-

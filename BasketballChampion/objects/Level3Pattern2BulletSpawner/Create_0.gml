@@ -6,4 +6,3 @@ enum Level3Pattern2SpawnerState {
 }
 
 spawner_state = Level3Pattern2SpawnerState.SPAWNING;
-

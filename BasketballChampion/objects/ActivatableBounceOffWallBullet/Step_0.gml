@@ -27,4 +27,3 @@ if (activated)
 	x += x_move_each_step;
 	y += y_move_each_step;
 }
-

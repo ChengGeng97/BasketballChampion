@@ -69,4 +69,3 @@ else
 		frames_until_next_burst -= 1;
 	}
 }
-
