@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "085960fa-9bb6-4dd8-87af-89a39a8379ea",
+            "Value": {
+                "id": "b376d855-6bd9-451a-b06d-4e56fcfc8507",
+                "resourcePath": "sprites\\SpriteDayGrassTile\\SpriteDayGrassTile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0af5881c-b9ad-4f8e-ac8a-e73bf6962cf7",
             "Value": {
                 "id": "3ee22aed-a03b-4ded-9cf9-85fafd1620db",
@@ -132,6 +140,14 @@
                 "id": "2584e3c5-78cd-4752-b037-f1b7443b1f22",
                 "resourcePath": "views\\0d2f3087-4c1a-4e15-8eee-f80a6ab74985.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0dd11dad-49a3-4fe0-98b4-f28371c6828a",
+            "Value": {
+                "id": "b4125165-f700-43f2-b55d-5d4996a6a7bb",
+                "resourcePath": "tilesets\\TilesetDayGrass\\TilesetDayGrass.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -199,6 +215,14 @@
             }
         },
         {
+            "Key": "136f8ac4-72fc-43a6-937c-4693970f5186",
+            "Value": {
+                "id": "62e788e8-4d9d-4303-a3e1-ad1e8c8eeabb",
+                "resourcePath": "rooms\\Week10_Tutorial_Fighting\\Week10_Tutorial_Fighting.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "15d26c43-e5ea-4b2e-8e96-ac1431f69448",
             "Value": {
                 "id": "de027572-f727-4218-879c-355cd742ca4e",
@@ -227,6 +251,14 @@
             "Value": {
                 "id": "4d346c11-60ee-42a2-b0a0-9bcfbff16632",
                 "resourcePath": "objects\\HorizontalReflectiveSurface\\HorizontalReflectiveSurface.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1ab55de5-ec48-4899-b68e-dccf2336667c",
+            "Value": {
+                "id": "de405d7f-bb0d-4ba5-ad23-73885b821609",
+                "resourcePath": "objects\\TutorialPunchingBag\\TutorialPunchingBag.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -511,6 +543,14 @@
             }
         },
         {
+            "Key": "48f1809d-5f20-48f5-9747-74c6dcf2787e",
+            "Value": {
+                "id": "22ab6daa-7b38-41da-8ca2-87fc40f1af2b",
+                "resourcePath": "views\\48f1809d-5f20-48f5-9747-74c6dcf2787e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "48f4ac2b-90c3-48bc-b211-6abf052f4c7d",
             "Value": {
                 "id": "7559216e-ce9e-409e-ae5f-42aa4df576d5",
@@ -783,6 +823,14 @@
             }
         },
         {
+            "Key": "6f5605f5-614e-484b-aae3-22ec3187be1e",
+            "Value": {
+                "id": "66ca14be-c858-4033-a80e-d3b11331dd95",
+                "resourcePath": "objects\\Pond\\Pond.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6ff536fa-2423-4664-8e36-700593a09951",
             "Value": {
                 "id": "d0d889d7-5df3-4014-aee8-96e7dd3edc8e",
@@ -895,14 +943,6 @@
             }
         },
         {
-            "Key": "80c110ea-9d57-4db5-b44d-fc851fc90348",
-            "Value": {
-                "id": "ac0026fe-8ebe-41c9-b902-15e22993b0ec",
-                "resourcePath": "rooms\\Week10_Tutorial_Shooting\\Week10_Tutorial_Shooting.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "81295d1d-279a-4d2f-92f5-a8263ab0470d",
             "Value": {
                 "id": "582f4429-c976-4770-9b47-5f3a8a72409b",
@@ -924,6 +964,14 @@
                 "id": "465ed9a2-9d42-49b6-9c48-6db7082fb6b5",
                 "resourcePath": "objects\\Level3Enemy\\Level3Enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "84f66ef3-5c98-4c8f-b11d-c32e485361f4",
+            "Value": {
+                "id": "b17cefb2-2d4a-416f-a865-a278065149ed",
+                "resourcePath": "rooms\\Week10_Tutorial_Shooting\\Week10_Tutorial_Shooting.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1116,6 +1164,14 @@
                 "id": "c86ee4c1-c249-476e-8e5f-8fe34c241cb4",
                 "resourcePath": "sprites\\SpriteCone\\SpriteCone.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b228053c-a118-44b6-a2bb-ce7892f552ae",
+            "Value": {
+                "id": "f65b54f5-2c1a-479f-8447-0add36e04908",
+                "resourcePath": "objects\\TutorialFightingManager\\TutorialFightingManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1447,6 +1503,14 @@
             }
         },
         {
+            "Key": "df3a5ee9-75be-4bbd-8a18-72bbd23eeb5b",
+            "Value": {
+                "id": "f20ab87e-1f93-4277-ac1c-81929039c9b7",
+                "resourcePath": "sprites\\SpritePond\\SpritePond.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e0903aca-8f92-44f4-9015-4abb4581ada6",
             "Value": {
                 "id": "9b9d8367-f095-4a1a-8454-1bdfc3ff2dec",
@@ -1628,6 +1692,14 @@
                 "id": "8b78b3a9-2347-4b07-a515-873e8e128666",
                 "resourcePath": "objects\\BowlingMeteor\\BowlingMeteor.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fcbb3cfe-2c02-45e4-99b3-219420d3e521",
+            "Value": {
+                "id": "0bc667cf-fc75-428b-8b69-175b8a8db200",
+                "resourcePath": "sprites\\SpritePunchingBag\\SpritePunchingBag.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

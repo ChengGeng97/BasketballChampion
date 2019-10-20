@@ -19,3 +19,6 @@ player_hitbox.player_id = id;
 depth = 5;
 
 mask_index = PlayerCollisionMask;
+
+starting_x = x;
+starting_y = y;

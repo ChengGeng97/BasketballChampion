@@ -6,11 +6,24 @@ if (!activated)
 	activated = true;
 	sprite_index = SpriteDiscActivated;
 	
-	if (TutorialWalkingManager.manager_state = WalkingTutorialState.START)
+	if (instance_exists(TutorialWalkingManager))
 	{
-		TutorialWalkingManager.manager_state = WalkingTutorialState.ACTIVATING;
-	}
+		if (TutorialWalkingManager.manager_state == WalkingTutorialState.START)
+		{
+			TutorialWalkingManager.manager_state = WalkingTutorialState.ACTIVATING;
+		}
 	
-	TutorialWalkingManager.discs_activated++;
-}
+		TutorialWalkingManager.discs_activated++;
+	}
 
+	
+	if (instance_exists(TutorialFightingManager))
+	{
+		if (TutorialFightingManager.manager_state == FightingTutorialState.START)
+		{
+			TutorialFightingManager.manager_state = FightingTutorialState.REACH_PLATE;
+		}
+		
+		instance_destroy(BasicBullet);
+	}
+}

@@ -28,7 +28,7 @@ switch (manager_state)
 		
 	case WalkingTutorialState.HIT:
 		draw_text(210, 75, "You are SUPER PLAYER!!!!!!!!!!");
-		draw_text(220, 100, "Press Spacebar to continue!!");
+		draw_text(230, 100, "Press Enter to continue!!");
 		break;
 }
 

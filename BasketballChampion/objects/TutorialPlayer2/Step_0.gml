@@ -3,7 +3,9 @@
 
 if(player_HP == 0)
 {
-	player_state = PlayerState.Dead;
+	player_HP = 1;
+	x = starting_x;
+	y = starting_y;
 }
 else
 {
