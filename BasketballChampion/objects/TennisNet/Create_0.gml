@@ -1,21 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var horizontal = instance_create_depth(x, y, 0, HorizontalReflectiveSurface);
+horizontal = instance_create_depth(x, y, 0, HorizontalReflectiveSurface);
 horizontal.image_xscale = 8;
 horizontal.image_yscale = 2;
 horizontal.visible = false;
 horizontal.owner_id = id;
 
 
-var left = instance_create_depth(x, y, -1, VerticalReflectiveSurface);
+left = instance_create_depth(x, y, -1, VerticalReflectiveSurface);
 left.image_xscale = 2;
 left.offset_x = -150;
 left.visible = false;
 left.owner_id = id;
 
 
-var right = instance_create_depth(x, y, -1, VerticalReflectiveSurface);
+right = instance_create_depth(x, y, -1, VerticalReflectiveSurface);
 right.image_xscale = 2;
 right.offset_x = 150;
 right.visible = false;

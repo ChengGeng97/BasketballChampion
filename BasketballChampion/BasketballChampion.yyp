@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00a795fb-3900-4780-9da9-2023c60b41bb",
+            "Value": {
+                "id": "110c6b70-d985-4067-b643-f7d392ebeffe",
+                "resourcePath": "sounds\\SfxKickLowPower\\SfxKickLowPower.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "00c50e94-3577-499b-8e7c-892df56dff99",
             "Value": {
                 "id": "e1e2599b-80e0-46d2-9db6-c8481099b96c",
@@ -76,6 +84,14 @@
                 "id": "7ac8b6d6-d822-41b1-b3f5-2111cdc2e25a",
                 "resourcePath": "objects\\VerticalReflectiveSurface\\VerticalReflectiveSurface.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0610848a-1f16-4537-994c-cd5f4d4204ab",
+            "Value": {
+                "id": "3a0f1187-61ab-4ce3-9f79-e1252305a350",
+                "resourcePath": "sounds\\SfxKickFullPower\\SfxKickFullPower.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -575,6 +591,14 @@
             }
         },
         {
+            "Key": "4b7e6f8f-eb84-4596-b366-6bc09a97b04e",
+            "Value": {
+                "id": "f0b2c403-9bb3-4ba4-9183-2f707fb8d41f",
+                "resourcePath": "sounds\\SfxKickHalfPower\\SfxKickHalfPower.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4b8ad242-f9c0-4fc3-8df3-c01ba3d74673",
             "Value": {
                 "id": "c526cf22-f084-439c-8e68-f9c46d7717ed",
@@ -636,6 +660,14 @@
                 "id": "6cd33dcc-538c-42cb-9b5d-f15ba1ae9128",
                 "resourcePath": "scripts\\TutPlayerControlDashingWithoutBall\\TutPlayerControlDashingWithoutBall.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "519dbe4f-86a1-4893-bec0-bfb20517fdd4",
+            "Value": {
+                "id": "e89467b4-20a6-46d4-9228-e4a1b2ae32cf",
+                "resourcePath": "sounds\\SfxEnemyShoot\\SfxEnemyShoot.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1231,6 +1263,14 @@
             }
         },
         {
+            "Key": "b9f705d4-122c-46e1-a150-5e884abed392",
+            "Value": {
+                "id": "c6f19e4a-ccb1-4e13-8256-73eee42eb0e7",
+                "resourcePath": "sounds\\SfxBallCollision\\SfxBallCollision.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bc2acf6b-2594-4ae5-88c6-c16e50b93240",
             "Value": {
                 "id": "8741fbd7-cf37-49ad-9954-f37b35ec89b9",
@@ -1580,6 +1620,14 @@
                 "id": "08916e8f-a248-4b47-b80e-95cad847e71b",
                 "resourcePath": "sprites\\SpriteNoballLeft\\SpriteNoballLeft.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9d5792d-2ac4-44e8-82dc-99d441d37439",
+            "Value": {
+                "id": "525bcd44-d7c6-4d0d-9daf-919bc9df6e8a",
+                "resourcePath": "sounds\\SfxEnemySpecialAttack\\SfxEnemySpecialAttack.yy",
+                "resourceType": "GMSound"
             }
         },
         {

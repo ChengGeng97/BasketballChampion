@@ -15,7 +15,22 @@ if (left_released)
 	BallManager.kick_charging = false;
 	
 	var football = instance_create_depth(x, y, -1, TutorialFootball);
-	football.ball_speed = BallManager.base_speed + BallManager.kick_charge_frames;
+	var ball_speed = BallManager.base_speed + BallManager.kick_charge_frames;
+	
+	if (ball_speed == 80)
+	{
+		audio_play_sound(SfxKickFullPower, 0, false);
+	}
+	else if (ball_speed >= 50)
+	{
+		audio_play_sound(SfxKickHalfPower, 0, false);
+	}
+	else
+	{
+		audio_play_sound(SfxKickLowPower, 0, false);
+	}
+	
+	football.ball_speed = ball_speed;
 	BallManager.kick_charge_frames = 0;
 	
 	var vector_x = mouse_x - x;
