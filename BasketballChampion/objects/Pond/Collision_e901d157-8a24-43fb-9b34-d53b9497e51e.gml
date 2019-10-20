@@ -6,3 +6,7 @@ if (other.player_state != PlayerState.DashingWithBall && other.player_state != P
 	other.x = other.xprevious;
 	other.y = other.yprevious;
 }
+else
+{
+	other.player_HP = 0;
+}

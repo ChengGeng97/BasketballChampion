@@ -10,6 +10,7 @@ if (instance_exists(TutorialFightingManager)
 	show_debug_message("HP Left: " + string(HP));
 }
 
+instance_create_depth(other.x, other.y, -1, Hitspark);
 
 with (other)
 {
