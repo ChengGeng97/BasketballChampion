@@ -1,18 +1,35 @@
-/// @description State-Machine for the player character
+/// @description Insert description here
 // You can write your code in this editor
 
-if(player_has_ball)
+if(player_HP == 0)
 {
-	PlayerControlWithBall();
-} 
+	player_state = PlayerState.Dead;
+}
 else
 {
-	if(player_is_sliding)
+	switch(player_state)
 	{
-		PlayerControlSliding();
-	}
-	else
-	{	
-		PlayerControlWithoutBall();
+		case PlayerState.HasBall:
+			PlayerControlHasBall();
+			break;
+			
+		case PlayerState.LacksBall:
+			PlayerControlLacksBall();
+			break;
+			
+		case PlayerState.ChargeKick:
+			PlayerControlChargeKick();
+			break;
+			
+		case PlayerState.DashingWithBall:
+			PlayerControlDashingWithBall();
+			break;
+			
+		case PlayerState.DashingWithoutBall:
+			PlayerControlDashingWithoutBall();
+			break;
+			
+		case PlayerState.Dead:
+			break;
 	}
 }

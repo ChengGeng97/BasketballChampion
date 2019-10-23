@@ -11,4 +11,3 @@ if (instance_exists(player_id))
 		invulnerability_frames -= 1;
 	}
 }
-

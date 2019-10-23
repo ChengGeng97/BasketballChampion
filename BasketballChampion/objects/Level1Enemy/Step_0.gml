@@ -3,32 +3,76 @@
 
 switch(Phase)
 {
-	case LevelOnePhase.TRANSIT_ZERO_TO_ONE:
-		LevelOneTransitZeroToOne();
+	case LevelOnePhase.ENTER_ONE:
+		LevelOneEnterOne();
 		break;
 		
 	case LevelOnePhase.ONE:
 		LevelOneStepOne();
 		break;
 		
-	case LevelOnePhase.TRANSIT_ONE_TO_TWO:
-		LevelOneTransitOneToTwo();
+	case LevelOnePhase.EXIT_ONE:
+		LevelOneExitOne();
 		break;
-	
+		
+	case LevelOnePhase.PAUSE_ONE:
+		if(pause_frame_counter >= pause_duration_frames)
+		{
+			pause_frame_counter = 0;
+			Phase = LevelOnePhase.ENTER_TWO;
+		}
+		pause_frame_counter++;
+		break;
+
+
+
+
+
+
+	case LevelOnePhase.ENTER_TWO:
+		LevelOneEnterTwo();
+		break;
+		
 	case LevelOnePhase.TWO:
 		LevelOneStepTwo();
 		break;
-	
-	case LevelOnePhase.TRANSIT_TWO_TO_THREE:
-		LevelOneTransitTwoToThree();
+		
+	case LevelOnePhase.EXIT_TWO:
+		LevelOneExitTwo();
 		break;
-	
+		
+	case LevelOnePhase.PAUSE_TWO:
+		if(pause_frame_counter >= pause_duration_frames)
+		{
+			pause_frame_counter = 0;
+			Phase = LevelOnePhase.ENTER_THREE;
+		}
+		pause_frame_counter++;
+		break;
+
+
+
+
+
+
+	case LevelOnePhase.ENTER_THREE:
+		LevelOneEnterThree();
+		break;
+		
 	case LevelOnePhase.THREE:
 		LevelOneStepThree();
 		break;
-		
+	
+	case LevelOnePhase.EXIT_THREE:
+		LevelOneExitThree();
+		break;
+
+
+
+
+
+
 	case LevelOnePhase.DIE:
-		LevelOneDie();
 		break;
 }
 
