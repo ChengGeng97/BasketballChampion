@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1e43986f-f615-4dbb-82ec-0ad2b0307eb7",
+            "Value": {
+                "id": "888911ac-3b12-4f98-862b-47e8d08103db",
+                "resourcePath": "objects\\GUI\\GUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ef16c0e-d4ba-45bc-b46b-99d726686331",
             "Value": {
                 "id": "a963372b-a379-4abc-b3c2-149108ebf2be",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "2266d52f-3035-46f0-9953-3d80ce21f304",
+            "Value": {
+                "id": "f8ee5f2f-d94f-4a4c-8903-c7b36786d713",
+                "resourcePath": "objects\\RoomFloor\\RoomFloor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "23f4a343-2112-48b3-a07b-9cf1e0393327",
             "Value": {
                 "id": "307a05c7-e545-4cd7-ae1a-77a9a36b57a4",
@@ -155,6 +171,14 @@
             "Value": {
                 "id": "3cea7ca7-f6b1-48e4-b7d4-e57a503350d8",
                 "resourcePath": "sprites\\SpriteNoballDownRight\\SpriteNoballDownRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3114a76d-6d69-4c17-a869-3616c76baf49",
+            "Value": {
+                "id": "d8242603-2302-48cc-ada5-06fe3b9a2b20",
+                "resourcePath": "sprites\\PlayerLifebar\\PlayerLifebar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -204,6 +228,14 @@
                 "id": "903261e6-6352-4184-b870-1c93172a1112",
                 "resourcePath": "scripts\\PlayerControlWithoutBall\\PlayerControlWithoutBall.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "382fd323-6b30-4b2c-a335-6ac424342539",
+            "Value": {
+                "id": "448d2c75-07de-4b9f-ab24-11e3365e5470",
+                "resourcePath": "sprites\\GameOverScreen\\GameOverScreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +327,14 @@
             }
         },
         {
+            "Key": "4d457002-3e0b-48cc-b950-75b11d38c20e",
+            "Value": {
+                "id": "6730d4ac-3c27-4c94-ae5c-abfe72cfef12",
+                "resourcePath": "sprites\\sprite44\\sprite44.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "507c5766-f1f0-44f9-9ccb-82de7d0350ba",
             "Value": {
                 "id": "24401b95-3f9d-4651-9bde-9134730f4f4e",
@@ -367,10 +407,26 @@
             }
         },
         {
+            "Key": "66fce187-30c0-4cc6-b3a5-bba51320b9ee",
+            "Value": {
+                "id": "4d9e7ea9-8095-4564-a5d3-7f7b0716ea6c",
+                "resourcePath": "sprites\\PowerBar\\PowerBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "68f9326f-f8fe-4486-9d55-c9aef651f28b",
             "Value": {
                 "id": "8f010f5a-fd1a-492c-b965-a5eb27d2b2c2",
                 "resourcePath": "sprites\\SpriteMarker6\\SpriteMarker6.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6fd10b9f-53d0-44d7-9597-44e54fbe8c7b",
+            "Value": {
+                "id": "46cc0d7a-6c0a-4d22-850c-9bcabaa0346f",
+                "resourcePath": "sprites\\SpriteFootballBigger\\SpriteFootballBigger.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -396,6 +452,14 @@
                 "id": "7fc1c455-9a49-4c50-80d3-c34092f77f28",
                 "resourcePath": "scripts\\PlayerReleaseKick\\PlayerReleaseKick.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7952054d-9ba5-409d-bd93-276e24102df6",
+            "Value": {
+                "id": "8ab7288a-0b57-435e-b735-8d0bec383261",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -519,6 +583,14 @@
             }
         },
         {
+            "Key": "a83f93a8-c8ef-4210-8cd0-55b007de2895",
+            "Value": {
+                "id": "ea06fb05-2405-49db-b380-60bd9afbc79b",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "a8680c2d-78f2-4c07-a911-7f8509b85706",
             "Value": {
                 "id": "a1af1c9a-b793-4b3a-931a-a1af5f55fef2",
@@ -556,6 +628,22 @@
                 "id": "9b189b9b-2d58-486a-8974-86f23589c1b4",
                 "resourcePath": "objects\\Level1Enemy\\Level1Enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b1751b94-4512-4f33-8cd9-1c0cbba4b42e",
+            "Value": {
+                "id": "0ed57d95-1611-4df8-bf76-24d7f408a61e",
+                "resourcePath": "sprites\\EnemyLifebar\\EnemyLifebar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b6780ee4-5f66-40f4-9339-784d976769c9",
+            "Value": {
+                "id": "f43f7416-baa0-454b-92bf-8586a7e232de",
+                "resourcePath": "sprites\\Score\\Score.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -620,6 +708,14 @@
                 "id": "f1d9e1cc-ec37-43eb-8337-db7bdd414152",
                 "resourcePath": "views\\cd376a71-8aa9-401d-8f63-1e9280eae55a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cd4342d0-ae2c-4def-93d5-8d73295196a2",
+            "Value": {
+                "id": "2c234347-f76e-4f1b-8af6-996e9ab7a224",
+                "resourcePath": "sprites\\PowerBarTitle\\PowerBarTitle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -699,6 +795,14 @@
             "Value": {
                 "id": "42db7634-fb4b-467f-b034-dfef48d243ee",
                 "resourcePath": "sprites\\SpriteMarker9\\SpriteMarker9.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e7ae32c6-a61a-4f36-9491-29c5417c43ff",
+            "Value": {
+                "id": "7658d1c5-4cef-4a1f-b94e-19a7136839e5",
+                "resourcePath": "sprites\\sprite38\\sprite38.yy",
                 "resourceType": "GMSprite"
             }
         },
