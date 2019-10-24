@@ -76,7 +76,8 @@ else
 				moving_shoot_counter = 0;
 				level_one_again_state = LevelOneAgainPhaseTwoState.CHARGE;
 				
-				tennis_ball = instance_create_depth(x, y, -2, TennisBall);
+				sprite_index = SpriteLevel1EnemySummon;
+				tennis_ball = instance_create_depth(x + 20, y - 75, -1, TennisBall);
 			}
 			
 			if (moving_shoot_counter >= moving_shoot_period)
@@ -131,6 +132,7 @@ else
 		case LevelOneAgainPhaseTwoState.FIRE_PAUSE:
 			if (frame_counter >= fire_pause_frames)
 			{
+				sprite_index = SpriteLevel1EnemyIdle;
 				frame_counter = 0;
 				level_one_again_state = LevelOneAgainPhaseTwoState.PREPARE_SPIRAL;
 			}
