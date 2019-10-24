@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "25d4981f-fcd8-451d-9e96-5388efdb06b4",
+            "Value": {
+                "id": "22a31c48-f168-4938-ab5e-c1681a4d8e34",
+                "resourcePath": "objects\\Blockspark\\Blockspark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "287cb6c8-cbc3-4ddc-8c9b-37bcdbe2f00d",
             "Value": {
                 "id": "54342f82-fa54-4793-bd2d-7c02958fc7c2",
@@ -492,14 +500,6 @@
                 "id": "2815ddad-8207-40be-a025-0ed3201dbb13",
                 "resourcePath": "sprites\\SpriteTutorialManager\\SpriteTutorialManager.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "3ddb44a2-46a8-4ecd-b4ea-0ec1e1de00fb",
-            "Value": {
-                "id": "f4983584-2fe6-4901-b516-258156f839a7",
-                "resourcePath": "objects\\Level1AgainMinion\\Level1AgainMinion.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "69a72518-6f3f-492d-bbca-6b3a206f5ed9",
+            "Value": {
+                "id": "dd3f5c83-fb0e-4c9b-8309-284b72c21232",
+                "resourcePath": "sprites\\SpriteLevel1EnemySummon\\SpriteLevel1EnemySummon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a180ae3-be64-4b14-8a10-f285c9ba543a",
             "Value": {
                 "id": "190e618a-918e-49f4-8825-a8a6ff515ed1",
@@ -980,6 +988,14 @@
                 "id": "44f24cfe-b36a-4c26-93a6-08abf23d0558",
                 "resourcePath": "views\\7f33bc91-1abe-4a31-8d18-cc933c823deb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "81043e4f-d958-4cda-8ec3-3a3527b97653",
+            "Value": {
+                "id": "13604827-85fe-401d-9e58-73d6cc22239c",
+                "resourcePath": "sprites\\SpriteBlockSpark\\SpriteBlockSpark.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1172,6 +1188,14 @@
                 "id": "84ab5ecb-f701-4ba5-8ccf-12b9c2bf3514",
                 "resourcePath": "views\\a9a80a45-62b2-45a3-8b95-570b7f4c71c6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ab2b77fb-3381-4e26-82e3-8c80dc651b7c",
+            "Value": {
+                "id": "9d68d0e0-a027-4bdc-80ef-edd83a9963ee",
+                "resourcePath": "sprites\\SpriteHitsparkLow\\SpriteHitsparkLow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1711,6 +1735,14 @@
             }
         },
         {
+            "Key": "f1a57367-a662-484f-a0a5-8be5a0ea14d8",
+            "Value": {
+                "id": "9409d827-fc60-489c-8d99-d42384842534",
+                "resourcePath": "sprites\\SpriteLevel1EnemyIdle\\SpriteLevel1EnemyIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f3692e25-03bf-4372-a4db-bc448ecc9afc",
             "Value": {
                 "id": "3a603b8e-4a02-435f-9039-be6421e47727",
@@ -1800,6 +1832,13 @@
         }
     ],
     "script_order": [
+        "d5b82289-d08b-405f-8895-1dde67e33022",
+        "8fe58230-b5be-4038-b02f-40d4545c4532",
+        "57b81afb-5ec9-4273-85c3-0e9608832ea5",
+        "3323e683-e79e-42a2-ace4-0cc5b17039aa",
+        "0b28bde3-12db-49d4-b873-4f1f0d0b053d",
+        "1042aef0-5e60-4f4d-93d8-201fd2a88e83",
+        "2997f6dd-94cc-472b-ae84-6295fa9f054d",
         "d01df7e5-ad7e-4343-81db-6bd54dfe625c",
         "6b8ae7fa-f6eb-4204-8959-62abe7014654",
         "8310792d-bed5-4bc7-a983-758a84972122",
@@ -1813,13 +1852,6 @@
         "7c6f5244-f158-40b4-ae20-d88bed294118",
         "413544e4-92b5-4b8e-9933-e532cbdeb035",
         "f37c6f59-0502-4796-890f-8fc0793f2ed9",
-        "d5b82289-d08b-405f-8895-1dde67e33022",
-        "8fe58230-b5be-4038-b02f-40d4545c4532",
-        "57b81afb-5ec9-4273-85c3-0e9608832ea5",
-        "3323e683-e79e-42a2-ace4-0cc5b17039aa",
-        "0b28bde3-12db-49d4-b873-4f1f0d0b053d",
-        "1042aef0-5e60-4f4d-93d8-201fd2a88e83",
-        "2997f6dd-94cc-472b-ae84-6295fa9f054d",
         "6110f914-55ac-487b-947f-b3ac37273c0f",
         "5a3cd068-9f08-485c-923e-1ce331702ce8",
         "1c4311a0-e30a-4a93-8940-d4fd26a3a66c",

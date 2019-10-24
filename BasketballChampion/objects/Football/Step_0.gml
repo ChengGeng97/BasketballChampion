@@ -1,6 +1,8 @@
 /// @description Makes the ball move around the screen
 // You can write your code in this editor
 
+real_ball_speed = ball_speed + real_base_speed;
+
 if (!instance_exists(BlackHoleCore))
 {
 	if (x > room_width)
@@ -32,5 +34,5 @@ if (y > room_height || y < 0)
 	DeleteBallReturnControlToPlayer();
 }
 
-x += x_direction * ball_speed;
-y += y_direction * ball_speed;
+x += x_direction * real_ball_speed;
+y += y_direction * real_ball_speed;

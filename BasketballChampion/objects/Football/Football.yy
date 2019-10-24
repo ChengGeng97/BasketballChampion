@@ -103,6 +103,48 @@
             "value": "0",
             "varName": "y_direction",
             "varType": 0
+        },
+        {
+            "id": "b3268c9f-39ad-4b0f-bc0f-8758d0285d86",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "first_time",
+            "varType": 3
+        },
+        {
+            "id": "52403c0a-bd28-4b54-af42-d8fdf74b174a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "real_ball_speed",
+            "varType": 0
+        },
+        {
+            "id": "33ee833a-12ac-40ac-9f1c-5dfb2c1e2bcc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "real_base_speed",
+            "varType": 1
         }
     ],
     "solid": false,

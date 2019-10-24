@@ -42,7 +42,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "30",
+            "value": "19",
             "varName": "lifetime",
             "varType": 1
         },
@@ -58,6 +58,34 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "frame_counter",
+            "varType": 1
+        },
+        {
+            "id": "d3a08e24-9df7-4fdc-afd3-c7ca6305d77e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "first_time",
+            "varType": 3
+        },
+        {
+            "id": "91c452cf-0e07-4164-982c-b3cd8e7c871a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "impact_speed",
             "varType": 1
         }
     ],

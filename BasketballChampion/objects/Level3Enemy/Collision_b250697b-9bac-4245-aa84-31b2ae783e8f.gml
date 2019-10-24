@@ -9,6 +9,11 @@ show_debug_message("HP Left: " + string(HP));
 
 if (Phase == LevelThreePhase.THREE)
 {
+	if (PhaseThreeState == Level3Phase3State.IDLE)
+	{
+		state_frame_counter = idle_frames;
+	}
+	
 	if (HP <= 200)
 	{
 		idle_frames = 60;

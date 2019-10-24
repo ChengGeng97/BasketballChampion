@@ -11,5 +11,5 @@ enum LevelThreePhase
 }
 
 //Phase = LevelThreePhase.ENTER_ONE;
-//Phase = LevelThreePhase.ENTER_THREE;
-Phase = LevelThreePhase.ENTER_FOUR;
+Phase = LevelThreePhase.ENTER_THREE;
+//Phase = LevelThreePhase.ENTER_FOUR;

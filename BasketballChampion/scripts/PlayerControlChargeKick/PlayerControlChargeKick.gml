@@ -19,11 +19,11 @@ if(left_released)
 	var ball_speed = BallManager.base_speed + BallManager.kick_charge_frames;
 	football.ball_speed = ball_speed;
 	
-	if (ball_speed == 80)
+	if (ball_speed == 60)
 	{
 		audio_play_sound(SfxKickFullPower, 0, false);
 	}
-	else if (ball_speed >= 50)
+	else if (ball_speed >= 30)
 	{
 		audio_play_sound(SfxKickHalfPower, 0, false);
 	}

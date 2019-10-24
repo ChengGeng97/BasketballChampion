@@ -1,4 +1,5 @@
 HP = 400;
+sprite_index = SpriteLevel1EnemyIdle;
 
 x = 350;
 y = 200;

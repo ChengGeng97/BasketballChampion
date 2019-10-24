@@ -65,10 +65,11 @@ else
 		case LevelOneAgainPhaseOneState.CHARGING:
 			if (frame_counter >= charging_state_frames)
 			{
+				sprite_index = SpriteLevel1EnemySummon;
 				frame_counter = 0;
 				level_one_again_state = LevelOneAgainPhaseOneState.FIRE_PAUSE;
 				
-				t_ball = instance_create_depth(x, y, -1, TennisBall);
+				t_ball = instance_create_depth(x + 20, y - 75, -1, TennisBall);
 
 			}
 			frame_counter++;
@@ -101,6 +102,7 @@ else
 		case LevelOneAgainPhaseOneState.FIRING:
 			if (frame_counter >= firing_state_frames)
 			{
+				sprite_index = SpriteLevel1EnemyIdle;
 				frame_counter = 0;
 				level_one_again_state = LevelOneAgainPhaseOneState.MOVING;
 			}
