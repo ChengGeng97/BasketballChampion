@@ -999,14 +999,6 @@
             }
         },
         {
-            "Key": "80e32388-1f12-47e7-ae72-b76b20c35ceb",
-            "Value": {
-                "id": "144f4e6a-5d13-4a9f-8b48-e92130ddd592",
-                "resourcePath": "views\/80e32388-1f12-47e7-ae72-b76b20c35ceb.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "81295d1d-279a-4d2f-92f5-a8263ab0470d",
             "Value": {
                 "id": "582f4429-c976-4770-9b47-5f3a8a72409b",
@@ -1215,14 +1207,6 @@
             }
         },
         {
-            "Key": "a7df00cb-2c69-4f7c-ad84-9d74a14930fc",
-            "Value": {
-                "id": "72eb6447-3f05-4904-9147-c098b0025c7a",
-                "resourcePath": "views\/a7df00cb-2c69-4f7c-ad84-9d74a14930fc.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "a8680c2d-78f2-4c07-a911-7f8509b85706",
             "Value": {
                 "id": "a1af1c9a-b793-4b3a-931a-a1af5f55fef2",
@@ -1252,14 +1236,6 @@
                 "id": "9b189b9b-2d58-486a-8974-86f23589c1b4",
                 "resourcePath": "objects\/Level1Enemy\/Level1Enemy.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "acce8e02-5a53-49c5-89cc-8fb230abd981",
-            "Value": {
-                "id": "170c8a69-3d89-47ad-9b0c-da9c639baaf2",
-                "resourcePath": "views\/acce8e02-5a53-49c5-89cc-8fb230abd981.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
