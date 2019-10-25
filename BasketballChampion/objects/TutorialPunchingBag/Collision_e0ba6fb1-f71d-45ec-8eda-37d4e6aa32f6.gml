@@ -4,9 +4,11 @@
 if (instance_exists(TutorialFightingManager)
 	&& TutorialFightingManager.manager_state == FightingTutorialState.REACH_PLATE)
 {
-	HP -= round(other.ball_speed);
+	var rounded = round(other.ball_speed);
+	var damage = (rounded == 60) ? 90 : rounded;
+	HP -= damage;
 
-	show_debug_message("Damage: " + string(round(other.ball_speed)));
+	show_debug_message("Damage: " + string(damage));
 	show_debug_message("HP Left: " + string(HP));
 }
 
