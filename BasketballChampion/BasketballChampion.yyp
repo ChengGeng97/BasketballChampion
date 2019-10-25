@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "06632fbb-b093-4f2e-af1f-09cc1486669e",
+            "Value": {
+                "id": "539d7ade-80c2-4374-b95a-28a7cd00d119",
+                "resourcePath": "views\\06632fbb-b093-4f2e-af1f-09cc1486669e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "071f37e8-4ee0-4baa-a221-b88e732d7fc7",
             "Value": {
                 "id": "01f8e5fe-ec74-4348-a46d-9ac544cf4c0f",
@@ -155,6 +163,14 @@
             "Value": {
                 "id": "57c78cb8-b2b0-431f-a252-dfd530f6bd85",
                 "resourcePath": "sprites\/SpriteGoal\/SpriteGoal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0cbaa552-5b54-4d65-a907-200048896397",
+            "Value": {
+                "id": "a6800491-aa19-408e-ade4-f7752105f759",
+                "resourcePath": "sprites\\SpriteMediumHitspark\\SpriteMediumHitspark.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -204,6 +220,14 @@
                 "id": "f09f8cc5-3b36-4592-8fb2-58936f152c21",
                 "resourcePath": "scripts\/LevelThreeEnterFour\/LevelThreeEnterFour.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0f3324bc-cd8f-4686-8dea-e6608fafc3ad",
+            "Value": {
+                "id": "0de802a8-cba6-4cec-b157-90fe3281eaa8",
+                "resourcePath": "sprites\\SpriteLowHitspark\\SpriteLowHitspark.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -268,6 +292,14 @@
                 "id": "c061a878-6f4d-4928-b05c-2d51fcd75da3",
                 "resourcePath": "objects\/BallManager\/BallManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1a73d0b1-eb9b-4abf-b63a-91948e5e2994",
+            "Value": {
+                "id": "76b5dbc1-9dfb-44f9-b4e7-d4b713fb5305",
+                "resourcePath": "sprites\\SpriteBlockSpark\\SpriteBlockSpark.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -372,6 +404,14 @@
                 "id": "fbe48e77-8c83-4727-9f07-a45dc3e9f671",
                 "resourcePath": "scripts\/LevelOneAgainDie\/LevelOneAgainDie.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2b5c44de-c3df-466b-ac22-291545a9a915",
+            "Value": {
+                "id": "61aa5ed0-8db1-4914-872a-5547a2bc7576",
+                "resourcePath": "views\\2b5c44de-c3df-466b-ac22-291545a9a915.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -775,6 +815,14 @@
             }
         },
         {
+            "Key": "5fc56f45-a3bb-4b25-b02c-39db4bed6c8b",
+            "Value": {
+                "id": "0434c37d-7290-4ebe-8088-64dc88c1c809",
+                "resourcePath": "sprites\\SpriteLevel1EnemySummon\\SpriteLevel1EnemySummon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60e25671-1157-4890-8a9f-db8f5169cbb5",
             "Value": {
                 "id": "0cef225b-0101-4efc-8429-ee5a70cdd61c",
@@ -868,6 +916,14 @@
                 "id": "aa42667b-ef92-4b50-97e5-4d2ee332c678",
                 "resourcePath": "scripts\/TutPlayerControlHasBall\/TutPlayerControlHasBall.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6d140289-5362-4fcc-93f1-ad8c8384f0a7",
+            "Value": {
+                "id": "816a1d6a-6e7b-40a3-9aa6-09e65dfff573",
+                "resourcePath": "objects\\Hitspark\\Hitspark.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1183,6 +1239,22 @@
             }
         },
         {
+            "Key": "a1ca5795-6c1b-4715-9096-70d9038225bb",
+            "Value": {
+                "id": "0b29897d-f764-42a3-98fd-7853feedb4a0",
+                "resourcePath": "sprites\\SpriteLevel1EnemyIdle\\SpriteLevel1EnemyIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a3e18a50-c114-4256-9ef0-4763c63596fb",
+            "Value": {
+                "id": "d08048a6-9a58-4410-a7c0-dfbe879542c8",
+                "resourcePath": "objects\\Blockspark\\Blockspark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a51b8d19-e96e-44ff-b37b-4a6548c5ee23",
             "Value": {
                 "id": "9caf0720-e887-4da6-8939-86f8288f5f7a",
@@ -1204,6 +1276,14 @@
                 "id": "8bfe67da-253a-4369-b509-f73987af4bf2",
                 "resourcePath": "objects\/TutorialGoal\/TutorialGoal.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a6305526-0d0c-4d77-9a51-11d3280ffb9a",
+            "Value": {
+                "id": "11aafeaa-72c7-46f5-8600-cab08b746388",
+                "resourcePath": "sprites\\SpriteHighHitspark\\SpriteHighHitspark.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1856,6 +1936,13 @@
         }
     ],
     "script_order": [
+        "d5b82289-d08b-405f-8895-1dde67e33022",
+        "8fe58230-b5be-4038-b02f-40d4545c4532",
+        "57b81afb-5ec9-4273-85c3-0e9608832ea5",
+        "3323e683-e79e-42a2-ace4-0cc5b17039aa",
+        "0b28bde3-12db-49d4-b873-4f1f0d0b053d",
+        "1042aef0-5e60-4f4d-93d8-201fd2a88e83",
+        "2997f6dd-94cc-472b-ae84-6295fa9f054d",
         "d01df7e5-ad7e-4343-81db-6bd54dfe625c",
         "6b8ae7fa-f6eb-4204-8959-62abe7014654",
         "8310792d-bed5-4bc7-a983-758a84972122",
@@ -1869,13 +1956,6 @@
         "7c6f5244-f158-40b4-ae20-d88bed294118",
         "413544e4-92b5-4b8e-9933-e532cbdeb035",
         "f37c6f59-0502-4796-890f-8fc0793f2ed9",
-        "d5b82289-d08b-405f-8895-1dde67e33022",
-        "8fe58230-b5be-4038-b02f-40d4545c4532",
-        "57b81afb-5ec9-4273-85c3-0e9608832ea5",
-        "3323e683-e79e-42a2-ace4-0cc5b17039aa",
-        "0b28bde3-12db-49d4-b873-4f1f0d0b053d",
-        "1042aef0-5e60-4f4d-93d8-201fd2a88e83",
-        "2997f6dd-94cc-472b-ae84-6295fa9f054d",
         "6110f914-55ac-487b-947f-b3ac37273c0f",
         "5a3cd068-9f08-485c-923e-1ce331702ce8",
         "1c4311a0-e30a-4a93-8940-d4fd26a3a66c",

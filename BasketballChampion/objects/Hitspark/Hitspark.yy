@@ -1,18 +1,18 @@
 {
-    "id": "f8631951-823f-4fe6-af64-4cc9f023712b",
+    "id": "6d140289-5362-4fcc-93f1-ad8c8384f0a7",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "Hitspark",
     "eventList": [
         {
-            "id": "e3e0800b-cbff-4da6-8c21-6391ded5460f",
+            "id": "27915018-ae30-4782-a4d5-361656c03061",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "f8631951-823f-4fe6-af64-4cc9f023712b"
+            "m_owner": "6d140289-5362-4fcc-93f1-ad8c8384f0a7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,21 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "67df62b5-5116-4556-8b5b-34a7e23fa781",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "19",
-            "varName": "lifetime",
-            "varType": 1
-        },
-        {
-            "id": "d2c52aa7-05e3-4065-accf-73b31e9ffacd",
+            "id": "93d20e7b-9349-43ab-9a11-22fe534f673b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -58,10 +44,10 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "frame_counter",
-            "varType": 1
+            "varType": 0
         },
         {
-            "id": "d3a08e24-9df7-4fdc-afd3-c7ca6305d77e",
+            "id": "1e12820f-3c9e-4ce5-a236-1d17e0202b5c",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -70,26 +56,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
-            "varName": "first_time",
-            "varType": 3
-        },
-        {
-            "id": "91c452cf-0e07-4164-982c-b3cd8e7c871a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "impact_speed",
-            "varType": 1
+            "value": "11",
+            "varName": "lifetime",
+            "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "0314d9bb-30ab-49c8-b2ba-c8917cb8b8cd",
+    "spriteId": "0cbaa552-5b54-4d65-a907-200048896397",
     "visible": true
 }
