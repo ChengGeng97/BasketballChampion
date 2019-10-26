@@ -599,14 +599,6 @@
             }
         },
         {
-            "Key": "4aa7dc9c-4fb3-4693-873d-55d8987742cf",
-            "Value": {
-                "id": "190365b9-74da-456b-9ea1-cc12e2f22134",
-                "resourcePath": "sprites\\PlayerLifebarEmptyOuter\\PlayerLifebarEmptyOuter.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4b7e6f8f-eb84-4596-b366-6bc09a97b04e",
             "Value": {
                 "id": "f0b2c403-9bb3-4ba4-9183-2f707fb8d41f",
@@ -775,6 +767,14 @@
             }
         },
         {
+            "Key": "60d1dd44-5f1f-4292-9864-668a9a2099d6",
+            "Value": {
+                "id": "c5d7227e-871f-4c8f-a3eb-1087bc6206f8",
+                "resourcePath": "sprites\\PowerBarFill\\PowerBarFill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60e25671-1157-4890-8a9f-db8f5169cbb5",
             "Value": {
                 "id": "0cef225b-0101-4efc-8429-ee5a70cdd61c",
@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "6ba35ba0-3cd3-4622-a1c6-24bd6437de7c",
+            "Value": {
+                "id": "5bde9714-efd0-4c37-9ddb-d057f60a78dd",
+                "resourcePath": "sprites\\PlayerLifebarEmptyOuter\\PlayerLifebarEmptyOuter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c1b96d9-faf3-497c-9b02-72346ae388fa",
             "Value": {
                 "id": "aa42667b-ef92-4b50-97e5-4d2ee332c678",
@@ -915,6 +923,14 @@
             "Value": {
                 "id": "b7547164-2dc8-4d3b-b9a2-92ad718ac30d",
                 "resourcePath": "sprites\\SpriteBallDownLeft\\SpriteBallDownLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "783314ab-7e3a-469c-84f5-88a11abeefba",
+            "Value": {
+                "id": "12ecea96-818a-4cdb-bd5c-17939385c19a",
+                "resourcePath": "sprites\\PowerBarOuter\\PowerBarOuter.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1108,6 +1124,14 @@
                 "id": "de83adcd-7ffe-422b-81b9-9473b41480cb",
                 "resourcePath": "scripts\\LevelOneAgainStepOne\\LevelOneAgainStepOne.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "916da79a-6a59-4ab6-962d-4aa19aa467bc",
+            "Value": {
+                "id": "d9d12ae6-07a4-4a56-84bb-8c7ebc2bf429",
+                "resourcePath": "sprites\\PowerBarEmptyInner\\PowerBarEmptyInner.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

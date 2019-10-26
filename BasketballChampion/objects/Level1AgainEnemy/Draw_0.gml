@@ -22,5 +22,5 @@ for (i = 0; i < HP; i++) {
     col = make_colour_hsv(hsv, saturation, 200);
  
     //draw the health fill
-    draw_sprite_ext(EnemyLifebarHealth, -1, posx + i, posy, 83, 1, 0, col, 1);
+    draw_sprite_ext(EnemyLifebarHealth, -1, posx + (680/HP) * i, posy, (680/HP), 1, 0, col, 1);
 }

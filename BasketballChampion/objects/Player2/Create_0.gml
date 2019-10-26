@@ -10,10 +10,10 @@ hsv_min=40; //yellow
 hsv_max=120; //green/blue
 
 hsv=hsv_min;
-hsv_inc=0.2; //incremental hsv
+hsv_inc= 5; //incremental hsv
 
 
-saturation=200;
+saturation=250;
 
 // Used to keep track of the direction the player is facing
 enum PlayerState
