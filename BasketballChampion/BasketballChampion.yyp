@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "4aa7dc9c-4fb3-4693-873d-55d8987742cf",
+            "Value": {
+                "id": "190365b9-74da-456b-9ea1-cc12e2f22134",
+                "resourcePath": "sprites\\PlayerLifebarEmptyOuter\\PlayerLifebarEmptyOuter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b7e6f8f-eb84-4596-b366-6bc09a97b04e",
             "Value": {
                 "id": "f0b2c403-9bb3-4ba4-9183-2f707fb8d41f",
@@ -611,6 +619,14 @@
             "Value": {
                 "id": "c526cf22-f084-439c-8e68-f9c46d7717ed",
                 "resourcePath": "sprites\\SpriteGameManager\\SpriteGameManager.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4bb24487-e776-40c1-9317-a94ba189f4b3",
+            "Value": {
+                "id": "b3dbcd6c-d058-4388-84bd-791f768bd312",
+                "resourcePath": "sprites\\EnemyLifebarEmptyOuter\\EnemyLifebarEmptyOuter.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -999,6 +1015,14 @@
             }
         },
         {
+            "Key": "8368e7b0-5cab-4980-8db5-17f84e569021",
+            "Value": {
+                "id": "6c1f6ef5-1d16-4529-a5cf-1e3a8f08b592",
+                "resourcePath": "sprites\\EnemyLifebarEmptyInner\\EnemyLifebarEmptyInner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "84ca43b3-3355-46b9-bdb5-509347c6465f",
             "Value": {
                 "id": "465ed9a2-9d42-49b6-9c48-6db7082fb6b5",
@@ -1020,6 +1044,14 @@
                 "id": "91880ce7-142e-4322-957f-c47691e2ac22",
                 "resourcePath": "views\\866048f6-72b0-4d2f-af3a-b5506dfd83ec.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "86e542c0-6016-40c0-8325-e6ab58b6fa88",
+            "Value": {
+                "id": "9c7efdec-d77f-4fb2-ab62-6c1b6f0e51f7",
+                "resourcePath": "sprites\\PlayerLifebarHealth\\PlayerLifebarHealth.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1051,6 +1083,14 @@
             "Value": {
                 "id": "a6a63d37-e574-41aa-98f6-9b8ffde05cb2",
                 "resourcePath": "sprites\\SpriteNoballUp\\SpriteNoballUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8d8fa9c9-975f-440d-9e6c-5020e31f69df",
+            "Value": {
+                "id": "bc9b316d-06bf-4e64-9fde-a2adb3d5d635",
+                "resourcePath": "sprites\\PlayerLifebarEmptyInner\\PlayerLifebarEmptyInner.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1423,6 +1463,14 @@
             }
         },
         {
+            "Key": "cdec62bf-4752-4289-887c-48b863ff783a",
+            "Value": {
+                "id": "c5900012-0988-4be0-99d1-051f9923665d",
+                "resourcePath": "sprites\\EnemyLifebarHealth\\EnemyLifebarHealth.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ce27d475-dde1-43e3-b544-7912f873c32a",
             "Value": {
                 "id": "75dbf4e3-69f3-44a7-ac78-a589f87ef5dd",
@@ -1612,6 +1660,14 @@
                 "id": "eb9a5424-18c6-4f54-a71d-980923a2abda",
                 "resourcePath": "scripts\\LevelThreeExitTwo\\LevelThreeExitTwo.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e4d885b3-0b6f-48ba-8bc5-f25bbe4fb6a2",
+            "Value": {
+                "id": "3c6e34c5-8a1a-4140-9f9f-214b6193e4f5",
+                "resourcePath": "objects\\GUI_EnemyLifeBar\\GUI_EnemyLifeBar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
