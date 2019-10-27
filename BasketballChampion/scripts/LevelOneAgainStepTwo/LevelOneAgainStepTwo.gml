@@ -111,8 +111,8 @@ else
 		case LevelOneAgainPhaseTwoState.CHARGE:
 			if (frame_counter >= charging_frames)
 			{
-				var vector_x = Player2.x - x;
-				var vector_y = Player2.y - y;
+				var vector_x = Player2.x - tennis_ball.x;
+				var vector_y = Player2.y - tennis_ball.y;
 			
 				var magnitude = sqrt(vector_x * vector_x + vector_y * vector_y);
 				

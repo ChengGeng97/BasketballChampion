@@ -79,8 +79,8 @@ else
 		case LevelOneAgainPhaseOneState.FIRE_PAUSE:
 			if(frame_counter >= fire_pause_frames)
 			{
-				var vector_x = Player2.x - x;
-				var vector_y = Player2.y - y;				
+				var vector_x = Player2.x - t_ball.x;
+				var vector_y = Player2.y - t_ball.y;				
 				
 				var magnitude = sqrt(vector_x * vector_x + vector_y * vector_y);
 					
@@ -105,8 +105,22 @@ else
 				sprite_index = SpriteLevel1EnemyIdle;
 				frame_counter = 0;
 				level_one_again_state = LevelOneAgainPhaseOneState.MOVING;
+				
+				moving_state_frames = buffered_moving_state_frames;
+				moving_shoot_period = buffered_moving_shoot_period;
+				moving_bullet_speed = buffered_moving_bullet_speed;
+			}
+			frame_counter++;
+			break;
+			
+		case LevelOneAgainPhaseOneState.PRE_START:
+			if (frame_counter >= pre_start_frames)
+			{
+				frame_counter = 0;
+				level_one_again_state = LevelOneAgainPhaseOneState.MOVING;
 			}
 			frame_counter++;
 			break;
 	}
+
 }

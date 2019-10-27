@@ -159,11 +159,27 @@
             }
         },
         {
+            "Key": "0b892321-d414-4380-b6ad-8892b7de02f4",
+            "Value": {
+                "id": "0cb867b7-85a6-480a-9dec-38726b582424",
+                "resourcePath": "views\\0b892321-d414-4380-b6ad-8892b7de02f4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0bb718aa-3eb7-4239-9f2e-f7fa9fb487b0",
             "Value": {
                 "id": "57c78cb8-b2b0-431f-a252-dfd530f6bd85",
                 "resourcePath": "sprites\/SpriteGoal\/SpriteGoal.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0c150311-1bc1-461d-bb04-f1c23dcbd2cb",
+            "Value": {
+                "id": "ab71a45c-0575-4695-985e-6baf9832309a",
+                "resourcePath": "views\\0c150311-1bc1-461d-bb04-f1c23dcbd2cb.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -591,6 +607,14 @@
             }
         },
         {
+            "Key": "45e50129-531a-40eb-8e35-f89c0b789e93",
+            "Value": {
+                "id": "b833bfbe-7ef6-4472-9ae5-efe59d3f9ae3",
+                "resourcePath": "views\\45e50129-531a-40eb-8e35-f89c0b789e93.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "45f1491f-1022-46ed-b10e-fb7965e8f64c",
             "Value": {
                 "id": "562173e6-34c5-4211-812f-5f31b8fbe0d0",
@@ -948,6 +972,14 @@
                 "id": "d0d889d7-5df3-4014-aee8-96e7dd3edc8e",
                 "resourcePath": "sprites\/SpriteLevel3Enemy\/SpriteLevel3Enemy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "701a444e-6466-444c-9324-1abaf31e0286",
+            "Value": {
+                "id": "207430a8-6179-4603-8072-c4c608ff7e09",
+                "resourcePath": "views\\701a444e-6466-444c-9324-1abaf31e0286.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1892,6 +1924,14 @@
                 "id": "f115f26e-fd34-4233-87c6-96304bc900a9",
                 "resourcePath": "objects\/CreditsReturnTitleMenu\/CreditsReturnTitleMenu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f9112a1b-dd88-43e9-a1c2-ea562caa9496",
+            "Value": {
+                "id": "bbfdf016-c5e9-488e-8c02-3ed5dc5bbfda",
+                "resourcePath": "views\\f9112a1b-dd88-43e9-a1c2-ea562caa9496.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

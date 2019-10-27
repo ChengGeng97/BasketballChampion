@@ -59,6 +59,34 @@
             "value": "11",
             "varName": "lifetime",
             "varType": 0
+        },
+        {
+            "id": "a456ff79-b539-4114-9d3e-67349ee3d723",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "impact_speed",
+            "varType": 0
+        },
+        {
+            "id": "268793cf-116a-491b-9995-c0391ce0d28e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "first_time",
+            "varType": 3
         }
     ],
     "solid": false,

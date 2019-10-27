@@ -1,4 +1,4 @@
-HP = 400;
+HP = 500;
 sprite_index = SpriteLevel1EnemyIdle;
 
 x = 350;
@@ -46,7 +46,7 @@ tennis_ball_speed = 25;
 
 
 // Fire Pause
-fire_pause_frames = 30;
+fire_pause_frames = 90;
 
 
 // Battle-Start
