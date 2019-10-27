@@ -3,10 +3,12 @@
 
 enum FightingTutorialState
 {
-	START, REACH_PLATE, BAG_DIED
+	START, REACH_PLATE, BAG_DIED, PRE_START
 }
 
-manager_state = FightingTutorialState.START;
+manager_state = FightingTutorialState.PRE_START;
+//manager_state = FightingTutorialState.START;
+
 
 bullets_per_spawn = 40;
 shoot_period = 180;

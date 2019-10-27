@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (instance_exists(TutorialFightingManager)
-	&& TutorialFightingManager.manager_state == FightingTutorialState.REACH_PLATE)
+if (instance_exists(TutorialDashingManager)
+	&& TutorialDashingManager.manager_state == FightingTutorialState.REACH_PLATE)
 {
 	var rounded = round(other.ball_speed);
 	var damage = (rounded == 60) ? 90 : rounded;
@@ -24,9 +24,9 @@ with (other)
 
 if (HP <= 0)
 {
-	if (instance_exists(TutorialFightingManager))
+	if (instance_exists(TutorialDashingManager))
 	{
-		TutorialFightingManager.manager_state = FightingTutorialState.BAG_DIED;
+		TutorialDashingManager.manager_state = FightingTutorialState.BAG_DIED;
 	}
 	
 	instance_destroy();

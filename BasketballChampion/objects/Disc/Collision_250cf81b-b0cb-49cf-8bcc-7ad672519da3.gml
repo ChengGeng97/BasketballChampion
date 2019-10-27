@@ -17,13 +17,21 @@ if (!activated)
 	}
 
 	
-	if (instance_exists(TutorialFightingManager))
+	if (instance_exists(TutorialDashingManager))
 	{
-		if (TutorialFightingManager.manager_state == FightingTutorialState.START)
+		if (TutorialDashingManager.manager_state == FightingTutorialState.START)
 		{
-			TutorialFightingManager.manager_state = FightingTutorialState.REACH_PLATE;
+			TutorialDashingManager.manager_state = FightingTutorialState.REACH_PLATE;
 		}
 		
-		instance_destroy(BasicBullet);
+		instance_destroy(UnclearableBullet);
+	}
+	
+	if (instance_exists(TutorialClearingManager))
+	{
+		if (TutorialClearingManager.manager_state == TutorialClearingState.START)
+		{
+			TutorialClearingManager.manager_state = TutorialClearingState.REACH_PLATE;
+		}
 	}
 }

@@ -282,7 +282,7 @@
             "Key": "136f8ac4-72fc-43a6-937c-4693970f5186",
             "Value": {
                 "id": "62e788e8-4d9d-4303-a3e1-ad1e8c8eeabb",
-                "resourcePath": "rooms\/Week10_Tutorial_Fighting\/Week10_Tutorial_Fighting.yy",
+                "resourcePath": "rooms\\Week10_Tutorial_Dashing\\Week10_Tutorial_Dashing.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -943,6 +943,14 @@
             }
         },
         {
+            "Key": "6c685261-51a4-4de1-95bf-5c8d2413bc94",
+            "Value": {
+                "id": "c8ee0f17-4c2f-4a77-83f1-7ae97869afdc",
+                "resourcePath": "objects\\TutorialClearingManager\\TutorialClearingManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6d140289-5362-4fcc-93f1-ad8c8384f0a7",
             "Value": {
                 "id": "816a1d6a-6e7b-40a3-9aa6-09e65dfff573",
@@ -1378,7 +1386,7 @@
             "Key": "b228053c-a118-44b6-a2bb-ce7892f552ae",
             "Value": {
                 "id": "f65b54f5-2c1a-479f-8447-0add36e04908",
-                "resourcePath": "objects\/TutorialFightingManager\/TutorialFightingManager.yy",
+                "resourcePath": "objects\\TutorialDashingManager\\TutorialDashingManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1508,6 +1516,14 @@
                 "id": "ac035324-988e-4408-b221-3f3870ae77bf",
                 "resourcePath": "scripts\/LevelOneEnterThree\/LevelOneEnterThree.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c58ce214-93c3-42d8-b080-0db28fe13875",
+            "Value": {
+                "id": "963aad0f-7342-412a-86be-731822d731fc",
+                "resourcePath": "rooms\\Week10_Tutorial_Clearing\\Week10_Tutorial_Clearing.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
