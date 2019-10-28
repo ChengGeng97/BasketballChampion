@@ -35,21 +35,17 @@ else
 			orbital_spawner = instance_create_depth(x, y, 0, Level3Pattern1OrbitalSpawner);
 			orbital_spawner.owner_id = id;
 
-			if (HP <= 150)
+			if (HP <= 200)
 			{
-				orbital_spawner.bullets_per_spawn = 7;
+				orbital_spawner.bullets_per_spawn = 6;
 			}
-			else if (HP <= 300)
+			else if (HP <= 400)
 			{
 				orbital_spawner.bullets_per_spawn = 5;
 			}
-			else if (HP <= 450)
-			{
-				orbital_spawner.bullets_per_spawn = 4;
-			}
 			else
 			{
-				orbital_spawner.bullets_per_spawn = 3;
+				orbital_spawner.bullets_per_spawn = 4;
 			}
 
 			PhaseOneState = LevelThreePhaseOneState.ORBITAL_ON;

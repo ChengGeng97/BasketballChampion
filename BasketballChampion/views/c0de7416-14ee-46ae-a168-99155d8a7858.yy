@@ -8,7 +8,7 @@
         "c73e49ba-fde9-4e47-8fd6-135bbf6b63fb"
     ],
     "filterType": "GMObject",
-    "folderName": "LevelTwoObjects",
+    "folderName": "LevelTwoObjectsDead",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
