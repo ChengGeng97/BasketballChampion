@@ -17,7 +17,9 @@
         "dcd8c3b8-ffc3-4836-8df6-59a84b244b06",
         "051cc2a1-4e4d-47f0-a4e9-4d9723ef64e7",
         "f9942633-d373-41ba-8df5-f5dde276557e",
-        "d8de4e59-2a6b-47f4-ad88-f527bc63523f"
+        "d8de4e59-2a6b-47f4-ad88-f527bc63523f",
+        "dbbfb516-1dd1-4a0a-8931-c56aa0a843f5",
+        "5e4881dc-b265-48af-b19e-cb87c2e9cf2b"
     ],
     "filterType": "GMSprite",
     "folderName": "Level2SpritesNew",

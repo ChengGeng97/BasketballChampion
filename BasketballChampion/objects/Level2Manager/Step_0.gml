@@ -19,7 +19,7 @@ switch (Phase)
 		if (pause_frame_counter >= pause_duration_frames)
 		{
 			pause_frame_counter = 0;
-			Phase = LevelOneAgainPhase.ENTER_TWO;
+			Phase = LevelTwoPhase.ENTER_TWO;
 		}
 		pause_frame_counter++;
 		break;
@@ -27,15 +27,24 @@ switch (Phase)
 
 
 	case LevelTwoPhase.ENTER_TWO:
+		LevelTwoEnterTwo();
 		break;
 		
 	case LevelTwoPhase.TWO:
+		LevelTwoStepTwo();
 		break;
 		
 	case LevelTwoPhase.EXIT_TWO:
+		LevelTwoExitTwo();
 		break;
 		
 	case LevelTwoPhase.PAUSE_TWO:
+		if (pause_frame_counter >= pause_duration_frames)
+		{
+			pause_frame_counter = 0;
+			Phase = LevelTwoPhase.DIE;
+		}
+		pause_frame_counter++;
 		break;
 
 

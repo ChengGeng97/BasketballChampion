@@ -32,7 +32,7 @@ charge_state_frames = 60;
 attack_state_frames = 15;
 hide_state_frames = 10;
 
-num_bullets_on_hide = 20;
+num_bullets_on_hide = 30;
 dir_x[num_bullets_on_hide] = 0;
 dir_y[num_bullets_on_hide] = 0;
 hide_bullet_speed = 4;
@@ -40,10 +40,12 @@ hide_bullet_speed = 4;
 var incremental_angle = 360 / num_bullets_on_hide;
 var cumul_angle = 0.0;
 
-for (var i = 0; i < 20; i++)
+for (var i = 0; i < num_bullets_on_hide; i++)
 {
 	dir_x[i] = dcos(cumul_angle);
 	dir_y[i] = dsin(cumul_angle);
 	
 	cumul_angle += incremental_angle;
 }
+
+got_hit = false;

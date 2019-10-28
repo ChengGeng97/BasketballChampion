@@ -20,6 +20,8 @@ if (phase_one_hole_state == Phase1HoleState.MOLE_CHARGE
 	{
 		instance_destroy(p_ball);
 	}
+	
+	got_hit = true;
 }
 
 
@@ -52,18 +54,22 @@ if (phase_one_hole_state == Phase1HoleState.E_CHARGE
 	if (Level2Manager.HP <= 120)
 	{
 		Level2Manager.character_row = 0;
+		Level2Manager.wait_state_frames = 180;
 	}
 	else if (Level2Manager.HP <= 240)
 	{
 		Level2Manager.character_row = 1;
+		Level2Manager.wait_state_frames = 210;
 	}
 	else if (Level2Manager.HP <= 360)
 	{
 		Level2Manager.character_row = 2;
+		Level2Manager.wait_state_frames = 240;
 	}
 	else if (Level2Manager.HP <= 480)
 	{
 		Level2Manager.character_row = 3;
+		Level2Manager.wait_state_frames = 270;
 	}
 
 
@@ -82,4 +88,6 @@ if (phase_one_hole_state == Phase1HoleState.E_CHARGE
 	{
 		instance_destroy(p_ball);
 	}
+	
+	got_hit = true;
 }

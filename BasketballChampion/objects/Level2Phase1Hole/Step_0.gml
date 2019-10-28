@@ -12,9 +12,22 @@ switch (phase_one_hole_state)
 		phase_one_hole_state = Phase1HoleState.HIDE;
 		sprite_index = SpriteHoleSplash;
 		
+		var bullet_to_spawn;
+		
+		if (got_hit)
+		{
+			bullet_to_spawn = BasicBullet;
+			got_hit = false;
+		}
+		else
+		{
+			bullet_to_spawn = UnclearableBullet;
+			got_hit = false;
+		}
+		
 		for (var i = 0; i < num_bullets_on_hide; i++)
 		{
-			var bullet = instance_create_depth(x, y, -1, UnclearableBullet);
+			var bullet = instance_create_depth(x, y, -1, bullet_to_spawn);
 			bullet.x_direction = dir_x[i];
 			bullet.y_direction = dir_y[i];
 			bullet.bullet_speed = hide_bullet_speed;
