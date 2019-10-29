@@ -1,5 +1,6 @@
 movement_speed = 1;
 HP = 600;
+totalHP = 600;
 
 Phase = LevelThreePhase.ONE;
 

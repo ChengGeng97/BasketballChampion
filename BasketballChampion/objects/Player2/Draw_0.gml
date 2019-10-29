@@ -37,6 +37,7 @@ posy = 950;
 //if enem>global.max_hp global.hp=global.max_hp
 
 hsv = hsv_min;
+scale_per_unit = 194/3; //idk why but if i use 194/player_HP there's some weird drawing bug
 for (i = 0; i < player_HP; i++) {
     //draw the color effect
     if hsv < hsv_max and hsv_effect {
@@ -47,5 +48,5 @@ for (i = 0; i < player_HP; i++) {
     col = make_colour_hsv(hsv, saturation, 200);
  
     //draw the health fill
-    draw_sprite_ext(PlayerLifebarHealth, -1, posx + ((194/player_HP)*i), posy, (194/player_HP), 1, 0, col, 1);
+    draw_sprite_ext(PlayerLifebarHealth, 0, posx + (scale_per_unit * i), posy, scale_per_unit, 1, 0, col, 1);
 }

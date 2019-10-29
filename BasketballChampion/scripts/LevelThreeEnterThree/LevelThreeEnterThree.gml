@@ -1,4 +1,5 @@
 HP = 600;
+totalHP = 600;
 
 enum Level3Phase3State
 {

@@ -10,7 +10,7 @@ posy = -98;
 
 //max hp bug (if your hp max, it will stop at max_hp)
 //if enem>global.max_hp global.hp=global.max_hp
-
+scale_per_unit = 680/totalHP;
 hsv = hsv_max;
 for (i = 0; i < HP; i++) {
     //draw the color effect
@@ -22,5 +22,5 @@ for (i = 0; i < HP; i++) {
     col = make_colour_hsv(hsv, saturation, 200);
  
     //draw the health fill
-    draw_sprite_ext(EnemyLifebarHealth, -1, posx + (680/HP) * i, posy, (680/HP), 1, 0, col, 1);
+    draw_sprite_ext(EnemyLifebarHealth, -1, posx + (scale_per_unit * i), posy, scale_per_unit, 1, 0, col, 1);
 }

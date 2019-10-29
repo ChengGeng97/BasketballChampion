@@ -2,7 +2,7 @@
     "id": "e4d885b3-0b6f-48ba-8bc5-f25bbe4fb6a2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "GUI_EnemyLifeBar",
+    "name": "GUI_PowerBar",
     "eventList": [
         {
             "id": "86bb2dba-7709-438d-bf0e-d2a806f2b20c",
@@ -15,7 +15,17 @@
             "m_owner": "e4d885b3-0b6f-48ba-8bc5-f25bbe4fb6a2"
         },
         {
-            "id": "242e4ac5-542c-4720-9121-6fcf89237186",
+            "id": "b01dd670-72a6-42da-b7c6-06bdea20defb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e4d885b3-0b6f-48ba-8bc5-f25bbe4fb6a2"
+        },
+        {
+            "id": "95c5866f-345a-4677-b04f-04a83d731d7c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

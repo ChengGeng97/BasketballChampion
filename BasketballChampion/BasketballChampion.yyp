@@ -1263,6 +1263,14 @@
             }
         },
         {
+            "Key": "b1a3b9ef-be13-437a-9fe2-26df7db27376",
+            "Value": {
+                "id": "8c0bb062-f270-440e-81b1-bb97747d0845",
+                "resourcePath": "scripts\\ReturnBallSpeed\\ReturnBallSpeed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b1facaa4-3dd7-4909-9148-c0739d100606",
             "Value": {
                 "id": "c86ee4c1-c249-476e-8e5f-8fe34c241cb4",
@@ -1690,7 +1698,7 @@
             "Key": "e4d885b3-0b6f-48ba-8bc5-f25bbe4fb6a2",
             "Value": {
                 "id": "3c6e34c5-8a1a-4140-9f9f-214b6193e4f5",
-                "resourcePath": "objects\\GUI_EnemyLifeBar\\GUI_EnemyLifeBar.yy",
+                "resourcePath": "objects\\GUI_PowerBar\\GUI_PowerBar.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1921,7 +1929,8 @@
         "a51b8d19-e96e-44ff-b37b-4a6548c5ee23",
         "dbca5b3d-2619-4c44-85df-9499af3e75f7",
         "4a253715-786b-4627-904f-5b8166898860",
-        "6c1b96d9-faf3-497c-9b02-72346ae388fa"
+        "6c1b96d9-faf3-497c-9b02-72346ae388fa",
+        "b1a3b9ef-be13-437a-9fe2-26df7db27376"
     ],
     "tutorial": ""
 }

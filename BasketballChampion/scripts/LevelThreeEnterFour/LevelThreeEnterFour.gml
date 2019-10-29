@@ -1,4 +1,5 @@
 HP = 700;
+totallHP = 700;
 
 enum Level3MeteorPhase
 {
