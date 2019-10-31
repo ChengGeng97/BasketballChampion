@@ -13,7 +13,7 @@ hsv_min=20; //red
 hsv_max=120; //green/blue
 
 hsv=hsv_max;
-hsv_inc= 0.05; //incremental hsv
+hsv_inc= 3; //incremental hsv
 
 
 saturation=250;

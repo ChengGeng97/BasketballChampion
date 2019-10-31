@@ -11,4 +11,5 @@ var down_button_pressed = keyboard_check(ord("R"));
 
 if(down_button_pressed) {
 	room_restart();
+	score = 0;
 }

@@ -1,4 +1,4 @@
-totalHP = 500;
+global.totalHP = 500;
 HP = 500;
 sprite_index = SpriteLevel1EnemyIdle;
 

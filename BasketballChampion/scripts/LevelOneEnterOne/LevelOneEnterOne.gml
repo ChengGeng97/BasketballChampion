@@ -1,3 +1,4 @@
+score = 0;
 x = starting_x;
 y = starting_y;
 

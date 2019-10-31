@@ -18,6 +18,7 @@ else
 
 var damage = round(mapped_ball_speed);
 Level2Manager.HP -= damage;
+score += damage;
 
 show_debug_message("Damage: " + string(damage));
 show_debug_message("HP Left: " + string(Level2Manager.HP));
