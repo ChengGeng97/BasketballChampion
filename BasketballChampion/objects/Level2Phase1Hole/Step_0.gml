@@ -32,7 +32,6 @@ switch (phase_one_hole_state)
 			bullet.y_direction = dir_y[i];
 			bullet.bullet_speed = hide_bullet_speed;
 		}
-		
 		break;
 	
 	case Phase1HoleState.HIDE:

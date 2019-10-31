@@ -5,16 +5,6 @@
     "name": "Poloball",
     "eventList": [
         {
-            "id": "27da72eb-00ff-45d6-bb51-59574cd5d6b1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "6501962f-9da9-49f6-9a4b-734c7d81bf94",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "9a55d65f-c38a-4ad2-b5ca-91e2f4a6769c"
-        },
-        {
             "id": "fa586ba7-6021-4e3a-9a00-6fcef62f93b7",
             "modelName": "GMEvent",
             "mvc": "1.0",

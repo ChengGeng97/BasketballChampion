@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+depth = 1;
+
 enum LevelThreePhase
 {
 	ENTER_ONE, ONE, EXIT_ONE, PAUSE_ONE,

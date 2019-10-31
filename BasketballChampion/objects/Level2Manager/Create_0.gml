@@ -13,4 +13,4 @@ Phase = LevelTwoPhase.ENTER_ONE;
 // Phase = LevelTwoPhase.ENTER_TWO;
 
 pause_frame_counter = 0;
-pause_duration_frames = 0;
+pause_duration_frames = 60;

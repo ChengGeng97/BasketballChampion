@@ -16,7 +16,7 @@ if (phase_one_hole_state == Phase1HoleState.MOLE_CHARGE
 		DeleteBallReturnControlToPlayer();
 	}
 	
-	if (instance_exists(p_ball))
+	if (instance_exists(p_ball) && !p_ball.fired)
 	{
 		instance_destroy(p_ball);
 	}
@@ -84,7 +84,7 @@ if (phase_one_hole_state == Phase1HoleState.E_CHARGE
 		DeleteBallReturnControlToPlayer();
 	}
 	
-	if (instance_exists(p_ball))
+	if (instance_exists(p_ball) && !p_ball.fired)
 	{
 		instance_destroy(p_ball);
 	}
