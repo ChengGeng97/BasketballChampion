@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "1a4ffa43-26c5-4f6b-854d-af108c239cee",
+            "Value": {
+                "id": "dc79cea0-964f-4396-a166-9dab76640395",
+                "resourcePath": "sprites\\SpritePowerBarFill\\SpritePowerBarFill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1a73d0b1-eb9b-4abf-b63a-91948e5e2994",
             "Value": {
                 "id": "76b5dbc1-9dfb-44f9-b4e7-d4b713fb5305",
@@ -396,6 +404,14 @@
                 "id": "83f5f138-7311-41a3-86ce-3c3777caadee",
                 "resourcePath": "objects\/Level1EnemyPhase2BulletSpawner\/Level1EnemyPhase2BulletSpawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1f7011a0-2af6-4822-a867-37c8e0638693",
+            "Value": {
+                "id": "f269df19-894b-482c-af26-dadb988d86eb",
+                "resourcePath": "views\\1f7011a0-2af6-4822-a867-37c8e0638693.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -543,11 +559,27 @@
             }
         },
         {
+            "Key": "359991b0-9ee0-4189-b9e2-0fbc4b650e89",
+            "Value": {
+                "id": "d88ad20e-4924-44f4-baa7-1b6c1680b830",
+                "resourcePath": "sprites\\SpritePlayerLifebarHealth\\SpritePlayerLifebarHealth.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "35d17a5e-1d73-40a5-a0d8-66f47672ac98",
             "Value": {
                 "id": "bb41668f-585e-4b5c-81cf-992d0b1910ee",
                 "resourcePath": "sprites\/SpriteCountdown3\/SpriteCountdown3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "35f14453-f73e-4f53-826f-cb7778a9193c",
+            "Value": {
+                "id": "9ae46490-a519-4e10-98a1-36b481907d00",
+                "resourcePath": "objects\\GUIPowerBar\\GUIPowerBar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -691,6 +723,14 @@
             "Value": {
                 "id": "315440a6-c805-48db-89dd-b6c2b6b1a723",
                 "resourcePath": "sprites\/SpritePunchingBagPlaceholder\/SpritePunchingBagPlaceholder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4571e0d9-7147-4f3d-9b7a-e41f5380e6fe",
+            "Value": {
+                "id": "7b2c4f22-813d-40f5-800b-4092711dd12e",
+                "resourcePath": "sprites\\SpriteEnemyLifebarEmptyOuter\\SpriteEnemyLifebarEmptyOuter.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -980,6 +1020,22 @@
                 "id": "2e00f497-f5b0-4c55-8f6a-05b6b0112e57",
                 "resourcePath": "scripts\\LevelTwoStepTwo\\LevelTwoStepTwo.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "629c1bb2-fc72-4c28-a5ab-3ad83646cae8",
+            "Value": {
+                "id": "91998285-4f0c-47ad-880a-af7a05f5b686",
+                "resourcePath": "views\\629c1bb2-fc72-4c28-a5ab-3ad83646cae8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "632625a1-1fd0-42e5-ac61-3b09e8968474",
+            "Value": {
+                "id": "98f75562-8b36-4bdd-b85b-bb8e732d9c63",
+                "resourcePath": "sprites\\SpriteEnemyLifebarEmptyInner\\SpriteEnemyLifebarEmptyInner.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1279,6 +1335,14 @@
             }
         },
         {
+            "Key": "85defb4b-2fa8-4fb7-91b3-6a0d755b8ccd",
+            "Value": {
+                "id": "72b97f61-8290-4314-82c3-caec330a0e01",
+                "resourcePath": "sprites\\SpritePlayerLifebarEmptyOuter\\SpritePlayerLifebarEmptyOuter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "866048f6-72b0-4d2f-af3a-b5506dfd83ec",
             "Value": {
                 "id": "91880ce7-142e-4322-957f-c47691e2ac22",
@@ -1372,6 +1436,14 @@
                 "id": "8c6e1598-7baf-4fcb-9517-ce5d4627f073",
                 "resourcePath": "views\/91ff5b1f-1371-4c07-a706-a7ff54f0cda7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "929521a1-4137-4b47-adf9-25cd47d71242",
+            "Value": {
+                "id": "acc1a5ff-1c79-4c99-bd1c-f90813e0b1b8",
+                "resourcePath": "sprites\\SpritePowerBarOuter\\SpritePowerBarOuter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1671,6 +1743,14 @@
             }
         },
         {
+            "Key": "be528922-7c74-4ca2-80e2-ec4fde7420a8",
+            "Value": {
+                "id": "89c2379e-a7e8-44a7-afb9-94ea34647495",
+                "resourcePath": "sprites\\SpritePlayerLifebarEmptyInner\\SpritePlayerLifebarEmptyInner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "be9d2736-466e-46b8-ab74-43177e9308bd",
             "Value": {
                 "id": "c805a2de-6775-45b7-8fc6-20c92383a29f",
@@ -1727,6 +1807,14 @@
             }
         },
         {
+            "Key": "c5e9f6e0-9199-4c40-bc21-8a1dd343f1c1",
+            "Value": {
+                "id": "b3ed61cd-c4b5-40ba-a1e0-fc348d93f26c",
+                "resourcePath": "scripts\\ReturnBallSpeed\\ReturnBallSpeed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c6a24d31-c028-487f-be7f-963609003d52",
             "Value": {
                 "id": "0fb02be2-fbde-4a82-96a4-2d4ee407d990",
@@ -1755,6 +1843,14 @@
             "Value": {
                 "id": "de7bd392-347b-425a-9aa2-ff5467bead9c",
                 "resourcePath": "sprites\/SpriteTennisBall\/SpriteTennisBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cb90c167-e572-4532-a6e7-c596e07c65fe",
+            "Value": {
+                "id": "d37095ea-9958-43d5-ab92-74f80f4a0c06",
+                "resourcePath": "sprites\\SpriteEnemyLifebarHealth\\SpriteEnemyLifebarHealth.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2012,6 +2108,14 @@
                 "id": "1b011162-6ec0-461d-b4ea-521db8c94809",
                 "resourcePath": "views\/e27ff80d-bc2b-4818-8435-9425f1ea4d3f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e310ad12-ceba-499a-8875-a12c8a4c0318",
+            "Value": {
+                "id": "96fd2fbf-8b70-4035-a45c-40220de70731",
+                "resourcePath": "sprites\\SpritePowerBarEmptyInner\\SpritePowerBarEmptyInner.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2320,7 +2424,8 @@
         "a51b8d19-e96e-44ff-b37b-4a6548c5ee23",
         "dbca5b3d-2619-4c44-85df-9499af3e75f7",
         "4a253715-786b-4627-904f-5b8166898860",
-        "6c1b96d9-faf3-497c-9b02-72346ae388fa"
+        "6c1b96d9-faf3-497c-9b02-72346ae388fa",
+        "c5e9f6e0-9199-4c40-bc21-8a1dd343f1c1"
     ],
     "tutorial": ""
 }

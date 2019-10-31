@@ -13,3 +13,16 @@ Phase = LevelOneAgainPhase.ENTER_ONE;
 
 pause_frame_counter = 0;
 pause_duration_frames = 60;
+
+
+//toggle hsv_effect
+hsv_effect=1;
+
+//minimum hsv and max hsv, max 255
+hsv_min=0; //red
+hsv_max=40; //yellow
+
+hsv = hsv_max;
+hsv_inc = 0.1; //incremental hsv
+
+saturation=250;

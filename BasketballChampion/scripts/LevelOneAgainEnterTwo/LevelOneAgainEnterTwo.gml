@@ -1,3 +1,4 @@
+totalHP = 500;
 HP = 500;
 sprite_index = SpriteLevel1EnemyIdle;
 
