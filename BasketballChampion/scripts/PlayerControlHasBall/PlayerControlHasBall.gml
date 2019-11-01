@@ -125,8 +125,8 @@ else if (down_button_pressed)
 }
 
 // Prevent player from moving out-of-bounds
-x = clamp(x, 0, room_width);
-y = clamp(y, 0, room_height);
+x = clamp(x, GameManager.x_pad, GameManager.x_max_bound);
+y = clamp(y, GameManager.y_pad, GameManager.y_max_bound);
 
 
 if (!right_clicked)

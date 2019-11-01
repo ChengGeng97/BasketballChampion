@@ -5,31 +5,31 @@ real_ball_speed = ball_speed + real_base_speed;
 
 if (!instance_exists(BlackHoleCore))
 {
-	if (x > room_width)
+	if (x > GameManager.x_max_bound)
 	{
 		x_direction = -x_direction;
 	}
 
-	if (x < 0)
+	if (x < GameManager.x_pad)
 	{
 		x_direction = -x_direction;
 	}
 }
 else
 {
-	if (x > room_width + 5)
+	if (x > GameManager.x_max_bound + 5)
 	{
 		DeleteBallReturnControlToPlayer();
 	}
 	
-	if (x < -5)
+	if (x < GameManager.x_pad - 5)
 	{
 		DeleteBallReturnControlToPlayer();
 	}
 }
 
 
-if (y > room_height || y < 0)
+if (y > GameManager.y_max_bound || y < GameManager.y_pad)
 {
 	DeleteBallReturnControlToPlayer();
 }

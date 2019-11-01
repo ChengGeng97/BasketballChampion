@@ -14,12 +14,12 @@ if (activated)
 	clamp(x, 0, room_width);
 	clamp(y, 0, room_height);
 
-	if (x > room_width || x < 0)
+	if (x > GameManager.x_max_bound || x < GameManager.x_pad)
 	{
 		x_move_each_step = -x_move_each_step;
 	}
 
-	if (y > room_height || y < 0)
+	if (y > GameManager.y_max_bound || y < GameManager.y_pad)
 	{
 		y_move_each_step = -y_move_each_step;
 	}

@@ -2,8 +2,8 @@ global.totalHP = 700;
 HP = 700;
 sprite_index = SpriteLevel1EnemyIdle;
 
-x = 350;
-y = 200;
+x = GameManager.x_pad + 350;
+y = GameManager.y_pad + 200;
 
 enum LevelOneAgainPhaseOneState
 {

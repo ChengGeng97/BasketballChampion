@@ -51,7 +51,7 @@ if (fired)
 
 
 // Boundary Response
-if (x < 50 || x > room_width - 50 || y > room_height - 50)
+if (x < GameManager.x_pad + 50 || x > GameManager.x_max_bound - 50 || y > GameManager.y_max_bound - 50)
 {
 	if(!hit_wall)
 	{
@@ -61,7 +61,7 @@ if (x < 50 || x > room_width - 50 || y > room_height - 50)
 }
 
 
-if (x < -50 || x > room_width + 50 || y < -50 || y > room_height + 50)
+if (x < GameManager.x_pad - 50 || x > GameManager.x_max_bound + 50 || y < GameManager.y_pad -50 || y > GameManager.y_max_bound + 50)
 {
 	instance_destroy();
 }

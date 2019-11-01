@@ -2,17 +2,17 @@ HP = 600;
 
 // Creates the holes
 rows = 5;
-heights[0] = 96;
-heights[1] = 192;
-heights[2] = 288;
-heights[3] = 384;
-heights[4] = 480;
+heights[0] = GameManager.y_pad + 96;
+heights[1] = GameManager.y_pad + 192;
+heights[2] = GameManager.y_pad + 288;
+heights[3] = GameManager.y_pad + 384;
+heights[4] = GameManager.y_pad + 480;
 
 long_r = 4;
-lengths_long[0] = 64;
-lengths_long[1] = 256;
-lengths_long[2] = 448;
-lengths_long[3] = 640;
+lengths_long[0] = GameManager.x_pad + 64;
+lengths_long[1] = GameManager.x_pad + 256;
+lengths_long[2] = GameManager.x_pad + 448;
+lengths_long[3] = GameManager.x_pad + 640;
 
 short_r = 3;
 lengths_short[0] = 160;

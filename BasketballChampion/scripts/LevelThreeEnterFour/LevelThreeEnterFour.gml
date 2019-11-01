@@ -7,8 +7,8 @@ enum Level3MeteorPhase
 
 MeteorPhaseState = Level3MeteorPhase.MOVING;
 
-x = 350;
-y = 100;
+x = GameManager.x_pad + 350;
+y = GameManager.y_pad + 100;
 
 movement_speed = 1;
 frame_counter = 230;
