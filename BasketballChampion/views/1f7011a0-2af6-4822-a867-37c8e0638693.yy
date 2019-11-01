@@ -11,7 +11,10 @@
         "3dd78d00-4ad8-4a4b-b351-acd2eb88fb1e",
         "d859eebc-e376-443f-920d-e75c061828a1",
         "9fc77aaa-40c2-40d4-a9f2-be2192e0b1a1",
-        "c1e647cd-d4b1-4e2c-9340-fd353465c030"
+        "c1e647cd-d4b1-4e2c-9340-fd353465c030",
+        "001c6804-a61e-4fc2-8901-b9b80cde3b56",
+        "42eb9fe6-24c5-49f5-9ecb-a216efdf4c38",
+        "107f427b-ed1c-40a5-8871-e81c40c2fa7e"
     ],
     "filterType": "GMObject",
     "folderName": "BellaUI",
