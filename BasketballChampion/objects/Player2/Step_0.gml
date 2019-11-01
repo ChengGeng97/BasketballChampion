@@ -4,6 +4,7 @@
 if(player_HP == 0)
 {
 	player_state = PlayerState.Dead;
+	room_goto(Game_Over_Page);
 }
 else
 {
