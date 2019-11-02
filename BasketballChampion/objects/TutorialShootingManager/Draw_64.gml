@@ -4,11 +4,11 @@
 switch (manager_state)
 {
 	case ShootingTutorialState.START:
-		draw_text(220, 100, "Bounce the ball off the wall!");
+		draw_text(GameManager.x_pad + 220, GameManager.y_pad + 100, "Bounce the ball off the wall!");
 		break;
 	
 	case ShootingTutorialState.HIT:
-		draw_text(215, 100, "CONGRTUALIONS! You win game!!!");
-		draw_text(240, 125, "Press Enter to continue!!");
+		draw_text(GameManager.x_pad + 215, GameManager.y_pad + 100, "CONGRTUALIONS! You win game!!!");
+		draw_text(GameManager.x_pad + 240, GameManager.y_pad + 125, "Press Enter to continue!!");
 		break;
 }

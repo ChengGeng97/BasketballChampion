@@ -11,14 +11,14 @@ manager_state = TutorialClearingState.START;
 num_col = 40;
 num_row = 40;
 
-y_min = 200;
-y_max = 700;
+y_min = GameManager.y_pad + 200;
+y_max = GameManager.y_pad + 700;
 y_gap = y_max - y_min;
 
-x_increm = room_width / num_col;
+x_increm = (GameManager.x_max_bound - GameManager.x_pad) / num_col;
 y_increm = y_gap / num_row;
 
-x_total = 9;
+x_total = GameManager.x_pad + 9;
 
 for (var i = 0; i < num_col; i++) {
 	y_total = y_min;
