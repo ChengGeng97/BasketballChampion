@@ -3,7 +3,7 @@ switch(menu_index) {
 		room_goto(Difficulty_Screen);
 		break;	
 	case 1:
-		//room_goto();
+		room_goto(Instructions_Page);
 		break;
 	case 2: 
 		//room_goto();
