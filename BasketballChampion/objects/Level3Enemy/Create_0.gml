@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-depth = 1;
+//depth = 1;
 
 enum LevelThreePhase
 {
@@ -15,3 +15,5 @@ enum LevelThreePhase
 Phase = LevelThreePhase.ENTER_ONE;
 //Phase = LevelThreePhase.ENTER_THREE;
 //Phase = LevelThreePhase.ENTER_FOUR;
+
+first_time = true;

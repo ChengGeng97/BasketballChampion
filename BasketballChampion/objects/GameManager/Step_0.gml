@@ -7,4 +7,3 @@ if (down_button_pressed) {
 	room_restart();
 	score = 0;
 }
-

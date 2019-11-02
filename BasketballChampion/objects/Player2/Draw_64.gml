@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*
 //left border
 draw_sprite(SpritePlayerLifebarEmptyOuter, -1, 285, 950);
 draw_sprite(SpritePlayerLifebarEmptyInner, -1, 285, 950);
@@ -56,6 +57,7 @@ draw_sprite(SpritePlayerLifebarEmptyInner, -1, 485, 950);
 	    draw_sprite_ext(SpritePlayerLifebarHealth, -1, posx2 + (scale_per_unit * i), posy, scale_per_unit, 1, 0, col, 1);
 	}
 	
+
 //rightmost bar
 	//Health bar position
 	posx3 = 488;
@@ -64,6 +66,7 @@ draw_sprite(SpritePlayerLifebarEmptyInner, -1, 485, 950);
 	//if enem>global.max_hp global.hp=global.max_hp
 	scale_per_unit = 44/3;
 	hsv = hsv_min;
+	
 	for (i = 0; i < player_HP_3; i++) {
 	    //draw the color effect
 	    if hsv < hsv_max and hsv_effect {
@@ -76,3 +79,4 @@ draw_sprite(SpritePlayerLifebarEmptyInner, -1, 485, 950);
 	    //draw the health fill
 	    draw_sprite_ext(SpritePlayerLifebarHealth, -1, posx3 + (scale_per_unit * i), posy, scale_per_unit, 1, 0, col, 1);
 	}
+*/

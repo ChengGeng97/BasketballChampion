@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*
 if ((player_lives == 1) && (player_HP_1 == 0)) {
 	
 	player_state = PlayerState.Dead;
@@ -14,6 +15,14 @@ if ((player_lives == 1) && (player_HP_1 == 0)) {
 	
 	player_lives -= 1;
 	
+}
+else
+*/
+
+if (player_HP == 0)
+{
+	player_state = PlayerState.Dead;
+    //room_goto(Game_Over_Page);
 }
 else
 {

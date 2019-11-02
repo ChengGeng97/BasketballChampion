@@ -1,5 +1,8 @@
-global.totalHP = 500;
+total_phase_HP = 500;
+halfHealth = total_phase_HP / 2;
+oneEighthHealth = total_phase_HP / 8;
 HP = 500;
+
 sprite_index = SpriteLevel1EnemyIdle;
 
 x = GameManager.x_pad + 350;

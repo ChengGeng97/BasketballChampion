@@ -1,3 +1,6 @@
+total_phase_HP = 700;
+halfHealth = total_phase_HP / 2;
+oneEighthHealth = total_phase_HP / 8;
 HP = 700;
 
 enum Level3MeteorPhase
