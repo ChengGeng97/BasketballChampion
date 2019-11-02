@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+draw_set_halign(fa_left);
 if (manager_state == TutorialClearingState.REACH_PLATE)
 {
 	if (keyboard_check_pressed(vk_enter))
