@@ -8,4 +8,4 @@ if (hasentered) {
 	draw_set_color(c_yellow);
 }
 
-draw_text_transformed(x + 437, y + 50, "NO", 3, 3, 0);
+draw_text_transformed(x + 500, y + 25, "NO", 3, 3, 0);

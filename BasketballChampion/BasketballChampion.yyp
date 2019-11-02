@@ -391,14 +391,6 @@
             }
         },
         {
-            "Key": "1a4ffa43-26c5-4f6b-854d-af108c239cee",
-            "Value": {
-                "id": "dc79cea0-964f-4396-a166-9dab76640395",
-                "resourcePath": "sprites\\SpritePowerBarFill\\SpritePowerBarFill.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1a73d0b1-eb9b-4abf-b63a-91948e5e2994",
             "Value": {
                 "id": "76b5dbc1-9dfb-44f9-b4e7-d4b713fb5305",
@@ -1655,6 +1647,14 @@
             }
         },
         {
+            "Key": "95ae3662-5311-41e5-bc23-89d85b67fb5a",
+            "Value": {
+                "id": "5be042b5-c804-4ff2-a703-bd3fe899d229",
+                "resourcePath": "sprites\\SpritePowerBarFill\\SpritePowerBarFill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "967686eb-05e4-4d58-a911-4b6f6f620660",
             "Value": {
                 "id": "25d8b57e-178d-471f-a292-1b5cba284349",
@@ -2028,14 +2028,6 @@
                 "id": "963aad0f-7342-412a-86be-731822d731fc",
                 "resourcePath": "rooms\\Week10_Tutorial_Clearing\\Week10_Tutorial_Clearing.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "c5e9f6e0-9199-4c40-bc21-8a1dd343f1c1",
-            "Value": {
-                "id": "b3ed61cd-c4b5-40ba-a1e0-fc348d93f26c",
-                "resourcePath": "scripts\\ReturnBallSpeed\\ReturnBallSpeed.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -2696,8 +2688,7 @@
         "a51b8d19-e96e-44ff-b37b-4a6548c5ee23",
         "dbca5b3d-2619-4c44-85df-9499af3e75f7",
         "4a253715-786b-4627-904f-5b8166898860",
-        "6c1b96d9-faf3-497c-9b02-72346ae388fa",
-        "c5e9f6e0-9199-4c40-bc21-8a1dd343f1c1"
+        "6c1b96d9-faf3-497c-9b02-72346ae388fa"
     ],
     "tutorial": ""
 }
