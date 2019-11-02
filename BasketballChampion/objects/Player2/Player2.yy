@@ -73,7 +73,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "3",
-            "varName": "player_HP",
+            "varName": "player_HP_1",
             "varType": 0
         },
         {
@@ -214,6 +214,48 @@
             "resourceFilter": 1023,
             "value": "40",
             "varName": "sliding_speed",
+            "varType": 0
+        },
+        {
+            "id": "03888dae-468a-4dfd-80fe-5cad72577b29",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "player_HP_2",
+            "varType": 0
+        },
+        {
+            "id": "05b44ca9-3317-4a71-975b-b4917fbda004",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "player_HP_3",
+            "varType": 0
+        },
+        {
+            "id": "c5216712-f6fc-4daa-9495-6230ac8cd4ea",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "player_lives",
             "varType": 0
         }
     ],

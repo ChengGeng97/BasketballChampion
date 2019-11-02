@@ -9,7 +9,7 @@ button[3] = "Main Menu"
 
 draw_self();
 
-draw_sprite_ext(GUI_Difficulty_Level_Flag_1, -1, x + 640, y - 120, 0.5, 1, 0, c_white, 1);
+draw_sprite_ext(GUI_Difficulty_Level_Flag_1, -1, x + 600, y, 0.5, 0.5, 0, c_white, 1);
 draw_set_font(Main_GUI_Font);
 draw_set_color(c_white);
 if (hasentered) {

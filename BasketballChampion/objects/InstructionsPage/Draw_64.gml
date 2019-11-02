@@ -5,47 +5,47 @@
 //draw_sprite_ext(GUI_Difficulty_Level_Flag_4, -1, x + 640, y - 120, 0.5, 1, 0, c_white, 1);
 //draw dividers
 //draw_sprite(GUI_Instructions_Page_Divider,-1, 467, 550); //split PLAYER WITH BALL and PLAYER WITHOUT BALL
-draw_sprite(GUI_Instructions_Page_Divider_Under_Controls, -1, 303, 60);
-draw_sprite(SpriteBallUpInstructions, -1, 117, 350); //w
-draw_sprite(SpriteBallLeftInstructions, -1, 350, 360); //a
-draw_sprite(SpriteBallDownInstructions, -1, 584, 350); //s
-draw_sprite(SpriteBallRightInstructions, -1, 818, 366); //d
-draw_sprite(SpriteBallUpInstructionsShootBall, -1, 233, 915); //shoot the ball
-draw_sprite(SpriteBallUpInstructionsSliding, -1, 701, 935); //sLIDING
+draw_sprite(GUI_Instructions_Page_Divider_Under_Controls, -1, 330, 60);
+draw_sprite(SpriteBallUpInstructions, -1, 125, 300); //w
+draw_sprite(SpriteBallLeftInstructions, -1, 375, 300); //a
+draw_sprite(SpriteBallDownInstructions, -1, 625, 300); //s
+draw_sprite(SpriteBallRightInstructions, -1, 875, 300); //d
+draw_sprite(SpriteBallUpInstructionsShootBall, -1, 250, 750); //shoot the ball
+draw_sprite(SpriteBallUpInstructionsSliding, -1, 750, 770); //sLIDING
 
 
 draw_set_font(Main_GUI_Font);
 draw_set_color(c_white);
 draw_set_halign(fa_center);
-draw_text_transformed(467, 20, "CONTROLS", 4, 4, 0);
+draw_text_transformed(500, 10, "CONTROLS", 4, 4, 0);
 
 //main controls
-draw_text_transformed(467, 120, "R   -   RESTART   GAME", 2, 2, 0);
-draw_text_transformed(117, 200, "W", 2, 2, 0);
-draw_text_transformed(117, 270, "MOVE UPWARDS", 1.5, 1.5, 0);
-draw_text_transformed(350, 200, "A", 2, 2, 0);
-draw_text_transformed(350, 270, "MOVE LEFT", 1.5, 1.5, 0);
-draw_text_transformed(584, 200, "S", 2, 2, 0);
-draw_text_transformed(584, 270, "MOVE DOWNWARDS", 1.5, 1.5, 0);
-draw_text_transformed(818, 200, "D", 2, 2, 0);
-draw_text_transformed(818, 270, "MOVE RIGHT", 1.5, 1.5, 0);
+draw_text_transformed(500, 90, "R   -   RESTART   GAME", 2, 2, 0);
+draw_text_transformed(125, 170, "W", 2, 2, 0);
+draw_text_transformed(125, 200, "MOVE   UPWARDS", 1.5, 1.5, 0);
+draw_text_transformed(375, 170, "A", 2, 2, 0);
+draw_text_transformed(375, 200, "MOVE   LEFT", 1.5, 1.5, 0);
+draw_text_transformed(625, 170, "S", 2, 2, 0);
+draw_text_transformed(625, 200, "MOVE   DOWNWARDS", 1.5, 1.5, 0);
+draw_text_transformed(875, 170, "D", 2, 2, 0);
+draw_text_transformed(875, 200, "MOVE   RIGHT", 1.5, 1.5, 0);
 
 //SHOOTING BALL
-draw_text_transformed(233, 550, "PRESS   THE   LEFT", 1.5, 1.5, 0);
-draw_text_transformed(233, 585, "MOUSE   TO   CHARGE", 1.5, 1.5, 0);
-draw_text_transformed(233, 620, "AND   RELEASE   TO", 1.5, 1.5, 0);
-draw_text_transformed(233, 655, "SHOOT   THE   BALL", 1.5, 1.5, 0);
-draw_text_transformed(233, 690, "IN   THE   DIRECTION", 1.5, 1.5, 0);
-draw_text_transformed(233, 725, "OF   YOUR   MOUSE", 1.5, 1.5, 0);
-draw_text_transformed(233, 760, "POSITION", 1.5, 1.5, 0);
+draw_text_transformed(250, 400, "PRESS   THE   LEFT", 1.5, 1.5, 0);
+draw_text_transformed(250, 430, "MOUSE   TO   CHARGE", 1.5, 1.5, 0);
+draw_text_transformed(250, 460, "AND   RELEASE   TO", 1.5, 1.5, 0);
+draw_text_transformed(250, 490, "SHOOT   THE   BALL", 1.5, 1.5, 0);
+draw_text_transformed(250, 520, "IN   THE   DIRECTION", 1.5, 1.5, 0);
+draw_text_transformed(250, 550, "OF   YOUR   MOUSE", 1.5, 1.5, 0);
+draw_text_transformed(250, 580, "POSITION", 1.5, 1.5, 0);
 
 //SLIDING
-draw_text_transformed(701, 550, "CLICK   THE   RIGHT", 1.5, 1.5, 0);
-draw_text_transformed(701, 585, "MOUSE   TO   MAKE", 1.5, 1.5, 0);
-draw_text_transformed(701, 620, "A   SHORT   DASH", 1.5, 1.5, 0);
-draw_text_transformed(701, 655, "IN   THE   DIRECTION", 1.5, 1.5, 0);
-draw_text_transformed(701, 690, "OF   YOUR   MOUSE", 1.5, 1.5, 0);
-draw_text_transformed(701, 725, "POSITION   WHILE", 1.5, 1.5, 0);
-draw_text_transformed(701, 760, "GAINING   TEMPORARY", 1.5, 1.5, 0);
-draw_text_transformed(701, 795, "INVINCIBILITY", 1.5, 1.5, 0);
+draw_text_transformed(750, 400, "CLICK   THE   RIGHT", 1.5, 1.5, 0);
+draw_text_transformed(750, 430, "MOUSE   TO   MAKE", 1.5, 1.5, 0);
+draw_text_transformed(750, 460, "A   SHORT   DASH", 1.5, 1.5, 0);
+draw_text_transformed(750, 490, "IN   THE   DIRECTION", 1.5, 1.5, 0);
+draw_text_transformed(750, 520, "OF   YOUR   MOUSE", 1.5, 1.5, 0);
+draw_text_transformed(750, 550, "POSITION   WHILE", 1.5, 1.5, 0);
+draw_text_transformed(750, 580, "GAINING   TEMPORARY", 1.5, 1.5, 0);
+draw_text_transformed(750, 610, "INVINCIBILITY", 1.5, 1.5, 0);
 
