@@ -103,6 +103,20 @@
             "value": "0",
             "varName": "y_direction",
             "varType": 0
+        },
+        {
+            "id": "f47ad2c0-3441-4f56-b73d-34aeeac7727c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "real_base_speed",
+            "varType": 1
         }
     ],
     "solid": false,

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(player_HP == 0)
+if (player_HP == 0)
 {
 	player_HP = 1;
 	x = starting_x;

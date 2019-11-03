@@ -37,6 +37,7 @@ down_button = ord("S");
 
 left_mouse_button = mb_left;
 right_mouse_button = mb_right;
+retrieve_button = vk_space;
 
 player_hitbox = instance_create_depth(x, y, -1, PlayerDamageHitbox);
 player_hitbox.player_id = id;

@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-// Used to keep track of the direction the player is facing
 player_state = PlayerState.HasBall;
 player_facing_direction = FacingDirection.Up;
 
@@ -12,6 +10,7 @@ down_button = ord("S");
 
 left_mouse_button = mb_left;
 right_mouse_button = mb_right;
+retrieve_button = vk_space;
 
 player_hitbox = instance_create_depth(x, y, -1, PlayerDamageHitbox);
 player_hitbox.player_id = id;

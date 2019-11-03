@@ -16,12 +16,13 @@ if (left_released)
 	
 	var football = instance_create_depth(x, y, -1, TutorialFootball);
 	var ball_speed = BallManager.base_speed + BallManager.kick_charge_frames;
+	football.ball_speed = ball_speed;
 	
-	if (ball_speed == 80)
+	if (ball_speed == 60)
 	{
 		audio_play_sound(SfxKickFullPower, 0, false);
 	}
-	else if (ball_speed >= 50)
+	else if (ball_speed >= 30)
 	{
 		audio_play_sound(SfxKickHalfPower, 0, false);
 	}
@@ -30,7 +31,6 @@ if (left_released)
 		audio_play_sound(SfxKickLowPower, 0, false);
 	}
 	
-	football.ball_speed = ball_speed;
 	BallManager.kick_charge_frames = 0;
 	
 	var vector_x = mouse_x - x;
