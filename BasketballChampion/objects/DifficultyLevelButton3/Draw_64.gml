@@ -14,4 +14,4 @@ if (hasentered) {
 	draw_set_color(c_aqua);
 }
 draw_set_halign(fa_center);
-draw_text_transformed(x + 350, y + 70, "[Hole-in-One (Hard)]", 2, 2, 0);
+draw_text_transformed(x + 350, y + 70, "Hole-In-One - A life is 1 hit!", 2, 2, 0);

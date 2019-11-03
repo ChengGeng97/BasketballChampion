@@ -1,7 +1,28 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (variable_global_exists("max_HP"))
+{
+	max_HP = global.max_HP;
+}
+else
+{
+	global.max_HP = max_HP;
+}
+
+if (!variable_global_exists("lives_left"))
+{
+	global.lives_left = 3;
+	//global.lives_left = 0;
+}
+
 show_debug_message("Room Start");
+
+enum RoomState {
+	ONGOING, DEAD, PAUSE
+}
+
+room_state = RoomState.ONGOING;
 
 x_pad = 64;
 y_pad = 32;

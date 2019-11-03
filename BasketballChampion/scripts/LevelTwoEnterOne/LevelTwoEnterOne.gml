@@ -2,6 +2,7 @@ total_phase_HP = 600;
 halfHealth = total_phase_HP / 2;
 oneEighthHealth = total_phase_HP / 8;
 HP = 600;
+phase_name = "Uprising of the Trodden Underfoot"
 
 // Creates the holes
 rows = 5;

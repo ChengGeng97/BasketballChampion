@@ -1,7 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (variable_global_exists("max_HP"))
+{
+	player_HP = global.max_HP;
+}
+
 GameManager.player_object = id;
+
+starting_x = x;
+starting_y = y;
 
 // Used to keep track of the direction the player is facing
 enum PlayerState

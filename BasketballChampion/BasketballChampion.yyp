@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "0b2c0b4d-f7ed-4abb-b212-88ac2d12957d",
+            "Value": {
+                "id": "50b2bccc-f3bb-4e54-a959-7329722f84ee",
+                "resourcePath": "sprites\\SpriteLifeIcon\\SpriteLifeIcon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0b892321-d414-4380-b6ad-8892b7de02f4",
             "Value": {
                 "id": "0cb867b7-85a6-480a-9dec-38726b582424",
@@ -1135,6 +1143,14 @@
             }
         },
         {
+            "Key": "5fd0200f-f968-480b-ad02-9dc268bd293b",
+            "Value": {
+                "id": "93df7c34-fce3-4a8e-82b7-020e15d1df12",
+                "resourcePath": "sprites\\SpriteButtonCollisionMask\\SpriteButtonCollisionMask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60e25671-1157-4890-8a9f-db8f5169cbb5",
             "Value": {
                 "id": "0cef225b-0101-4efc-8429-ee5a70cdd61c",
@@ -1188,6 +1204,14 @@
                 "id": "40768b5c-b13e-43dd-89d9-c3cea3f6a995",
                 "resourcePath": "sprites\\GUI_Instructions_Page_Divider_Under_Controls\\GUI_Instructions_Page_Divider_Under_Controls.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "63f9031c-4354-4729-a317-0610a18a709e",
+            "Value": {
+                "id": "e9a85976-f637-433d-8ad7-04458cae7443",
+                "resourcePath": "objects\\RoomChangingButtonResetLives\\RoomChangingButtonResetLives.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1380,6 +1404,14 @@
                 "id": "b7547164-2dc8-4d3b-b9a2-92ad718ac30d",
                 "resourcePath": "sprites\/SpriteBallDownLeft\/SpriteBallDownLeft.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7692edfa-05d9-4a1e-bb00-a0968986f75d",
+            "Value": {
+                "id": "177226e5-bdd9-4246-9234-aa24906ced09",
+                "resourcePath": "objects\\DeadStateOverlay\\DeadStateOverlay.yy",
+                "resourceType": "GMObject"
             }
         },
         {

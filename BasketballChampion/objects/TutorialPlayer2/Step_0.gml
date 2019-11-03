@@ -4,6 +4,7 @@
 if (first_time)
 {
 	GameManager.player_object = id;
+	GameManager.max_HP = 1;
 	first_time = false;
 }
 

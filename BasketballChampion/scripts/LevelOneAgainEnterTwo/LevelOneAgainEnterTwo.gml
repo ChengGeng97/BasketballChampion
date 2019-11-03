@@ -2,6 +2,7 @@ total_phase_HP = 500;
 halfHealth = total_phase_HP / 2;
 oneEighthHealth = total_phase_HP / 8;
 HP = 500;
+phase_name = "1-v-1 me IRL"
 
 sprite_index = SpriteLevel1EnemyIdle;
 

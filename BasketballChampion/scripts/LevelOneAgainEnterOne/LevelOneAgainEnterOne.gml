@@ -2,6 +2,7 @@ total_phase_HP = 700;
 halfHealth = total_phase_HP / 2;
 oneEighthHealth = total_phase_HP / 8;
 HP = 700;
+phase_name = "Falling Petal Blizzard"
 
 sprite_index = SpriteLevel1EnemyIdle;
 

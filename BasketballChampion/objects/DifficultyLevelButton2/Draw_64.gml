@@ -15,4 +15,4 @@ if (hasentered) {
 	draw_set_color(c_aqua);
 }
 draw_set_halign(fa_center);
-draw_text_transformed(x + 350, y + 70, "[Birdie (Medium)]", 2, 2, 0);
+draw_text_transformed(x + 350, y + 70, "Birdie - A life is 2 hits", 2, 2, 0);
