@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (first_time)
+{
+	GameManager.player_object = id;
+	first_time = false;
+}
+
 if (player_HP == 0)
 {
 	player_HP = 1;

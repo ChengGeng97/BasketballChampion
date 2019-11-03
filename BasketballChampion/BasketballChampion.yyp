@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "05814689-1f82-4e55-b63c-6fa4d54ba3c9",
+            "Value": {
+                "id": "5b0a7f2d-e855-4638-aa15-3002ece29558",
+                "resourcePath": "sprites\\SpritePlayerLifebarEmpty\\SpritePlayerLifebarEmpty.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0610848a-1f16-4537-994c-cd5f4d4204ab",
             "Value": {
                 "id": "3a0f1187-61ab-4ce3-9f79-e1252305a350",
@@ -679,6 +687,14 @@
             }
         },
         {
+            "Key": "3601d2a0-7eab-494d-bac6-f562ea2ee1ac",
+            "Value": {
+                "id": "c19de135-4870-48e4-a986-a992955cd2c9",
+                "resourcePath": "sprites\\SpritePlayerHealthGreen\\SpritePlayerHealthGreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3602e3c9-fd75-4a36-bab8-d078e9220537",
             "Value": {
                 "id": "021c35df-446e-4419-8bed-4115efc2c272",
@@ -1207,6 +1223,14 @@
             }
         },
         {
+            "Key": "661245fa-7b30-4aec-8849-b4fae34b3099",
+            "Value": {
+                "id": "921d6d5b-8411-46b0-8fff-c6059b08dab5",
+                "resourcePath": "sprites\\SpritePlayerHealthBlue\\SpritePlayerHealthBlue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66569f17-5cca-4344-b390-2466e9172462",
             "Value": {
                 "id": "c8972a67-06da-40c6-9d0d-7f99eec76098",
@@ -1284,6 +1308,14 @@
                 "id": "816a1d6a-6e7b-40a3-9aa6-09e65dfff573",
                 "resourcePath": "objects\\Hitspark\\Hitspark.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6d3bc36e-b48d-43c6-bd71-2e28df16ec02",
+            "Value": {
+                "id": "05b41b50-736d-4a64-b3de-49188c3f1c44",
+                "resourcePath": "sprites\\SpritePlayerHealthYellow\\SpritePlayerHealthYellow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2444,6 +2476,14 @@
                 "id": "e929da42-27d7-4bed-8dcf-81d3354af820",
                 "resourcePath": "rooms\/Week10_Tutorial_Walking\/Week10_Tutorial_Walking.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ef5e184e-4c19-4fb9-a4a9-429a371aba6a",
+            "Value": {
+                "id": "52147783-f985-4cd4-8137-9df359377611",
+                "resourcePath": "sprites\\SpritePlayerHealthRed\\SpritePlayerHealthRed.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

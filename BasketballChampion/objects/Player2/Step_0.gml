@@ -19,6 +19,13 @@ if ((player_lives == 1) && (player_HP_1 == 0)) {
 else
 */
 
+if (first_time)
+{
+	GameManager.player_object = id;
+	first_time = false;
+}
+
+
 if (player_HP == 0)
 {
 	player_state = PlayerState.Dead;

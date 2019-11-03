@@ -1,6 +1,74 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// For drawing the player's health
+if (instance_exists(player_object))
+{
+	var player_life_bar_sprite;
+	
+	switch (player_object.player_HP)
+	{
+		case 1:
+			player_life_bar_sprite = SpritePlayerHealthRed;
+			break;
+		
+		case 2:
+			player_life_bar_sprite = SpritePlayerHealthYellow;
+			break;
+		
+		case 3:
+			player_life_bar_sprite = SpritePlayerHealthGreen;
+			break;
+			
+		case 4:
+			player_life_bar_sprite = SpritePlayerHealthBlue;
+			break;
+	}
+	
+	
+	switch (max_HP)
+	{
+		case 1:
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 414, 955);
+			for (var i = 1; i <= player_object.player_HP; i++)
+			{
+				draw_sprite(player_life_bar_sprite, -1, lifebar_x_1[i - 1], 955);
+			}
+			break;
+			
+		case 2:
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 339, 955);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 489, 955);
+			for (var i = 1; i <= player_object.player_HP; i++)
+			{
+				draw_sprite(player_life_bar_sprite, -1, lifebar_x_2[i - 1], 955);
+			}
+			break;
+			
+		case 3:
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 264, 955);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 414, 955);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 564, 955);
+			for (var i = 1; i <= player_object.player_HP; i++)
+			{
+				draw_sprite(player_life_bar_sprite, -1, lifebar_x_3[i - 1], 955);
+			}
+			break;
+			
+		case 4:
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 189, 955);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 339, 955);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 489, 955);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 639, 955);
+			for (var i = 1; i <= player_object.player_HP; i++)
+			{
+				draw_sprite(player_life_bar_sprite, -1, lifebar_x_4[i - 1], 955);
+			}
+			break;
+	}
+}
+
+// For drawing the enemy's health
 if (instance_exists(room_enemy))
 {
 	// Draw the enemy text

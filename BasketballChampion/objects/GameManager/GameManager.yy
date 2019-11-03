@@ -65,6 +65,34 @@
             "value": "0",
             "varName": "room_enemy",
             "varType": 0
+        },
+        {
+            "id": "80f9e464-5e5a-47f6-9fd6-e999f19cd536",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "player_object",
+            "varType": 0
+        },
+        {
+            "id": "3a664ac8-5868-4132-a19e-0bcdf5aecb12",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "max_HP",
+            "varType": 1
         }
     ],
     "solid": false,
