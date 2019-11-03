@@ -10,6 +10,11 @@ if (first_time)
 
 if (player_HP == 0)
 {
+	if (GameManager.room_state != RoomState.DEAD)
+	{
+		instance_create_depth(x, y, 0, Deathspark);
+	}
+	
 	player_state = PlayerState.Dead;
 	
 	if (global.lives_left > 0)
@@ -24,6 +29,8 @@ if (player_HP == 0)
 	else
 	{
 		GameManager.room_state = RoomState.DEAD;
+		visible = false;
+		player_hitbox.visible = false;
 	}
 }
 else

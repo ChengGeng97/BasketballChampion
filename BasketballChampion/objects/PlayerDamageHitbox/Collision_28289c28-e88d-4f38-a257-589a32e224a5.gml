@@ -9,6 +9,7 @@ if (instance_exists(player_id))
 		
 		invulnerability_frames = 60;
 		show_debug_message("YOU GOT HIT!");
+		
+		instance_create_depth(x, y - 40, 1, ExclamationHit);
 	}
 }
-

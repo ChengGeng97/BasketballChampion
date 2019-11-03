@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "0bc8e89f-fcd2-4ad6-9daf-e034d1c1b697",
+            "Value": {
+                "id": "38d1a2fc-ee84-4a70-85b7-c557bf674785",
+                "resourcePath": "objects\\ExclamationHit\\ExclamationHit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c150311-1bc1-461d-bb04-f1c23dcbd2cb",
             "Value": {
                 "id": "ab71a45c-0575-4695-985e-6baf9832309a",
@@ -764,6 +772,14 @@
                 "id": "11916cee-e4cf-448a-b7dd-1c50e9badb05",
                 "resourcePath": "views\\3afbea54-2fc5-424f-8131-00d8db36e095.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3bee32f1-2c50-431d-ae35-f16fcdc86a35",
+            "Value": {
+                "id": "8bdb691a-5c12-4d33-bfee-9fb9027576a3",
+                "resourcePath": "objects\\Deathspark\\Deathspark.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1543,6 +1559,14 @@
             }
         },
         {
+            "Key": "81ea0119-1ce5-483c-81fe-0fcaa3cc8cd5",
+            "Value": {
+                "id": "a7ea4488-3fc2-4966-9d96-346cf5c1e3a4",
+                "resourcePath": "sprites\\SpriteExclamationHit\\SpriteExclamationHit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8310792d-bed5-4bc7-a983-758a84972122",
             "Value": {
                 "id": "1b356fe6-3bf3-465f-ac9a-5a18217472df",
@@ -1651,6 +1675,14 @@
             "Value": {
                 "id": "a6a63d37-e574-41aa-98f6-9b8ffde05cb2",
                 "resourcePath": "sprites\/SpriteNoballUp\/SpriteNoballUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8d4c3b64-b21b-4c98-b7e6-35b692330b2a",
+            "Value": {
+                "id": "18b31840-7aeb-4c0b-af4d-772244c77d23",
+                "resourcePath": "sprites\\SpriteDeathSpark\\SpriteDeathSpark.yy",
                 "resourceType": "GMSprite"
             }
         },

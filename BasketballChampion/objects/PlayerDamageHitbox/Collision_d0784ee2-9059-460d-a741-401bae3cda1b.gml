@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description For when the player gets hit by a bullet
 // You can write your code in this editor
 
 if (instance_exists(player_id))
@@ -9,5 +9,7 @@ if (instance_exists(player_id))
 		
 		invulnerability_frames = 60;
 		show_debug_message("YOU GOT HIT!");
+		
+		instance_create_depth(x, y - 40, 1, ExclamationHit);
 	}
 }
