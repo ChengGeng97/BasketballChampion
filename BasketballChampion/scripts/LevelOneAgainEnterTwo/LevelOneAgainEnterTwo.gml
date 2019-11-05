@@ -47,7 +47,7 @@ high_bounds = 500;
 
 // Charge
 charging_frames = 80;
-tennis_ball_speed = 25;
+tennis_ball_speed = 40;
 
 
 // Fire Pause

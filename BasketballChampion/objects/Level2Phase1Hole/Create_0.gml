@@ -37,6 +37,8 @@ dir_x[num_bullets_on_hide] = 0;
 dir_y[num_bullets_on_hide] = 0;
 hide_bullet_speed = 4;
 
+polo_ball_speed = 35;
+
 var incremental_angle = 360 / num_bullets_on_hide;
 var cumul_angle = 0.0;
 

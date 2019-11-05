@@ -258,7 +258,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "30",
+            "value": "35",
             "varName": "bullet_speed",
             "varType": 0
         },

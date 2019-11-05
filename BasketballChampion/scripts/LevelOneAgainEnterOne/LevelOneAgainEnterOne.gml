@@ -31,7 +31,7 @@ buffered_moving_shoot_period = 40;
 buffered_moving_bullet_speed = 3;
 
 charging_state_frames = 80;
-tennis_speed = 20;
+tennis_speed = 35;
 
 
 fire_pause_frames = 30;
