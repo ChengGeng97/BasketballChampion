@@ -1,8 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+var effective_ball_speed = other.real_ball_speed - other.real_base_speed;
+
 var mapped_ball_speed;
 
+if (effective_ball_speed < 20)
+{
+	mapped_ball_speed = other.ball_speed;
+}
+else if (effective_ball_speed < 50)
+{
+	mapped_ball_speed = effective_ball_speed * 1.3;
+}
+else
+{
+	mapped_ball_speed = effective_ball_speed * 1.5;
+}
+
+/*
 if (other.ball_speed < 20)
 {
 	mapped_ball_speed = other.ball_speed;
@@ -15,6 +31,7 @@ else
 {
 	mapped_ball_speed = other.ball_speed * 1.5;
 }
+*/
 
 var damage = round(mapped_ball_speed);
 HP -= damage;
