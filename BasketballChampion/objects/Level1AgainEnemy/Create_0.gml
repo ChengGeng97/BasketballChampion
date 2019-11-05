@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 GameManager.room_enemy = id;
+next_room = Week9_Level2;
 
 enum LevelOneAgainPhase
 {

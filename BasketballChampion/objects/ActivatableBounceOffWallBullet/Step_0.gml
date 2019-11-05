@@ -27,3 +27,14 @@ if (activated)
 	x += x_move_each_step;
 	y += y_move_each_step;
 }
+
+
+if (x > (GameManager.x_max_bound + 2) || x < (GameManager.x_pad - 2))
+{
+	instance_destroy();
+}
+	
+if (y > (GameManager.y_max_bound + 2) || y < (GameManager.y_pad - 2))
+{
+	instance_destroy();
+}

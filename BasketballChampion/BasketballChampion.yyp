@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "2e10c95c-1b58-4ad3-bc53-7fb8051225ba",
+            "Value": {
+                "id": "b47f29a9-d398-4c3d-b054-7b747a18115d",
+                "resourcePath": "objects\\EnemyDefeatedOverlay\\EnemyDefeatedOverlay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2fb02d69-fb53-424b-9595-e658b45edf9e",
             "Value": {
                 "id": "c270bb85-5d57-4d07-8134-8f57f26b48c3",
@@ -1135,6 +1143,14 @@
             }
         },
         {
+            "Key": "5db7292f-1d89-47e1-a587-f9cfd2262c19",
+            "Value": {
+                "id": "f32184d3-7eca-46ac-a9a8-c381790d4b56",
+                "resourcePath": "objects\\StageClearOverlay\\StageClearOverlay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5dc375a1-5a5a-48ed-9ffd-1915972beda6",
             "Value": {
                 "id": "c25d9e04-a838-4645-a825-231867ec5141",
@@ -1519,6 +1535,14 @@
             }
         },
         {
+            "Key": "7ef120a9-7c06-46a7-a22b-cbbb53886fa3",
+            "Value": {
+                "id": "64c28a13-d4b5-407d-bfa1-e364e4a2e1cb",
+                "resourcePath": "sprites\\SpriteEnemyDie\\SpriteEnemyDie.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f09bfb8-2012-4d37-8d9d-d5aa83c1cbc8",
             "Value": {
                 "id": "acb9db61-dbc0-45a9-b5da-c3cdcede3003",
@@ -1687,6 +1711,14 @@
             }
         },
         {
+            "Key": "8ea2de83-6b85-48ea-afc3-9856c0b22645",
+            "Value": {
+                "id": "bf767b13-c72c-4873-9813-d571fec5df4e",
+                "resourcePath": "sprites\\SpriteLevel3EnemyDie\\SpriteLevel3EnemyDie.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8f93cddc-9910-4865-a466-ee0e99dd0476",
             "Value": {
                 "id": "a298d3ba-1bc8-4e77-aa4d-f940e1a54d34",
@@ -1708,6 +1740,14 @@
                 "id": "de83adcd-7ffe-422b-81b9-9473b41480cb",
                 "resourcePath": "scripts\/LevelOneAgainStepOne\/LevelOneAgainStepOne.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "91891990-84a8-4767-b22e-83158c728922",
+            "Value": {
+                "id": "d3c0c03a-7531-4276-9d52-b17c153c581c",
+                "resourcePath": "sprites\\SpriteLevel1EnemyDie\\SpriteLevel1EnemyDie.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

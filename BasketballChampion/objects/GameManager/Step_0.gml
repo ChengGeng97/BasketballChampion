@@ -10,6 +10,9 @@ if (down_button_pressed) {
 
 switch (room_state)
 {
+	case RoomState.PAUSE:
+		break;
+		
 	case RoomState.ONGOING:
 		break;
 		
@@ -19,7 +22,26 @@ switch (room_state)
 			instance_create_depth(0, 0, 0, DeadStateOverlay);
 		}
 		break;
+
+	case RoomState.ENEMY_DEFEATED:
+		if (!instance_exists(EnemyDefeatedOverlay))
+		{
+			instance_create_depth(0, 0, 0, EnemyDefeatedOverlay);
+		}
+		break;
 		
-	case RoomState.PAUSE:
+	case RoomState.STAGE_CLEAR:
+		show_debug_message("akjgh");
+		if (!instance_exists(StageClearOverlay))
+		{
+			instance_destroy(EnemyDefeatedOverlay);
+			instance_create_depth(0, 0, 0, StageClearOverlay);
+		}
+		
+		if (keyboard_check_pressed(vk_enter))
+		{
+			room_goto(room_enemy.next_room);
+			show_debug_message("MOVE");
+		}
 		break;
 }

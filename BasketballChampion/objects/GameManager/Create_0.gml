@@ -18,8 +18,10 @@ if (!variable_global_exists("lives_left"))
 
 show_debug_message("Room Start");
 
+
+
 enum RoomState {
-	ONGOING, DEAD, PAUSE
+	PAUSE, ONGOING, DEAD, ENEMY_DEFEATED, STAGE_CLEAR
 }
 
 room_state = RoomState.ONGOING;
