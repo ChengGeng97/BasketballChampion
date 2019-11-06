@@ -13,10 +13,13 @@
         "c55ae675-bd6e-4cb4-b592-90e61998b44b",
         "7b4150b8-b02e-4e89-b52d-9ddf14ab2e7f",
         "ccb045b3-c001-4aeb-b0f8-441f9020ca40",
-        "1ba1b749-001b-46aa-83dd-5ea5e25a65b0"
+        "1ba1b749-001b-46aa-83dd-5ea5e25a65b0",
+        "211dd11e-b03a-4ed8-a79a-41f850d019ff",
+        "6160e533-22bc-4ed9-af78-fd22a45fb11c",
+        "19c72099-530d-464a-978b-19060bde85dc"
     ],
     "filterType": "GMScript",
-    "folderName": "LevelOneScripts",
+    "folderName": "ObsoleteScripts",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

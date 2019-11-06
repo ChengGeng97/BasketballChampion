@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "06ee0902-30c2-46a4-886b-8010cd2c2a5d",
+            "Value": {
+                "id": "aeefcb10-f06c-42f1-a64d-9a6942d1c920",
+                "resourcePath": "sprites\\SpriteRightGloveIdle\\SpriteRightGloveIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "071f37e8-4ee0-4baa-a221-b88e732d7fc7",
             "Value": {
                 "id": "01f8e5fe-ec74-4348-a46d-9ac544cf4c0f",
@@ -479,6 +487,14 @@
             }
         },
         {
+            "Key": "1fae2741-5d44-4d80-b14c-a26ffee77887",
+            "Value": {
+                "id": "b5de6bdd-7f03-4633-9c1e-3c56019171dc",
+                "resourcePath": "objects\\LeftEyeFlash\\LeftEyeFlash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1fc124e8-5038-4578-968d-64ca228ae014",
             "Value": {
                 "id": "8a99ef3f-d0d2-475c-9efc-2b8018e0a08e",
@@ -583,11 +599,27 @@
             }
         },
         {
+            "Key": "28ce1d34-a441-4f81-b60f-69507acdcc89",
+            "Value": {
+                "id": "88260e9e-b53e-41ca-a6f9-7debbaa546ce",
+                "resourcePath": "sprites\\SpriteRightEyeFlash\\SpriteRightEyeFlash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2997f6dd-94cc-472b-ae84-6295fa9f054d",
             "Value": {
                 "id": "fbe48e77-8c83-4727-9f07-a45dc3e9f671",
                 "resourcePath": "scripts\/LevelOneAgainDie\/LevelOneAgainDie.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2b2a9d56-1679-4470-b46d-987c387e765b",
+            "Value": {
+                "id": "4eeccf89-0a7b-49c6-8b0c-0860b43013cc",
+                "resourcePath": "objects\\Level2OldMole\\Level2OldMole.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -667,6 +699,14 @@
             "Value": {
                 "id": "f63d52e8-bc35-4827-8138-7525d0f8e53d",
                 "resourcePath": "sprites\\SpriteBallUpInstructionsShootBall\\SpriteBallUpInstructionsShootBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "356db977-dd8a-49a8-90dd-f480d79210eb",
+            "Value": {
+                "id": "eacc04ab-ff5c-4ad9-a1f8-d81bc1d1a116",
+                "resourcePath": "sprites\\SpriteOldMoleIdle\\SpriteOldMoleIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1375,6 +1415,14 @@
             }
         },
         {
+            "Key": "6dc30e15-2b23-4aae-9533-173f2c139be5",
+            "Value": {
+                "id": "f2bce288-54a3-417a-ab60-097f28ffd888",
+                "resourcePath": "objects\\Level2EnemyDizzy\\Level2EnemyDizzy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6ebf53f9-7ca6-4079-b072-0fbf14c05451",
             "Value": {
                 "id": "8f63e1a4-a58b-4808-bb96-fb4d56c13539",
@@ -1423,6 +1471,14 @@
             }
         },
         {
+            "Key": "73637ad1-0b87-40ca-8de9-d8b995aa7936",
+            "Value": {
+                "id": "84f53645-1f53-457d-8124-0aa13cf9e937",
+                "resourcePath": "sprites\\SpriteLeftGloveFire\\SpriteLeftGloveFire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "738fd410-7b38-40c3-b249-4a64d90fbbc2",
             "Value": {
                 "id": "30d07662-2034-47a8-892e-ec8e764a31ac",
@@ -1468,6 +1524,14 @@
                 "id": "eb387f59-65c5-4ea4-84cc-5575e923b4d0",
                 "resourcePath": "sprites\/SpriteCountdown1\/SpriteCountdown1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7904b1ce-8013-4016-bf07-64c66aa1e737",
+            "Value": {
+                "id": "852dcede-327d-4e09-a39c-5a20f998c7ec",
+                "resourcePath": "scripts\\LevelTwoEnterTwo2\\LevelTwoEnterTwo2.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1660,6 +1724,14 @@
                 "id": "164d5d9d-c3c0-4cae-80c9-5bb15a2ad429",
                 "resourcePath": "objects\/DifficultyMenu\/DifficultyMenu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "895230e6-6ce7-4a11-b68e-a05bd8b6f53c",
+            "Value": {
+                "id": "552f9d41-083b-4591-8370-8aebbbbf39f3",
+                "resourcePath": "scripts\\LevelTwoExitTwo2\\LevelTwoExitTwo2.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1863,6 +1935,14 @@
             }
         },
         {
+            "Key": "a1cd1160-d50c-4f27-8913-8bbab29b754f",
+            "Value": {
+                "id": "aa94c5eb-b11f-4974-b52e-2be49db6e47d",
+                "resourcePath": "sprites\\SpriteLeftGloveIdle\\SpriteLeftGloveIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a2dbe18f-0cd6-4b4d-8447-53d9b16f9168",
             "Value": {
                 "id": "2f4ea94a-0495-40d9-9f64-8b1016c38927",
@@ -1919,6 +1999,14 @@
             }
         },
         {
+            "Key": "a71a8ccc-a067-4f76-9079-782346f74ebb",
+            "Value": {
+                "id": "2ac95cf1-9e97-43bb-86c4-9df524eeeebe",
+                "resourcePath": "scripts\\LevelTwoStepTwo2\\LevelTwoStepTwo2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a8680c2d-78f2-4c07-a911-7f8509b85706",
             "Value": {
                 "id": "a1af1c9a-b793-4b3a-931a-a1af5f55fef2",
@@ -1948,6 +2036,14 @@
                 "id": "9b189b9b-2d58-486a-8974-86f23589c1b4",
                 "resourcePath": "objects\/Level1Enemy\/Level1Enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ac84de67-cdea-44e3-a83f-8c7d20fd5131",
+            "Value": {
+                "id": "0064a8b5-3ef9-4e21-9ba2-192f6b32bd7a",
+                "resourcePath": "sprites\\SpriteLeftEyeFlash\\SpriteLeftEyeFlash.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2147,6 +2243,22 @@
             "Value": {
                 "id": "9bd1859a-988f-470b-885e-9cdcb5545649",
                 "resourcePath": "sprites\/SpriteSlidingUp\/SpriteSlidingUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c38b7527-3786-4a70-8626-b56d9981a4d5",
+            "Value": {
+                "id": "5d89d8a7-94c3-4280-b5ae-04bccdec2b8c",
+                "resourcePath": "rooms\\TestLevel2Phase2\\TestLevel2Phase2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c525248a-448f-4cc4-894c-98757fce4040",
+            "Value": {
+                "id": "6241990d-d223-4959-8596-3f094abbaf9a",
+                "resourcePath": "sprites\\SpriteRightGloveFire\\SpriteRightGloveFire.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2423,6 +2535,14 @@
             }
         },
         {
+            "Key": "dcc1a088-e85b-41a6-b4b3-b52d58965d1f",
+            "Value": {
+                "id": "288df47c-3b3a-4bdc-90ea-52cffba7f776",
+                "resourcePath": "objects\\RightEyeFlash\\RightEyeFlash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dcd8c3b8-ffc3-4836-8df6-59a84b244b06",
             "Value": {
                 "id": "eded2020-de7f-4b24-bf75-942b68691c1c",
@@ -2607,6 +2727,14 @@
             }
         },
         {
+            "Key": "ef94f816-e729-47e8-af81-4da8e1836c3c",
+            "Value": {
+                "id": "ea534d87-2fc2-47cc-9fdb-d00d8e0405c4",
+                "resourcePath": "objects\\LeftGlove\\LeftGlove.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f0bcc7be-0a21-4cba-a900-3c98054fe05f",
             "Value": {
                 "id": "dc7c7473-8f84-4380-8912-45a794e8ec0a",
@@ -2675,6 +2803,14 @@
             "Value": {
                 "id": "f115f26e-fd34-4233-87c6-96304bc900a9",
                 "resourcePath": "objects\/CreditsReturnTitleMenu\/CreditsReturnTitleMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f7826f6d-d228-4ff0-9831-c7437b0364b1",
+            "Value": {
+                "id": "c6e355da-ccd8-48a9-b941-cba21cdee154",
+                "resourcePath": "objects\\RightGlove\\RightGlove.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2794,9 +2930,9 @@
         "177b5e25-26b8-41ff-bada-166311cf9b8b",
         "fe5aefac-0459-45cc-b6e0-fd3d2afa95b6",
         "a2dbe18f-0cd6-4b4d-8447-53d9b16f9168",
-        "211dd11e-b03a-4ed8-a79a-41f850d019ff",
-        "6160e533-22bc-4ed9-af78-fd22a45fb11c",
-        "19c72099-530d-464a-978b-19060bde85dc",
+        "7904b1ce-8013-4016-bf07-64c66aa1e737",
+        "a71a8ccc-a067-4f76-9079-782346f74ebb",
+        "895230e6-6ce7-4a11-b68e-a05bd8b6f53c",
         "ffed6af0-2256-4825-b978-4332dfbf2e2f",
         "d01df7e5-ad7e-4343-81db-6bd54dfe625c",
         "6b8ae7fa-f6eb-4204-8959-62abe7014654",
@@ -2832,7 +2968,10 @@
         "c55ae675-bd6e-4cb4-b592-90e61998b44b",
         "7b4150b8-b02e-4e89-b52d-9ddf14ab2e7f",
         "ccb045b3-c001-4aeb-b0f8-441f9020ca40",
-        "1ba1b749-001b-46aa-83dd-5ea5e25a65b0"
+        "1ba1b749-001b-46aa-83dd-5ea5e25a65b0",
+        "211dd11e-b03a-4ed8-a79a-41f850d019ff",
+        "6160e533-22bc-4ed9-af78-fd22a45fb11c",
+        "19c72099-530d-464a-978b-19060bde85dc"
     ],
     "tutorial": ""
 }

@@ -30,8 +30,8 @@ if (Phase != LevelOneAgainPhase.DIE)
 }
 else
 {
-	 visible = false;
-	 GameManager.room_state = RoomState.STAGE_CLEAR;
+	visible = false;
+	GameManager.room_state = RoomState.STAGE_CLEAR;
 }
 
 
