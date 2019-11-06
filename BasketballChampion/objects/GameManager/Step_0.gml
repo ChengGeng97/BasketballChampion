@@ -1,12 +1,14 @@
 /// @description This is meant to track state variables such as Score etc.
 // You can write your code in this editor
 
-var down_button_pressed = keyboard_check(ord("R"));
+/*
+var restart_button_pressed = keyboard_check(ord("R"));
 
-if (down_button_pressed) {
+if (restart_button_pressed) {
 	room_restart();
 	score = 0;
 }
+*/
 
 switch (room_state)
 {
@@ -31,7 +33,6 @@ switch (room_state)
 		break;
 		
 	case RoomState.STAGE_CLEAR:
-		show_debug_message("akjgh");
 		if (!instance_exists(StageClearOverlay))
 		{
 			instance_destroy(EnemyDefeatedOverlay);
