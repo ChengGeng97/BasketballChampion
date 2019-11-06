@@ -1,7 +1,7 @@
-total_phase_HP = 600;
+total_phase_HP = 700;
 halfHealth = total_phase_HP / 2;
 oneEighthHealth = total_phase_HP / 8;
-HP = 600;
+HP = 700;
 phase_name = "Descent From Orbit";
 
 movement_speed = 1;

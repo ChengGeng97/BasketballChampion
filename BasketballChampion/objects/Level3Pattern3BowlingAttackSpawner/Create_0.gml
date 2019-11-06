@@ -7,3 +7,5 @@ enum BowlingAttackState
 }
 
 Phase = BowlingAttackState.CREATE;
+
+visible = false;

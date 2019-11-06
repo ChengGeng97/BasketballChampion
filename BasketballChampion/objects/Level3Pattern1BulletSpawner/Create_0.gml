@@ -6,3 +6,5 @@ yPositions[possible_spawn_points] = 0;
 
 x_vector_of_bullet_at_index[possible_spawn_points] = 0;
 y_vector_of_bullet_at_index[possible_spawn_points] = 0;
+
+visible = false;

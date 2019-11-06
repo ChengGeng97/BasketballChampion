@@ -3,3 +3,5 @@
 
 spawnPositionsX[possible_spawn_points] = 0;
 spawnPositionsY[possible_spawn_points] = 0;
+
+visible = false;
