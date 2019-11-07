@@ -3,7 +3,7 @@
 
 if (instance_exists(player_id))
 {
-	if (invulnerability_frames <= 0)
+	if (other.Phase != LevelOneAgainPhase.DIE && invulnerability_frames <= 0)
 	{
 		player_id.player_HP -= 1;
 		

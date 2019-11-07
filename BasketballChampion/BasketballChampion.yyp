@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "064afda2-db3e-4fdb-a672-ae8cab073f50",
+            "Value": {
+                "id": "c7e9014b-7fc4-48eb-9597-6936d9e34b7f",
+                "resourcePath": "objects\\endgamescreen\\endgamescreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "06529b38-fc7c-4e17-b5ad-a01f122804c0",
             "Value": {
                 "id": "443455c5-a5ef-4f29-820c-2da6424897ba",
@@ -1543,6 +1551,14 @@
             }
         },
         {
+            "Key": "7a35e1ca-5884-43c9-8fc2-2d3a089e4146",
+            "Value": {
+                "id": "da40fa43-4f2c-410d-a777-8067a48dc352",
+                "resourcePath": "views\\7a35e1ca-5884-43c9-8fc2-2d3a089e4146.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7b4150b8-b02e-4e89-b52d-9ddf14ab2e7f",
             "Value": {
                 "id": "2ef06a72-bd8b-4cce-9a6c-ffed8c703b25",
@@ -1595,6 +1611,14 @@
             "Value": {
                 "id": "36961677-7998-42d9-8e24-fe394b44fc62",
                 "resourcePath": "sprites\/SpriteBallDown\/SpriteBallDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7debf516-3c9f-46b5-a5bd-7d68ded78a80",
+            "Value": {
+                "id": "2f2bf580-7be5-4908-9121-4c82b5bf1c8d",
+                "resourcePath": "sprites\\SpriteEndgameScreen\\SpriteEndgameScreen.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1875,6 +1899,14 @@
             "Value": {
                 "id": "14db1f67-77fc-401c-9350-3704b2f95269",
                 "resourcePath": "rooms\/Title_Screen\/Title_Screen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "98683a03-cd9f-4031-9792-a346964b3e26",
+            "Value": {
+                "id": "1e2f8b3b-0a67-4d9e-8b88-6d959475ca83",
+                "resourcePath": "rooms\\GameCompleteScreen\\GameCompleteScreen.yy",
                 "resourceType": "GMRoom"
             }
         },

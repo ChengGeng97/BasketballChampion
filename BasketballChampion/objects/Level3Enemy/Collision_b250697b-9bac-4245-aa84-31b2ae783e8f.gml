@@ -78,6 +78,12 @@ if (Phase == LevelThreePhase.FOUR)
 	}
 }
 
+if (Phase == LevelThreePhase.DIE)
+{
+	visible = false;
+	GameManager.room_state = RoomState.STAGE_CLEAR;
+}
+
 with(other)
 {
 	DeleteBallReturnControlToPlayer();
