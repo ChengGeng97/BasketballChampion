@@ -5,6 +5,13 @@
 Currently the levels progress 1 -> 3 -> 4
 */
 
+if (first_time)
+{
+	GameManager.room_enemy = id;
+	next_room = GameCompleteScreen;
+	first_time = false;
+}
+
 switch (Phase)
 {
 	case LevelThreePhase.ENTER_ONE:

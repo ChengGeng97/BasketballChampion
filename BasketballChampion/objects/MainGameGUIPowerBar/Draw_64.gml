@@ -40,7 +40,7 @@ for (i = 0; i < powerlevel; i++) {
 	
 	
 	
- 
+
     //draw the health fill
     draw_sprite_ext(SpritePowerBarFill, -1, posx, posy - (scale_per_unit*i), 1, scale_per_unit, 0, col, 1);
 }

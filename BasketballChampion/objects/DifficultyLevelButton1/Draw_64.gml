@@ -16,4 +16,4 @@ if (hasentered) {
 	draw_set_color(c_aqua);
 }
 draw_set_halign(fa_center);
-draw_text_transformed(x + 350, y + 70, "[Par (Easy)]", 2, 2, 0);
+draw_text_transformed(x + 350, y + 70, "Par - A life is 3 hits", 2, 2, 0);

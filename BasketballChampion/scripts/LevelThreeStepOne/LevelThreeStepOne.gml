@@ -35,11 +35,11 @@ else
 			orbital_spawner = instance_create_depth(x, y, 0, Level3Pattern1OrbitalSpawner);
 			orbital_spawner.owner_id = id;
 
-			if (HP <= 200)
+			if (HP <= 300)
 			{
 				orbital_spawner.bullets_per_spawn = 6;
 			}
-			else if (HP <= 400)
+			else if (HP <= 500)
 			{
 				orbital_spawner.bullets_per_spawn = 5;
 			}

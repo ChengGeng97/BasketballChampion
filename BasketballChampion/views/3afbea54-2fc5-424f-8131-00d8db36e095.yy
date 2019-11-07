@@ -18,8 +18,14 @@
         "051cc2a1-4e4d-47f0-a4e9-4d9723ef64e7",
         "f9942633-d373-41ba-8df5-f5dde276557e",
         "d8de4e59-2a6b-47f4-ad88-f527bc63523f",
-        "dbbfb516-1dd1-4a0a-8931-c56aa0a843f5",
-        "5e4881dc-b265-48af-b19e-cb87c2e9cf2b"
+        "7ef120a9-7c06-46a7-a22b-cbbb53886fa3",
+        "356db977-dd8a-49a8-90dd-f480d79210eb",
+        "a1cd1160-d50c-4f27-8913-8bbab29b754f",
+        "73637ad1-0b87-40ca-8de9-d8b995aa7936",
+        "06ee0902-30c2-46a4-886b-8010cd2c2a5d",
+        "c525248a-448f-4cc4-894c-98757fce4040",
+        "ac84de67-cdea-44e3-a83f-8c7d20fd5131",
+        "28ce1d34-a441-4f81-b60f-69507acdcc89"
     ],
     "filterType": "GMSprite",
     "folderName": "Level2SpritesNew",

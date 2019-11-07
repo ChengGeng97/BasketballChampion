@@ -1,4 +1,8 @@
+total_phase_HP = 600;
+halfHealth = total_phase_HP / 2;
+oneEighthHealth = total_phase_HP / 8;
 HP = 600;
+phase_name = "Uprising of the Trodden Underfoot"
 
 // Creates the holes
 rows = 5;
@@ -15,9 +19,9 @@ lengths_long[2] = GameManager.x_pad + 448;
 lengths_long[3] = GameManager.x_pad + 640;
 
 short_r = 3;
-lengths_short[0] = 160;
-lengths_short[1] = 352;
-lengths_short[2] = 544;
+lengths_short[0] = GameManager.x_pad + 160;
+lengths_short[1] = GameManager.x_pad + 352;
+lengths_short[2] = GameManager.x_pad + 544;
 
 holes[0, 0] = 0;
 

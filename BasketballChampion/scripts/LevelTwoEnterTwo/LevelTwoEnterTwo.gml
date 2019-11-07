@@ -1,3 +1,6 @@
+total_phase_HP = 600;
+halfHealth = total_phase_HP / 2;
+oneEighthHealth = total_phase_HP / 8;
 HP = 600;
 
 enum LevelTwoPhaseTwoState

@@ -96,7 +96,7 @@
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1000
+        "Width": 1300
     },
     "mvc": "1.0",
     "views": [
@@ -112,8 +112,8 @@
     "viewSettings":     {
         "id": "62f28df2-ed99-4f2f-bb89-e73422fe8ba7",
         "clearDisplayBuffer": true,
-        "clearViewBackground": true,
-        "enableViews": true,
+        "clearViewBackground": false,
+        "enableViews": false,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"

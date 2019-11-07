@@ -41,7 +41,7 @@ switch (manager_state)
 		{
 			for (var i = 0; i < bullets_per_spawn; i++)
 			{
-				var bullet = instance_create_depth(xPositions[i], 0, 0, UnclearableBullet);
+				var bullet = instance_create_depth(xPositions[i], GameManager.y_pad, 0, UnclearableBullet);
 				bullet.y_direction = 3;
 				bullet.bullet_speed = 2;
 			}
@@ -59,7 +59,4 @@ switch (manager_state)
 
 	case FightingTutorialState.BAG_DIED:
 		break;
-
-
-
 }

@@ -11,7 +11,9 @@
         "35d17a5e-1d73-40a5-a0d8-66f47672ac98",
         "082ce611-b028-4742-8b45-b94e3359ddfd",
         "78fa1966-e222-46dc-ad13-b39dbf02a44b",
-        "cc71e42f-a3cf-4cf6-907b-b1bfa32cbbd2"
+        "cc71e42f-a3cf-4cf6-907b-b1bfa32cbbd2",
+        "dbbfb516-1dd1-4a0a-8931-c56aa0a843f5",
+        "5e4881dc-b265-48af-b19e-cb87c2e9cf2b"
     ],
     "filterType": "GMSprite",
     "folderName": "Level2Sprites",

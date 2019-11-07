@@ -6,7 +6,7 @@ var right_button_pressed = keyboard_check(right_button);
 var up_button_pressed = keyboard_check(up_button);
 var down_button_pressed = keyboard_check(down_button);
 
-var left_clicked = mouse_check_button_pressed(left_mouse_button);
+var left_clicked = mouse_check_button(left_mouse_button);
 var right_clicked = mouse_check_button_pressed(right_mouse_button);
 
 //var effective_speed = spacebar_pressed ? player_focus_speed : player_speed;

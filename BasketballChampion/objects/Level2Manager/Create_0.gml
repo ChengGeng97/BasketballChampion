@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+GameManager.room_enemy = id;
+next_room = Week9_Level3;
 
 enum LevelTwoPhase
 {

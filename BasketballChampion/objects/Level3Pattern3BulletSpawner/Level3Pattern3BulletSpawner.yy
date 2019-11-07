@@ -108,7 +108,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "500",
+            "value": "570",
             "varName": "spawn_circle_radius",
             "varType": 0
         },

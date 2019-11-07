@@ -1,7 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(player_HP == 0)
+if (first_time)
+{
+	GameManager.player_object = id;
+	GameManager.max_HP = 1;
+	first_time = false;
+}
+
+if (player_HP == 0)
 {
 	player_HP = 1;
 	x = starting_x;

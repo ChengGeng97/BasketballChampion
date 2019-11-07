@@ -14,8 +14,8 @@ bullets_per_spawn = 40;
 shoot_period = 180;
 frame_counter = 170;
 xPositions[bullets_per_spawn] = 0;
-incremental_space = room_width / bullets_per_spawn;
-cumul_space = 10;
+incremental_space = (GameManager.x_max_bound - GameManager.x_pad) / bullets_per_spawn;
+cumul_space = GameManager.x_pad + 10;
 
 for (var i = 0; i < bullets_per_spawn; i++)
 {

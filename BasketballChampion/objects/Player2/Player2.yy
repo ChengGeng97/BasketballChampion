@@ -33,16 +33,6 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "bd916388-6a4b-400f-bc12-f7234f89cce0"
-        },
-        {
-            "id": "e7166a2a-fb5f-4b01-a477-ce0554d3e5b5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "bd916388-6a4b-400f-bc12-f7234f89cce0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -73,7 +63,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "3",
-            "varName": "player_HP_1",
+            "varName": "player_HP",
             "varType": 0
         },
         {
@@ -217,7 +207,7 @@
             "varType": 0
         },
         {
-            "id": "03888dae-468a-4dfd-80fe-5cad72577b29",
+            "id": "d4c400d6-5143-4951-ae19-d35b939399b8",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -226,37 +216,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
-            "varName": "player_HP_2",
-            "varType": 0
-        },
-        {
-            "id": "05b44ca9-3317-4a71-975b-b4917fbda004",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "3",
-            "varName": "player_HP_3",
-            "varType": 0
-        },
-        {
-            "id": "c5216712-f6fc-4daa-9495-6230ac8cd4ea",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "3",
-            "varName": "player_lives",
-            "varType": 0
+            "value": "True",
+            "varName": "first_time",
+            "varType": 3
         }
     ],
     "solid": false,

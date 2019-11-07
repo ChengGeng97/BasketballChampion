@@ -22,6 +22,7 @@ if (!activated)
 		if (TutorialDashingManager.manager_state == FightingTutorialState.START)
 		{
 			TutorialDashingManager.manager_state = FightingTutorialState.REACH_PLATE;
+			GameManager.room_enemy = TutorialPunchingBag;
 		}
 		
 		instance_destroy(UnclearableBullet);

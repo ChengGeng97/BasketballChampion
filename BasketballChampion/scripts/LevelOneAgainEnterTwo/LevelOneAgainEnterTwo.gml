@@ -1,5 +1,9 @@
-global.totalHP = 500;
+total_phase_HP = 500;
+halfHealth = total_phase_HP / 2;
+oneEighthHealth = total_phase_HP / 8;
 HP = 500;
+phase_name = "1-v-1 me IRL"
+
 sprite_index = SpriteLevel1EnemyIdle;
 
 x = GameManager.x_pad + 350;
@@ -43,7 +47,7 @@ high_bounds = 500;
 
 // Charge
 charging_frames = 80;
-tennis_ball_speed = 25;
+tennis_ball_speed = 40;
 
 
 // Fire Pause

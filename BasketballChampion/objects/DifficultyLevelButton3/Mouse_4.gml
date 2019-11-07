@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(Week9_Level3);
+global.max_HP = 1;
+room_goto(Week9_Level1);

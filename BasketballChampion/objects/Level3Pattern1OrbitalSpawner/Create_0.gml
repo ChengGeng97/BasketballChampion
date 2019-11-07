@@ -7,3 +7,5 @@ enum OrbitalSpawnerState
 }
 
 orbital_state = OrbitalSpawnerState.SUMMON;
+
+visible = false;

@@ -88,7 +88,7 @@ switch (phase_one_hole_state)
 			
 			p_ball.direction_x = norm_x;
 			p_ball.direction_y = norm_y;
-			p_ball.bullet_speed = 25;
+			p_ball.bullet_speed = polo_ball_speed;
 			p_ball.fired = true;
 			
 			phase_one_hole_state = Phase1HoleState.MOLE_IDLE;
@@ -147,7 +147,7 @@ switch (phase_one_hole_state)
 			
 			p_ball.direction_x = norm_x;
 			p_ball.direction_y = norm_y;
-			p_ball.bullet_speed = 25;
+			p_ball.bullet_speed = polo_ball_speed;
 			p_ball.fired = true;
 			
 			phase_one_hole_state = Phase1HoleState.E_IDLE;

@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+draw_set_halign(fa_left);
 if (manager_state == TutorialClearingState.REACH_PLATE)
 {
 	if (keyboard_check_pressed(vk_enter))
@@ -14,10 +15,10 @@ if (manager_state == TutorialClearingState.REACH_PLATE)
 switch (manager_state) 
 {
 	case TutorialClearingState.START:
-		draw_text(200, 50, "Clear a path by kicking your ball!");
+		draw_text(GameManager.x_pad + 200, GameManager.y_pad + 50, "Clear a path by kicking your ball!");
 		break;
 	
 	case TutorialClearingState.REACH_PLATE:
-		draw_text(200, 50, "Good job! Press enter to continue!");
+		draw_text(GameManager.x_pad + 200, GameManager.y_pad + 50, "Good job! Press enter to continue!");
 		break;
 }

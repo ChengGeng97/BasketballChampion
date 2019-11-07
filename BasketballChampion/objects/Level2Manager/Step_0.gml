@@ -27,15 +27,15 @@ switch (Phase)
 
 
 	case LevelTwoPhase.ENTER_TWO:
-		LevelTwoEnterTwo();
+		LevelTwoEnterTwo2();
 		break;
 		
 	case LevelTwoPhase.TWO:
-		LevelTwoStepTwo();
+		LevelTwoStepTwo2();
 		break;
 		
 	case LevelTwoPhase.EXIT_TWO:
-		LevelTwoExitTwo();
+		LevelTwoExitTwo2();
 		break;
 		
 	case LevelTwoPhase.PAUSE_TWO:

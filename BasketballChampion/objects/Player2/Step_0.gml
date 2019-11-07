@@ -1,19 +1,37 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if ((player_lives == 1) && (player_HP_1 == 0)) {
+if (first_time)
+{
+	GameManager.player_object = id;
+	first_time = false;
+}
+
+
+if (player_HP == 0)
+{
+	if (GameManager.room_state != RoomState.DEAD)
+	{
+		instance_create_depth(x, y, 0, Deathspark);
+	}
 	
 	player_state = PlayerState.Dead;
-	room_goto(Game_Over_Page);
 	
-} else if ((player_lives == 2) && (player_HP_2 == 0)) {
-	
-	player_lives -= 1;
-	
-} else if ((player_lives == 3) && (player_HP_3 == 0)) {
-	
-	player_lives -= 1;
-	
+	if (global.lives_left > 0)
+	{
+		global.lives_left -= 1;
+		player_state = PlayerState.HasBall;
+		player_HP = global.max_HP;
+		x = starting_x;
+		y = starting_y;
+		player_hitbox.invulnerability_frames = 60;
+	}
+	else
+	{
+		GameManager.room_state = RoomState.DEAD;
+		visible = false;
+		player_hitbox.visible = false;
+	}
 }
 else
 {

@@ -7,10 +7,18 @@ var up_button_pressed = keyboard_check(up_button);
 var down_button_pressed = keyboard_check(down_button);
 
 var right_clicked = mouse_check_button_pressed(right_mouse_button);
+var spacebar_pressed = keyboard_check(retrieve_button);
 
 var effective_speed = player_speed;
 
-if (right_clicked)
+if (spacebar_pressed)
+{
+	with (Football)
+	{
+		DeleteBallReturnControlToPlayer();
+	}
+}
+else if (right_clicked)
 {
 	player_state = PlayerState.DashingWithoutBall;
 	player_hitbox.invulnerability_frames = sliding_frames_max + 20;

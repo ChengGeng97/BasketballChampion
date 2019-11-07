@@ -215,6 +215,20 @@
             "value": "40",
             "varName": "sliding_speed",
             "varType": 0
+        },
+        {
+            "id": "cfbd5028-8146-493e-981c-76f5ef3e8aba",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "first_time",
+            "varType": 3
         }
     ],
     "solid": false,

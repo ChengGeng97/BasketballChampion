@@ -7,10 +7,18 @@ var up_button_pressed = keyboard_check(up_button);
 var down_button_pressed = keyboard_check(down_button);
 
 var right_clicked = mouse_check_button_pressed(right_mouse_button);
+var spacebar_pressed = keyboard_check(retrieve_button);
 
 var effective_speed = player_speed;
 
-if (right_clicked)
+if (spacebar_pressed)
+{
+	with (TutorialFootball)
+	{
+		TutDeleteBallReturnControlToPlayer();
+	}
+}
+else if (right_clicked)
 {
 	player_state = PlayerState.DashingWithoutBall;
 	player_hitbox.invulnerability_frames = sliding_frames_max + 20;
@@ -117,8 +125,8 @@ else if (down_button_pressed)
 }
 
 // Prevent player from moving out-of-bounds
-x = clamp(x, 0, room_width);
-y = clamp(y, 0, room_height);
+x = clamp(x, GameManager.x_pad, GameManager.x_max_bound);
+y = clamp(y, GameManager.y_pad, GameManager.y_max_bound);
 
 
 if (!right_clicked)
