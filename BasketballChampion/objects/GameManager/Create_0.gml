@@ -34,16 +34,16 @@ y_max_bound = y_pad + 900;
 
 
 // Lifebar x-positions
-lifebar_x_1[0] = 414;
+lifebar_x_1[0] = 1264;
 
-lifebar_x_2[0] = 339;
-lifebar_x_2[1] = 489;
+lifebar_x_2[0] = 1244;
+lifebar_x_2[1] = 1344;
 
-lifebar_x_3[0] = 264;
-lifebar_x_3[1] = 414;
-lifebar_x_3[2] = 564;
+lifebar_x_3[0] = 1164;
+lifebar_x_3[1] = 1264;
+lifebar_x_3[2] = 1364;
 
-lifebar_x_4[0] = 189;
-lifebar_x_4[1] = 339;
-lifebar_x_4[2] = 489;
-lifebar_x_4[3] = 639;
+lifebar_x_4[0] = 1144;
+lifebar_x_4[1] = 1244;
+lifebar_x_4[2] = 1344;
+lifebar_x_4[3] = 1444;

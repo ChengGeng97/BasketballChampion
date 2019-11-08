@@ -5,6 +5,10 @@
 if (instance_exists(player_object))
 {
 	draw_set_halign(fa_center);
+	draw_set_font(Main_GUI_Font);
+	draw_set_color(c_white);
+	draw_text_transformed(1264, 160, "Health", 1, 1, 0);
+
 	var player_life_bar_sprite;
 	
 	switch (player_object.player_HP)
@@ -30,40 +34,40 @@ if (instance_exists(player_object))
 	switch (max_HP)
 	{
 		case 1:
-			draw_sprite(SpritePlayerLifebarEmpty, -1, 414, 955);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 1264, 200);
 			for (var i = 1; i <= player_object.player_HP; i++)
 			{
-				draw_sprite(player_life_bar_sprite, -1, lifebar_x_1[i - 1], 955);
+				draw_sprite(player_life_bar_sprite, -1, lifebar_x_1[i - 1], 200);
 			}
 			break;
 			
 		case 2:
-			draw_sprite(SpritePlayerLifebarEmpty, -1, 339, 955);
-			draw_sprite(SpritePlayerLifebarEmpty, -1, 489, 955);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 1244, 200);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 1344, 200);
 			for (var i = 1; i <= player_object.player_HP; i++)
 			{
-				draw_sprite(player_life_bar_sprite, -1, lifebar_x_2[i - 1], 955);
+				draw_sprite(player_life_bar_sprite, -1, lifebar_x_2[i - 1], 200);
 			}
 			break;
 			
 		case 3:
-			draw_sprite(SpritePlayerLifebarEmpty, -1, 264, 955);
-			draw_sprite(SpritePlayerLifebarEmpty, -1, 414, 955);
-			draw_sprite(SpritePlayerLifebarEmpty, -1, 564, 955);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 1164, 200);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 1264, 200);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 1364, 200);
 			for (var i = 1; i <= player_object.player_HP; i++)
 			{
-				draw_sprite(player_life_bar_sprite, -1, lifebar_x_3[i - 1], 955);
+				draw_sprite(player_life_bar_sprite, -1, lifebar_x_3[i - 1], 200);
 			}
 			break;
 			
 		case 4:
-			draw_sprite(SpritePlayerLifebarEmpty, -1, 189, 955);
-			draw_sprite(SpritePlayerLifebarEmpty, -1, 339, 955);
-			draw_sprite(SpritePlayerLifebarEmpty, -1, 489, 955);
-			draw_sprite(SpritePlayerLifebarEmpty, -1, 639, 955);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 1144, 200);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 1244, 200);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 1344, 200);
+			draw_sprite(SpritePlayerLifebarEmpty, -1, 1444, 200);
 			for (var i = 1; i <= player_object.player_HP; i++)
 			{
-				draw_sprite(player_life_bar_sprite, -1, lifebar_x_4[i - 1], 955);
+				draw_sprite(player_life_bar_sprite, -1, lifebar_x_4[i - 1], 200);
 			}
 			break;
 	}
