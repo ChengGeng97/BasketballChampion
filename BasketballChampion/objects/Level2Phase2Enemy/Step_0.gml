@@ -47,6 +47,7 @@ switch (level_two_enemy_state)
 		{
 			frame_counter = 0;
 			level_two_enemy_state = Level2Phase2EnemyState.APPEAR;
+			y = Player2.y < 200 ? 600 : 96;
 			visible = true;
 			sprite_index = SpriteEnemyAppear;
 		}
