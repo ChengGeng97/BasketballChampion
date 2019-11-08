@@ -20,6 +20,13 @@ if (level_two_enemy_state == Level2Phase2EnemyState.FIRING)
 
 	var damage = round(mapped_ball_speed);
 	Level2Manager.HP -= damage;
+	
+	if (Level2Manager.HP <= 300)
+	{
+		Level2OldMole.selfdestruct_bounds = 3000;
+		Level2OldMole.idle_state_frames = 60;
+	}
+	
 	score += damage;
 
 	show_debug_message("Damage: " + string(damage));

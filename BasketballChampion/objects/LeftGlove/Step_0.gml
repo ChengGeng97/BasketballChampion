@@ -39,10 +39,10 @@ switch (glove_state)
 		y += cur_speed * direction_y;
 		
 		
-		if (x < GameManager.x_pad - selfdestruct_bounds
-			|| y < GameManager.y_pad - selfdestruct_bounds
-			|| x > GameManager.x_max_bound + selfdestruct_bounds
-			|| y > GameManager.y_max_bound + selfdestruct_bounds)
+		if (x < GameManager.x_pad - Level2OldMole.selfdestruct_bounds
+			|| y < GameManager.y_pad - Level2OldMole.selfdestruct_bounds
+			|| x > GameManager.x_max_bound + Level2OldMole.selfdestruct_bounds
+			|| y > GameManager.y_max_bound + Level2OldMole.selfdestruct_bounds)
 		{
 			Level2OldMole.left_glove = instance_create_depth(0, 0, 0, LeftGlove);
 			instance_destroy();
