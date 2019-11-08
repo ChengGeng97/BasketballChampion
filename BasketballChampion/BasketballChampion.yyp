@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "3822b39a-3d60-4d44-9dac-a50864b1c38f",
+            "Value": {
+                "id": "643df03a-3d90-4e91-b9e5-ec9e05584bd5",
+                "resourcePath": "sprites\\SpriteIngameInstructions\\SpriteIngameInstructions.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "390f354f-4cc7-4c1b-91c2-6cc050a49792",
             "Value": {
                 "id": "6e58264f-2329-48a5-a1cf-0338a4e913da",
@@ -1867,6 +1875,14 @@
             "Value": {
                 "id": "bfdc9c72-8f6c-45df-a19e-797039763cc3",
                 "resourcePath": "objects\/MainMenuPlayerAvatar\/MainMenuPlayerAvatar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9409c3a2-fd6e-469c-b3b6-08525914f478",
+            "Value": {
+                "id": "21058dfd-1f21-4961-9016-4444cd7bed1f",
+                "resourcePath": "objects\\IngameInstructions\\IngameInstructions.yy",
                 "resourceType": "GMObject"
             }
         },
