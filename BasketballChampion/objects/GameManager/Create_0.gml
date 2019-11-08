@@ -26,7 +26,7 @@ enum RoomState {
 
 room_state = RoomState.ONGOING;
 
-x_pad = 64;
+x_pad = 288;
 y_pad = 32;
 
 x_max_bound = x_pad + 700;

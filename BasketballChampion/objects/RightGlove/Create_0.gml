@@ -8,7 +8,7 @@ enum GloveState
 
 glove_state = GloveState.IDLE;
 
-x = 640;
+x = 864;
 y = 350;
 
 selfdestruct_bounds = 3000;

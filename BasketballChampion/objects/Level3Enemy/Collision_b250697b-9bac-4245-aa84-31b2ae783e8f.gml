@@ -18,21 +18,6 @@ else
 	mapped_ball_speed = effective_ball_speed * 1.5;
 }
 
-/*
-if (other.ball_speed < 20)
-{
-	mapped_ball_speed = other.ball_speed;
-}
-else if (other.ball_speed < 50)
-{
-	mapped_ball_speed = other.ball_speed * 1.3;
-}
-else
-{
-	mapped_ball_speed = other.ball_speed * 1.5;
-}
-*/
-
 var damage = round(mapped_ball_speed);
 HP -= damage;
 score += damage;

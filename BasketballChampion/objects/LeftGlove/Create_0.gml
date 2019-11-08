@@ -3,7 +3,7 @@
 
 glove_state = GloveState.IDLE;
 
-x = 192;
+x = 416;
 y = 350;
 
 selfdestruct_bounds = 3000;

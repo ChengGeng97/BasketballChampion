@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (visible)
+if (level_two_enemy_state == Level2Phase2EnemyState.FIRING)
 {
 	var mapped_ball_speed;
 

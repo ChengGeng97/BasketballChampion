@@ -78,13 +78,13 @@ if (instance_exists(room_enemy))
 	if (room_enemy.phase_name != 0)
 	{
 		draw_set_halign(fa_right);
-		draw_text_transformed(764, 9, room_enemy.phase_name, 1, 1, 0);
+		draw_text_transformed(988, 9, room_enemy.phase_name, 1, 1, 0);
 	}
 
 
 	// Draw the enemy text
 	draw_set_halign(fa_center);
-	draw_text_transformed(87, 20, "Enemy", 1, 1, 0);
+	draw_text_transformed(311, 20, "Enemy", 1, 1, 0);
 
 	//Health bar position
 	posx = 90;
@@ -108,7 +108,7 @@ if (instance_exists(room_enemy))
 
 		// Draw the bar
 		for (i = 0; i < room_enemy.HP; i++) {	
-			draw_sprite_ext(SpriteEnemyLifebarHealth, -1, posx + 20 + (scale_per_unit * i), posy, scale_per_unit, 1, 0, col, 1);
+			draw_sprite_ext(SpriteEnemyLifebarHealth, -1, 224 + posx + 20 + (scale_per_unit * i), posy, scale_per_unit, 1, 0, col, 1);
 		}
 	}
 }
@@ -116,9 +116,9 @@ if (instance_exists(room_enemy))
 draw_set_font(Main_GUI_Font);
 draw_set_color(c_white);
 draw_set_halign(fa_center);
-draw_text_transformed(1014, 50, "Lives Left", 1, 1, 0);
+draw_text_transformed(1264, 50, "Lives Left", 1, 1, 0);
 // Drawing the lives left
 for (var i = 0; i < global.lives_left; i++)
 {
-	draw_sprite(SpriteLifeIcon, -1, 950 + i * 64, 100);
+	draw_sprite(SpriteLifeIcon, -1, 1204 + i * 64, 100);
 }
