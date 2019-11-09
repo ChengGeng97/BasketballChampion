@@ -41,7 +41,7 @@ switch (room_state)
 		
 		if (keyboard_check_pressed(vk_enter))
 		{
-			room_goto(room_enemy.next_room);
+			room_goto(global.room_sequence[++global.room_index]);
 			show_debug_message("MOVE");
 		}
 		break;
