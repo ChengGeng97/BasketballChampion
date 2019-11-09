@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "0f53f826-becc-48ce-a58c-9390e9e78fbf",
+            "Value": {
+                "id": "080dc066-9983-4690-8c39-4f2339fd1b27",
+                "resourcePath": "objects\\MainMenuCredits\\MainMenuCredits.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1041fff3-75ae-41ca-a714-a20176e881e3",
             "Value": {
                 "id": "a1a8410b-c0f2-40d6-a9c9-e8b074e0d319",

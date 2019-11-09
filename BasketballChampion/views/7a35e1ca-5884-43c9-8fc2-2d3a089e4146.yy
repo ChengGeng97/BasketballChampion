@@ -14,7 +14,8 @@
         "2f428969-65c7-485d-baac-9c926c087d95",
         "4f7bf820-b4b7-4307-99ea-a7f19886b434",
         "037c92c2-1abf-4621-a5e1-9d4a009a7f2c",
-        "b900e50c-23e7-4f98-9e88-58b4791e9e00"
+        "b900e50c-23e7-4f98-9e88-58b4791e9e00",
+        "0f53f826-becc-48ce-a58c-9390e9e78fbf"
     ],
     "filterType": "GMObject",
     "folderName": "CGUI",
