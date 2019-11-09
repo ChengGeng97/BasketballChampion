@@ -1,38 +1,38 @@
 {
-    "id": "9fc77aaa-40c2-40d4-a9f2-be2192e0b1a1",
+    "id": "4f7bf820-b4b7-4307-99ea-a7f19886b434",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "InstructionsReturnButton",
+    "name": "SelectHardButton",
     "eventList": [
         {
-            "id": "8798c80b-3206-4511-8ba6-3d7986f94dea",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "9fc77aaa-40c2-40d4-a9f2-be2192e0b1a1"
-        },
-        {
-            "id": "7a816b14-481a-45fa-970a-bd051ac8b959",
+            "id": "a0bf1de9-6cba-4d0d-87f9-8850efe3c905",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "9fc77aaa-40c2-40d4-a9f2-be2192e0b1a1"
+            "m_owner": "4f7bf820-b4b7-4307-99ea-a7f19886b434"
         },
         {
-            "id": "8f7a6d2b-fef0-4000-8416-29993677435c",
+            "id": "3909738c-8163-423c-b65a-f65c4a276fd1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "4f7bf820-b4b7-4307-99ea-a7f19886b434"
+        },
+        {
+            "id": "de0eb8c0-5c0b-4548-9118-652a13292cda",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
             "eventtype": 6,
-            "m_owner": "9fc77aaa-40c2-40d4-a9f2-be2192e0b1a1"
+            "m_owner": "4f7bf820-b4b7-4307-99ea-a7f19886b434"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "211bee92-2b6c-45bf-848d-938b0fb8146e",
+    "spriteId": "861d5eed-fb9e-44bf-b463-602376fdb4e3",
     "visible": true
 }

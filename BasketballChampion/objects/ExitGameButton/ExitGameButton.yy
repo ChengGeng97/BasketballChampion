@@ -1,38 +1,38 @@
 {
-    "id": "9fc77aaa-40c2-40d4-a9f2-be2192e0b1a1",
+    "id": "e70d6642-0c03-42b6-b19d-163e7be542a4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "InstructionsReturnButton",
+    "name": "ExitGameButton",
     "eventList": [
         {
-            "id": "8798c80b-3206-4511-8ba6-3d7986f94dea",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "9fc77aaa-40c2-40d4-a9f2-be2192e0b1a1"
-        },
-        {
-            "id": "7a816b14-481a-45fa-970a-bd051ac8b959",
+            "id": "eff32305-a744-4c1a-9545-3875c847354e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "9fc77aaa-40c2-40d4-a9f2-be2192e0b1a1"
+            "m_owner": "e70d6642-0c03-42b6-b19d-163e7be542a4"
         },
         {
-            "id": "8f7a6d2b-fef0-4000-8416-29993677435c",
+            "id": "5ade9b68-24a7-4d8b-9fe8-b52a0ba1f239",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
+            "enumb": 0,
             "eventtype": 6,
-            "m_owner": "9fc77aaa-40c2-40d4-a9f2-be2192e0b1a1"
+            "m_owner": "e70d6642-0c03-42b6-b19d-163e7be542a4"
+        },
+        {
+            "id": "1ebab18f-c0fd-4984-9d49-3e8cb32b27dd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "e70d6642-0c03-42b6-b19d-163e7be542a4"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "211bee92-2b6c-45bf-848d-938b0fb8146e",
+    "spriteId": "5fd0200f-f968-480b-ad02-9dc268bd293b",
     "visible": true
 }

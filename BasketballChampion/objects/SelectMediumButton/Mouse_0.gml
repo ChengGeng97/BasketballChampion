@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(RealTitleScreen);
+
+global.max_HP = 3;
+room_goto(Week9_Level1);
