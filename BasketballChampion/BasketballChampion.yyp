@@ -719,6 +719,14 @@
             }
         },
         {
+            "Key": "32e53856-2308-428e-a3b7-d868fb6f3b32",
+            "Value": {
+                "id": "4f669c12-1c12-4daa-b1ae-589dbabcb1b9",
+                "resourcePath": "sprites\\SpriteToggleCutsceneButtonCollisionMask\\SpriteToggleCutsceneButtonCollisionMask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3323e683-e79e-42a2-ace4-0cc5b17039aa",
             "Value": {
                 "id": "1d37919d-f57d-4ae8-8c51-47507d0f3e47",
@@ -860,6 +868,14 @@
                 "id": "c9a430cc-74a2-430a-8096-5bba7e10e6d2",
                 "resourcePath": "views\\3aa152fc-c1c8-4500-8a03-de00e27877d4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3ace508c-2425-4e28-953c-225238083700",
+            "Value": {
+                "id": "5d0d23fc-8c59-4967-a7a1-b4bc95929ef6",
+                "resourcePath": "objects\\ToggleCutsceneCollisionMask\\ToggleCutsceneCollisionMask.yy",
+                "resourceType": "GMObject"
             }
         },
         {
