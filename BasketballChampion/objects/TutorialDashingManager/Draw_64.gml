@@ -20,6 +20,7 @@ switch (manager_state)
 	case FightingTutorialState.REACH_PLATE:
 		draw_text(GameManager.x_pad + 280, GameManager.y_pad + 300, "Destroy the bag!");
 		draw_text(GameManager.x_pad + 120, GameManager.y_pad + 350, "You can hold left-click to charge up for more damage!");
+		draw_text(GameManager.x_pad + 220, GameManager.y_pad + 400, "You move slower while charging.");
 		break;
 	
 	case FightingTutorialState.BAG_DIED:

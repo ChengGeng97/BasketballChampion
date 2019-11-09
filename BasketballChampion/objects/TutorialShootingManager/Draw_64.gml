@@ -7,7 +7,7 @@ draw_set_color(c_white);
 switch (manager_state)
 {
 	case ShootingTutorialState.START:
-		draw_text(GameManager.x_pad + 220, GameManager.y_pad + 100, "Bounce the ball off the wall!");
+		draw_text(GameManager.x_pad + 160, GameManager.y_pad + 100, "Bounce the ball off the sides of the screen!");
 		break;
 	
 	case ShootingTutorialState.HIT:

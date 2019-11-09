@@ -11,21 +11,57 @@ switch (manager_state)
 		break;
 	
 	case WalkingTutorialState.ACTIVATING:
+		draw_set_halign(fa_center);
 		switch (discs_activated)
 		{
 			case 1:
-				draw_text(GameManager.x_pad + 330, GameManager.y_pad + 100, "Wow!!");
+				draw_text(GameManager.x_pad + 350, GameManager.y_pad + 100, "Do your best!");
 				break;
+				
 			case 2:
-				draw_text(GameManager.x_pad + 300, GameManager.y_pad + 100, "AMAZING!!!!");
+				draw_text(GameManager.x_pad + 350, GameManager.y_pad + 100, "You're doing great!");
 				break;
+				
 			case 3:
+				draw_text(GameManager.x_pad + 350, GameManager.y_pad + 100, "No one has ever gone this far!");
+				break;
+				
+			case 4:
+				draw_text(GameManager.x_pad + 350, GameManager.y_pad + 100, "GREAT!");
+				break;
+				
+			case 5:
+				draw_text(GameManager.x_pad + 350, GameManager.y_pad + 100, "SUPERB!!");
+				break;
+				
+			case 6:
+				draw_text(GameManager.x_pad + 350, GameManager.y_pad + 100, "FANTASTIC!!!");
+				break;
+				
+			case 7:
+				draw_text(GameManager.x_pad + 350, GameManager.y_pad + 100, "AMAZING!!!!");
+				break;
+				
+			case 8:
+				draw_text(GameManager.x_pad + 350, GameManager.y_pad + 100, "You're almost there!");
+				break;
+				
+			case 9:
+				draw_text(GameManager.x_pad + 350, GameManager.y_pad + 100, "Don't give up!");
+				break;
+				
+			case 10:
+				draw_text(GameManager.x_pad + 350, GameManager.y_pad + 100, "Just one more!");
+				break;
+				
+			case 11:
 				manager_state = WalkingTutorialState.SHOOT;
 				break;
 		}
 		break;
 	
 	case WalkingTutorialState.SHOOT:
+		draw_set_halign(fa_left);
 		draw_text(GameManager.x_pad + 190, GameManager.y_pad + 100, "USE THE LEFT MOUSE BUTTON TO FIRE!!!1!");
 		break;
 		
