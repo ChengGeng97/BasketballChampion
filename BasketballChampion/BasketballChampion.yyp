@@ -2583,6 +2583,14 @@
             }
         },
         {
+            "Key": "d3f1570d-d551-471e-9f1d-175ea02f1fcd",
+            "Value": {
+                "id": "be0505ef-d6e7-422c-b23a-79b3cedd751d",
+                "resourcePath": "objects\\PauseStateOverlay\\PauseStateOverlay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d46f0e99-d024-44df-8739-32c2d81bae5e",
             "Value": {
                 "id": "6b6fdcc5-9c39-4f01-b875-2a3b948ec7eb",
