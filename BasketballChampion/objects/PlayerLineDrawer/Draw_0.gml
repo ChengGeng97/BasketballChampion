@@ -1,10 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_self();
-
-/*
-switch(player_state)
+switch(owner_id.player_state)
 {
 	case PlayerState.HasBall:
 		draw_set_colour(c_lime);
@@ -27,4 +24,3 @@ switch(player_state)
 	case PlayerState.DashingWithoutBall:
 		break;
 }
-*/

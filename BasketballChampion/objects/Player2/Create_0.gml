@@ -37,4 +37,7 @@ retrieve_button = vk_space;
 player_hitbox = instance_create_depth(x, y, -1, PlayerDamageHitbox);
 player_hitbox.player_id = id;
 
+line_drawer = instance_create_depth(x, y, -5, PlayerLineDrawer);
+line_drawer.owner_id = id;
+
 depth = 5;

@@ -2207,6 +2207,14 @@
             }
         },
         {
+            "Key": "aa5acd0c-cc51-44e4-b5f1-563a3527fb46",
+            "Value": {
+                "id": "6d3df0a7-260f-42b2-b542-a9cf5360d8dd",
+                "resourcePath": "objects\\PlayerLineDrawer\\PlayerLineDrawer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ac11bd80-87b3-4fe3-8264-9407d14fbbdd",
             "Value": {
                 "id": "9b189b9b-2d58-486a-8974-86f23589c1b4",
