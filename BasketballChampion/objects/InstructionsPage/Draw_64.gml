@@ -20,7 +20,7 @@ draw_set_halign(fa_center);
 draw_text_transformed(500, 10, "CONTROLS", 4, 4, 0);
 
 //main controls
-draw_text_transformed(500, 90, "R   -   RESTART   GAME", 2, 2, 0);
+draw_text_transformed(500, 90, "ESC   -   PAUSE   GAME", 2, 2, 0);
 draw_text_transformed(125, 170, "W", 2, 2, 0);
 draw_text_transformed(125, 200, "MOVE   UPWARDS", 1.5, 1.5, 0);
 draw_text_transformed(375, 170, "A", 2, 2, 0);
@@ -48,4 +48,3 @@ draw_text_transformed(750, 520, "OF   YOUR   MOUSE", 1.5, 1.5, 0);
 draw_text_transformed(750, 550, "POSITION   WHILE", 1.5, 1.5, 0);
 draw_text_transformed(750, 580, "GAINING   TEMPORARY", 1.5, 1.5, 0);
 draw_text_transformed(750, 610, "INVINCIBILITY", 1.5, 1.5, 0);
-

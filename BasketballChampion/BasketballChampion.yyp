@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "0dc08fa6-d160-4073-bc04-3896e236dbca",
+            "Value": {
+                "id": "55363e58-237e-4f52-aaf8-e8cc7704629a",
+                "resourcePath": "rooms\\SplashScreenRoom\\SplashScreenRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0dd11dad-49a3-4fe0-98b4-f28371c6828a",
             "Value": {
                 "id": "b4125165-f700-43f2-b55d-5d4996a6a7bb",
@@ -935,6 +943,14 @@
             }
         },
         {
+            "Key": "3f910d06-1fee-44b9-b8ae-cbcf9ed3af47",
+            "Value": {
+                "id": "d8bf7f7c-2fd7-4fdf-9e1b-f33998b99d15",
+                "resourcePath": "sprites\\SpriteSplashScreen\\SpriteSplashScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "40154973-4751-417c-805c-3298a9b67cc0",
             "Value": {
                 "id": "77c5c55a-0ab3-4199-9041-5703dc995377",
@@ -1188,6 +1204,14 @@
                 "id": "9af1b262-e923-4ace-b0be-58be1e7b7dbe",
                 "resourcePath": "sprites\/SpriteVerticalReflectiveSurfaceHitbox\/SpriteVerticalReflectiveSurfaceHitbox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "530c5b96-0c50-40fc-b99d-0eb7fea9e5fc",
+            "Value": {
+                "id": "fded5b54-5cd2-43d2-ba18-3aa6b1f23ac6",
+                "resourcePath": "objects\\SplashScreen\\SplashScreen.yy",
+                "resourceType": "GMObject"
             }
         },
         {

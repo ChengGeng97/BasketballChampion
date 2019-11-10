@@ -14,4 +14,4 @@ restartButton.room_to_go = Week9_Level1;
 var mainMenuButton = instance_create_depth(1284, 650, 0, RoomChangingButtonResetLives);
 mainMenuButton.text = "Return to Main Menu";
 mainMenuButton.scale = 2;
-mainMenuButton.room_to_go = Title_Screen;
+mainMenuButton.room_to_go = RealTitleScreen;

@@ -41,8 +41,8 @@ moving_spiral_frames = 120;
 moving_bullet_speed = 5;
 moving_shoot_period = 10;
 moving_shoot_counter = 0;
-low_bounds = 200;
-high_bounds = 500;
+low_bounds = 488;
+high_bounds = 788;
 
 
 // Charge
