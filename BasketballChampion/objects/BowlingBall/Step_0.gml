@@ -3,6 +3,12 @@
 
 if (fired)
 {
+	if (first_time)
+	{
+		sprite_index = SpriteBowlingBallUnactivated;
+		first_time = false;
+	}
+	
 	if (real_bullet_speed < bullet_speed)
 	{
 		if (real_bullet_speed + 5 > bullet_speed)
@@ -24,4 +30,3 @@ if (x < 0 || x > room_width || y < 0 || y > room_height)
 {
 	instance_destroy();
 }
-

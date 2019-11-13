@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "10ad4442-bb39-4a33-b4a0-3d0d9afbc9cd",
+            "Value": {
+                "id": "bce58bb5-9de1-4c02-9511-84d0ed8c0488",
+                "resourcePath": "sprites\\SpriteBowlingBallUnactivated\\SpriteBowlingBallUnactivated.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1171f855-ff63-4157-9053-5ab10aec8ff1",
             "Value": {
                 "id": "e71647ea-c605-4d28-a81e-c05d03afb89c",
@@ -1291,6 +1299,14 @@
             "Value": {
                 "id": "38ce00e2-9261-4f09-aaa5-00f3379e8760",
                 "resourcePath": "sprites\/SpritePlayerCollectionHitbox\/SpritePlayerCollectionHitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5a22e483-d139-474c-99f0-7150defecfe8",
+            "Value": {
+                "id": "24744e97-d8d1-446b-891e-feaf2905b5af",
+                "resourcePath": "sprites\\SpriteRightGlovePreFire\\SpriteRightGlovePreFire.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2379,6 +2395,14 @@
             "Value": {
                 "id": "2e0ce377-df46-408a-b151-7c2f0d82cda1",
                 "resourcePath": "sprites\\SpriteIntro7\\SpriteIntro7.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b49c1f1f-29f0-4cd5-9df4-9b9867aca2e5",
+            "Value": {
+                "id": "f9a59c19-1bbc-4710-91be-25f429e6f05f",
+                "resourcePath": "sprites\\SpriteLeftGlovePreFire\\SpriteLeftGlovePreFire.yy",
                 "resourceType": "GMSprite"
             }
         },

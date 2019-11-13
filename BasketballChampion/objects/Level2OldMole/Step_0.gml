@@ -13,10 +13,12 @@ switch (old_mole_state)
 			
 			if (punching_with_left)
 			{
+				left_glove.sprite_index = SpriteLeftGlovePreFire;
 				instance_create_depth(x, y, -1, LeftEyeFlash);
 			}
 			else
 			{
+				right_glove.sprite_index = SpriteRightGlovePreFire;
 				instance_create_depth(x, y, -1, RightEyeFlash);
 			}
 		}

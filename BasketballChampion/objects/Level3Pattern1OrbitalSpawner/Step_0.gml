@@ -95,7 +95,7 @@ switch (orbital_state)
 			fire_frame_counter -= frames_between_fire;
 			
 			if (fire_counter < bullets_per_spawn)
-			{
+			{	
 				var direction_x = Player2.x - bullet_ids[fire_counter].x;
 				var direction_y = Player2.y - bullet_ids[fire_counter].y;
 			
