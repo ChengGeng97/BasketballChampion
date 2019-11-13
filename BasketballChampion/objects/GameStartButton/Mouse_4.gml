@@ -7,12 +7,13 @@ global.room_index = 0;
 
 if (global.cutscenes_on)
 {
-	// TODO: Series of rooms for cutscenes being on
+	// Series of rooms for cutscenes being on
 	global.room_sequence[0] = CutsceneIntro;
 	global.room_sequence[1] = Week9_Level1;
 	global.room_sequence[2] = Week9_Level2;
 	global.room_sequence[3] = Week9_Level3;
-	global.room_sequence[4] = GameCompleteScreen;
+	global.room_sequence[4] = CutsceneEnding;
+	global.room_sequence[5] = GameCompleteScreen;
 }
 else
 {	
